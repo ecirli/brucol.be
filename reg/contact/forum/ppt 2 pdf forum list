@@ -1,0 +1,2 @@
+libreoffice --headless --convert-to pdf --outdir /var/www/bibt.be/reg/contact/forum/pdfs /var/www/bibt.be/reg/contact/form/_files/*.pp*
+sudo ls > /var/www/revistia.net/public/icms28en/forum/topics/ICMSXXV.txt

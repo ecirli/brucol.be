@@ -1,0 +1,2 @@
+<h2>Bank Account Details</h2>
+<p>Bank: <strong>Wise Europe</strong><br />Beneficiary Name: <strong>EUSER</strong><br />(EUR) Account No:<strong> BE72967015903316</strong><br />IBAN: <strong>BE72967015903316</strong><br /><br />SWIFT Cod (BIC): <strong>TRWIBEB1XXX</strong><br />Address EUSER: <strong>Sheshi Rilinda 38, 1001, Tirana, Albania </strong><br />VAT: L42326452D</p>

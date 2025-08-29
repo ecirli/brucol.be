@@ -1,0 +1,632 @@
+<?php
+
+    $code = vget('code');
+
+    if (!file_exists(DIR.'_database/'.$code.'.txt')) alert('Data not found.');
+
+    $data = getcontents(DIR.'_database/'.$code.'.txt');
+
+    $data = unserialize($data);
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FLA & Receipt - <?php echo gc('conf_name_short')?> <?php echo $code ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="invoice">
+
+	
+	
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+    @media screen {
+    body.invoice {
+        background: #e3e6e7;
+        font: 14px Helvetica, Arial, Verdana, sans-serif;
+        font-weight: lighter;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        margin-top: -30px;
+        font-family: 'Lato', sans-serif;
+    }
+    .invoice .status {
+        background: #ffffff;
+        width: 878px;
+        margin: 0 auto;
+        display: block;
+        border: 1px solid #c4c7c7;
+        padding: 5px 40px 5px 40px;
+        position: relative;
+        margin-bottom: 5px;
+        z-index: 0;
+    }
+    .invoice #page {
+        background: #ffffff;
+        width: 878px;
+        margin: 0 auto;
+        border: 1px solid #c4c7c7;
+        padding: 100px 100px 100px 100px;
+        position: relative;
+        z-index: 0;
+        display: block;
+    }
+    }
+	
+	.pageno {
+		position: absolute;
+		bottom: 40px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+    @media print {
+    body.invoice {
+        background: #e3e6e7;
+        font: 14px Helvetica, Arial, Verdana, sans-serif;
+        font-weight: lighter;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+    }
+			#pdf {display: none !important}
+    .invoice .status {
+        background: #ffffff;
+        width: 878px;
+        margin: 0 auto;
+        border: 1px solid #c4c7c7;
+        padding: 5px 40px 5px 40px;
+        position: relative;
+        margin-bottom: 5px;
+        z-index: 0;
+        display: none;
+    }
+    .invoice #page {
+        background: #ffffff;
+        width: 878px;
+        position: relative;
+        z-index: 0;
+        display: block;
+        border: 1px solid #fff;
+        padding: 0;
+        margin: 0;
+        page-break-after: always;
+    }
+    }
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    }
+
+    .clear {
+    clear: both;
+    }
+
+    .invoice * h1 {
+    color: #4d5357;
+    font-weight: lighter;
+    font-size: 44px;
+    margin: 20px 0 0 0;
+    }
+
+    .invoice * .notes {
+    float: left;
+    width: 50%;
+    }
+
+    .invoice * .invoice-totals-wrap {
+    float: right;
+    }
+
+    .invoice * .terms {
+    float: left;
+    width: 400px;
+    margin: 0 0 40px 0;
+    font-size: 12px;
+    color: #a1a7ac;
+    line-height: 180%;
+    }
+
+    .invoice * .terms strong {
+    font-size: 16px;
+    }
+
+    .invoice * .recipient-address {
+    float: left;
+    font-size: 14px;
+    }
+
+    .invoice * .company-address {
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    }
+
+    .invoice * hr {
+    clear: both;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #d6dde2;
+    }
+
+    .invoice * table.invoice-items {
+    border: 1px #d3d3d3;
+    background: #fefefe;
+    width: 100%;
+    border-collapse: collapse;
+    }
+
+    .invoice * table.invoice-totals {
+    border: 1px #d3d3d3;
+    background: #fefefe;
+    border-collapse: collapse;
+    }
+
+    .invoice * th {
+    font-weight: bold;
+			font-size: 16px
+    }
+
+    .invoice * th,
+    .invoice * td {
+    padding: 6px 3px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #e0e0e0;
+    }
+
+    .invoice * td.first,
+    .invoice * th.first {
+    text-align: left
+    }
+
+    strong,
+    b {
+    font-weight: bold;
+    }
+
+    .contents {
+        float: left;
+        clear: both;
+        margin-bottom: 15px;
+    border-collapse: collapse;
+
+    }
+    .contents td {
+        font-size: 15px;
+        padding: 6px;
+        min-width: 120px;
+        text-align: left;
+    }
+  p{
+    line-height: 24px;
+  }
+	.icindekiler {
+		width: 55%;
+	}
+	.icindekiler td {
+		font-size: 14px;
+	}
+</style>
+ 
+
+	
+    <div id="page">
+        <img src="<?php echo gc('fla_logo') ?>" style="width: 100%; margin-bottom: 30px; float: left;">
+        <div class="company-address">
+            <?php echo $data['myprofile']['final_time'] ? date('d F Y', $data['myprofile']['final_time']) : date('d F Y'); ?>
+            <br>
+					 <br>
+            Ref. Nr: <?php echo $code ?>
+           <br>
+					 <br>
+					 <br>
+					
+        </div>
+      <div class="recipient-address"> <br>
+      <strong>Venue:</strong> <?php echo gc('conference_venue')?><br>
+      <strong>Venue Address:</strong> :<?php echo gc('conf_venue_addr')?><br>
+       <strong>Venue Map Location:</strong> <a href="<?php echo gc('ltr_conf_map')?>" target="_blank"><?php echo gc('ltr_conf_map')?></a><br>
+      <strong>Email:</strong> <a href="mailto:<?php echo gc('ltr_conf_email')?>"><?php echo gc('ltr_conf_email')?></a><br>
+      <strong>Web:</strong> <a href="<?php echo gc('ltr_conf_web')?>" target="_blank"><?php echo gc('ltr_conf_web')?></a><br>
+      <strong>Tel, WhatsApp:</strong> <?php echo gc('ltr_conf_tel')?><br>
+      </div>
+        <div class="clear"></div>
+        <br>
+        <br> 
+			 <br>
+        <br> 
+			 <br>
+        <br> 
+        <h1 style="font-size: 25px; text-align: center; color: blue;">Final Acceptance <?php echo $data['fee'] == 0 ? ' & Invitation' : ''; ?> Letter</h1>
+         <br>
+        <br> 
+			 <br>
+        <br> 
+        <div class="clear"></div>
+
+        <p style="font-size: 20px; margin-top: 30px;">
+          Dear <?php echo authors_s(unserialize($data['co_authors']), $data['co_authors_present']); ?> <?php echo __ucwords(strtolower($data['name_surname'])) ?><?php echo coa($data['co_authors'], ', ', $data['co_authors_present']) ?></b>,
+        </p>
+        <p style="font-size: 20px; margin: 20px 0px;">
+          We are glad to inform you that your participation as <b>listener</b> has been approved for <?php echo gc('conf_name_shortest')?>, which will take place in <strong><?php echo gc('ltr_conf_venue_short') ?></strong> on <strong><?php echo gc('ltr_conf_date')?></strong>. 
+						<br>
+					<br>
+					You are welcome to join this international scientific platform to exchange ideas and share knowledge.
+        </p>
+
+     
+<p style="font-size: 20px; margin: 20px 0px;">
+	<?php echo $data['fee'] == 0 ? ' Now, you are welcome to join the international scientific platform of <b> '.gc('conf_name_short').'</b>.' : ' Now, you are welcome to present your paper at the international scientific platform of online platform of <b> '.gc('conf_name_short').'</b>'; ?>
+	 </p>
+        <br>
+             
+    <div class="notes">
+      <br>
+     <br>
+			Affiliation of the author (<?php echo __ucwords(strtolower($data['name_surname'])) ?>):<br>
+			<i><?php echo __ucwords($data['affiliation']) ?></i>
+			 <br>
+     <br>
+   <div style="margin: 20px 0px; position: relative;">
+        Looking forward to meeting you at the conference.<br>
+     <p>Thank you for your contributions.
+			 <br>
+        <br>
+				Organizing Committee
+				<br>
+			 </p>
+        <?php echo gc('conf_name_short')?>
+		 		<?php gc('vula')?>
+    </div>
+				<br>
+				<br> 
+				<br>
+    </div>
+    <div class="clear"></div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+	  <br>
+    <br>
+    <br>
+	  <br>
+	 	<br>
+	  <br>
+    <br>
+    <br>
+	  <br>
+	 <br>
+
+
+        
+    <?php gc('stamp') ?>
+    <br>
+		<br>
+	
+<div class="clear"></div>
+<p style="font-size: 11px;text-align: center;" class="pageno">Page 1 of 3 </p>
+<div class="clear"></div>
+  </div>
+
+    <div id="page" style="margin-top: 30px;">
+    
+    <div class="company-address">
+    <img src="https://euser.org/euser_logo_small.png" style="width: 100px; float: right; margin-left: 10px; ">
+        European Center for Science<br>
+        Education and Research. 
+<br>VAT: L42326453D
+<br><a href="https://euser.org" target="_blank">https://euser.org</a>
+<br>
+<br>
+<br>
+<br>
+<span style="float: right; text-align: right; font-size: 14px; width: 100%; margin-bottom: 20px"><?php echo $data['myprofile']['final_time'] ? date('d F Y', $data['myprofile']['final_time']) : date('d F Y'); ?></span>
+            
+     </div>
+    <div class="recipient-address">
+    <img src="<?php echo gc('conf_logo')?>" style="width: 100px; float: left; margin-right: 10px; ">
+ </div>
+      <div>
+        <?php echo gc('conf_name_short')?><br>
+      <a href="<?php echo gc('ltr_conf_web')?>" style="margin-right: 10px;" ><target="_blank"><?php echo gc('ltr_conf_web')?></a>
+      <br>
+      <strong>Venue:</strong> <?php echo gc('conference_venue')?>
+        <br>
+     <strong>Venue Address:</strong> <?php echo gc('conf_venue_addr')?>
+        <br>
+       <strong>Tel: </strong><?php echo gc('ltr_conf_tel')?>
+    </div>
+			<br>
+			<br>	
+    <div class="clear"></div>
+    <h1 style="text-align: center; color: blue; font-size: 25px;">Receipt</h1>
+    <p class="terms" style="text-align: center; width: 100%; float: left;">
+      <strong><?php echo gc('conf_name_shortest')?> Registration and Publishing Payment</strong>
+      <br> </p>
+    <div class="clear"></div>
+    <br><br>
+
+    <table class="contents" style="font-size: 14px; float: right;">
+        <tr>
+            <td>Invoice No:</td>
+            <td><?php echo $code ?></td>
+        </tr>
+        <tr>
+            <td>Author ID:</td>
+            <td><?php echo _customerId($data) ?></td>
+        </tr>
+			
+    </table>
+    
+
+      <br><br>  <br><br>  <br><br>  <br><div class="clear"></div>
+    <p class="terms" style="text-align: left; width: 100%; float: left;">
+      <strong>Billed to
+				<br>
+				<?php if ($data['onlyaff'] !=  'yes') : ?>
+				<?php echo $data['affiliation'] ? ' '.__ucwords($data['affiliation']).'' : ''; ?><br>
+				<?php echo __ucwords(strtolower($data['name_surname'])) ?><br>
+				<?php echo coa($data['co_authors'], '') ?>
+				<?php endif; ?>
+				<?php if ($data['onlyaff'] ==  'yes') : ?>
+				<?php echo __ucwords($data['affiliation']); ?>
+				<?php endif; ?>
+				
+				</strong>
+      </p>
+<br>
+<br>
+    <div class="clear"></div>
+
+
+      <?php gc('payment_table', array('data' => $data)); global $_total, $_paid_amount; ?>
+      
+  
+    <div class="invoice-totals-wrap">
+      <table cellspacing="0" class="invoice-totals">
+        <tbody>
+          <tr>
+            <td scope="col" width="220" style="text-align:right;"><span>Paid:</span></td>
+            <td scope="col" width="100"><span><?php echo $_paid_amount ?> EUR</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </div>
+    <div class="notes">
+      <br>
+      
+  <br><br>  <br><br><br><br> 
+   <div style="margin: 20px 0px; position: relative;">
+       <p>Thank you for your contributions.
+				 <br>
+				 <br>
+					Organizing Committee
+					<br>
+			 </p>
+        <?php echo gc('conf_name_short')?>
+		 		<?php gc('vula')?>
+    </div>
+      <br>
+        </div>
+    <div class="clear"></div>
+    
+    <br>
+    <br>
+    <br>  <br><br>  <br><br>  <br><br> <br><br> <br><br>
+      
+    <?php gc('stamp') ?>
+    <br>
+    <br>
+		<br>
+		<br>
+<div class="clear"></div>
+<p style="font-size: 11px;text-align: center;" class="pageno">Page 2 of 3 </p>
+<div class="clear"></div>
+  </div>
+    <div id="page" style="margin-top: 30px;">
+        <img src="<?php echo gc('fla_logo') ?>" style="width: 100%; margin-bottom: 30px; float: left;">
+        <div class="company-address">
+            <?php echo $data['myprofile']['final_time'] ? date('d F Y', $data['myprofile']['final_time']) : date('d F Y'); ?>
+            <br>
+            Ref. Nr: <?php echo $code ?>
+           
+        </div>
+				<br>	
+				<br>
+				<br>
+				<br>
+    <div class="clear"></div>
+    <h1 style="text-align: center; color: blue; font-size: 25px;">Short Program</h1>
+					</b> <br>
+					 <br> <br>
+
+
+        <table class="icindekiler">
+              <tr>
+                <td colspan="2"><p style="color: blue">
+									<?php echo gc('day1')?>
+								</td></p>
+              </tr>  
+					<tr>
+                <td><?php echo gc('hr1')?></td>
+                <td><?php echo gc('pr1')?></td>
+            </tr>
+            <tr>
+                <td><?php echo gc('hr2')?></td>
+                <td><?php echo gc('pr2')?></td>
+            </tr>
+            <tr>
+                <td><?php echo gc('hr3')?></td>
+                <td><?php echo gc('pr3')?></td>
+            </tr>
+            <tr>
+                <td><?php echo gc('hr4')?></td>
+                <td><?php echo gc('pr4')?></td>
+            </tr>
+  <tr>
+                <td><?php echo gc('hr5')?></td>
+                <td><?php echo gc('pr5')?></td>
+            </tr>
+					  <tr>
+                <td><?php echo gc('hr6')?></td>
+                <td><?php echo gc('pr6')?></td>
+            </tr>
+					  <tr>
+                <td><?php echo gc('hr7')?></td>
+                <td><?php echo gc('pr7')?></td>
+            </tr>
+					  <tr>
+                <td><?php echo gc('hr8')?></td>
+                <td><?php echo gc('pr8')?></td>
+            </tr>
+					  <tr>
+                  <td colspan="2"><p style="color: blue">
+									<?php echo gc('day2')?>
+								</td></p>
+            </tr>
+						  <tr>
+                <td><?php echo gc('hr9')?></td>
+                <td><?php echo gc('pr9')?></td>
+            </tr>
+        </table>
+          <p style="margin: 20px 0px; margin-bottom: 4px; color: blue;">
+            <b>What is Next?</b> <br>
+					   </p>
+              <p>
+              You are welcome to download the in person program from the conference website <?php echo gc('ltr_conf_web')?>.
+             </p>
+
+        <div style="margin: 20px 0px; position: relative;">
+       <p>Thank you for your contributions.
+				 <br>
+         Looking forward to meeting you at the international platform of <?php echo gc('conf_name_short')?>
+				 <br>
+					Organizing Committee
+					<br>
+			 </p>
+        <?php echo gc('conf_name_short')?>
+		 		<?php gc('vula')?>
+    </div>
+          <br>
+          <br>
+  				<br>
+           <br>
+  <br>
+           <br>
+  				<br>
+           <br>
+<br>
+           <br>
+
+   <?php gc('stamp') ?>
+    <br>
+    <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+<div class="clear"></div>
+<p style="font-size: 11px;text-align: center;" class="pageno">Page 3 of 3 </p>
+<div class="clear"></div>
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+libreoffice --headless --convert-to pdf --outdir /var/www/brucol.be/reg/apply/forum/pdfs /var/www/brucol.be/reg/apply/form/_files/*.pp*
+sudo ls > /var/www/revistia.net/public/icms28en/forum/topics/ICMSXXV.txt

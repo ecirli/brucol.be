@@ -1,0 +1,2 @@
+<h2>Bank Account Details</h2>
+<p>Bank: <strong>Wise Europe</strong><br />Beneficiary Name: <strong>Revistia</strong><br />(EUR) Account No: <strong>BE55 9674 4991 3244</strong><br />IBAN: <strong>BE55 9674 4991 3244</strong><br />SWIFT/BIC: <strong>TRWIBEB1XXX</strong><br />Address: <strong>11, Portland Road, London, SE25 4UF, United Kingdom</strong><br />Please use "Revistia" as the Beneficiary Name!</p>

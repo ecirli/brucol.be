@@ -1,0 +1,805 @@
+## CONFERENCE ##
+conference_name=Benelux Institute of Business and Technology
+conf_name_short=Benelux Institute of Business and Technology
+conf_name_shortest=
+conf_name_cert=BIBT
+conf_name_cert_2=Benelux Institute of Business and Technology
+conference_name_desc_form=Dear Manager,<br>Benelux Institute of Business and Technology (BIBT) is a new private higher education institution in Brussels, Belgium, dedicated to developing attractive Bachelor degree pathways for international graduates.<br>We believe Belgium offers compelling advantages, including more affordable tuition and living costs (approx. one-third of the UK and one fourth of the US), alongside excellent student employment and post-graduation career prospects.<br>To ensure accessibility, we provide an English prep school and a Foundation program even for students without A-Level/IB, with an English prep option also available.<br>This form serves as an initial contact point to gauge your graduates interest in studying in Belgium and their program preferences. Your brief input (approx. 2-3 minutes) will help us tailor potential collaboration opportunities relevant to your school and students.<br>Thank you for considering this opportunity to connect. <br><br><b>Please complete the following sections to share your valuable insights.</b>
+conference_venue=Benelux Institute of Business and Technology
+conf_venue_addr=Excelsiorlaan 5, 1930, Zaventem, Brussels, Belgium
+ltr_conf_name=Benelux Institute of Business and Technology
+board_name=Benelux Institute of Business and Technology
+cert_type=Certificate of Publication
+ltr_conf_venue_short=Benelux Institute of Business and Technology
+ltr_conf_date=
+ltr_conf_map=
+
+
+rcpt_from=BIBT
+rcpt_addr=Excelsiorlaan 5, 1930, Zaventem, Brussels, Belgium
+rcpt_UTR=7575820175
+
+#CONF EMAIL SETTINGS
+ltr_conf_user=AKIAZQ3D63SZA5TGTVOM
+ltr_conf_email_passw=BBl7qtcxbhVE3P+e1nBEq5qO8YvuiLd6WBw1Elfal3ki
+ltr_conf_email_smtp=email-smtp.eu-north-1.amazonaws.com
+ltr_conf_email_smtp_port=587
+ltr_conf_email_imap=
+ltr_conf_email_imap_passw=
+SetFromEmail=office@bibt.be
+ltr_conf_email=office@bibt.be
+
+gmail_user=
+gmail_passw=
+mail_on_off=
+
+
+#CONF WEB SETTINGS
+ltr_conf_web=https://bibt.be/
+ltr_conf_tel= (WhatsApp) +32 476 30 63 73
+ltr_conf_skype=
+conf_exp_nr_part=
+conf_exp_nr_cntr=
+nr_papers=
+conf_logo=https://brucol.be/reg/apply/logo-bibt-sml.png
+conf_logo_2=https://brucol.be/reg/apply/logo-bibt.png
+conf_logo_big=https://brucol.be/reg/apply/logo-bibt.png
+conf_logo_big_2=https://brucol.be/reg/apply/logo-bibt.png
+pdf_file_name=BIBT
+
+frame_img=assets/frame11.png
+
+reg_conf=https://brucol.be/reg/apply/form
+extended_deadline=
+new_reg_email=office@bibt.be
+review_title=BIBT Notification
+full_paper_deadline=
+revised_deadline=
+
+## MAIL FIELDS
+ila_acc_subject=BIBT Acceptance (Resending)
+ila_acc_subject2=BIBT Verification Message (Resending)
+fla_acc_note=BIBT Final Acceptance Notification
+fla_acc_note2=
+
+reviewer_deadline=06.08.2030 17:00
+unpaid_reviewer_deadline=08.08.2030 17:00
+
+
+forum_url=https://brucol.be/reg/apply/forum/
+forum_contact_link=
+
+
+## PAYMENT PAGE
+payment_gate_title=BIBT Online Payment Page 
+payment_page_title=Your Invoice Summary
+payment_page_bnk=https://bibt.be/reg/payment/wiring
+payment_page_paypal=https://bibt.be/reg/payment/pay-via-paypal
+payment_page_logo=https://brucol.be/reg/apply/logo-bibt-sml.png
+form_logo=https://brucol.be/reg/apply/logo-bibt-sml.png
+pym_cnf_email_to_euser=office@bibt.be
+
+
+bank1=file/bank1
+bank2=file/bank2
+bank3=file/bank3
+WU=file/WU
+
+
+name_holder_category=Presenter
+
+
+discount_eq_1=10
+discount_more_t_1=20
+discount_just_in_person_name=fee1
+discount_just_in_person_val=0
+coa_present_calc_js=file/coa_present_calc_js
+presence_info_modal=file/presence_info_modal
+presence_info_text=Uncheck if this co-author not joining in-person..a discount is applied.
+
+stamp=file/stamp
+vula=file/vula
+pdf_download=file/pdf
+
+#FORUM
+forum_header=- ICSS FORUM
+
+## SHORT PROGRAM
+day1=13 July 2018, Friday
+act1=
+hr1=08:00 – 09:00 
+pr1=Registration 
+hr2=09:00 – 10:30
+pr2=Opening Ceremony & Plenary Session 
+hr3=10:30 - 11:00
+pr3=Coffee Break I
+hr4=11:00 – 12:30 
+pr4=Parallel Sessions I
+hr5=12.30 – 13:30 
+pr5=Lunch
+hr6=13:30 – 15:00 
+pr6=Parallel Sessions II 
+hr7=15.00 – 15.30
+pr7=Coffee Break II
+hr8=15:30 – 17:00 
+pr8=Parallel Sessions III
+day2=14 July 2018, Saturday
+hr9=08:00 – 10:30
+pr9=Closing Remarks (Forum Platform)
+
+
+## WHAT IS NEXT
+What is Next?
+note1=
+note2=Due Fee Payment Term: Any time from the moment you receive this acceptance letter.
+note3=Review Procedure: Please follow up with the review reports and update your paper accordingly.
+note4=The review process is to improve the quality of your paper not related to its acceptance.
+note5=Please use the document upload tool to send your updated full paper. This tool will be provided to you with the review report.
+note6=
+due_fee_deadline=as early as possible
+proofread_deadline=
+survey_header=BIBT Survey
+dist_prs_upl_deadline=
+dist_timetable=
+in-person_timetable=
+
+
+ ## FLA
+ fla_logo=http://brucol.be/reg/apply/logo-bibt.png
+ 
+## FORM ##
+form_header=Institutional Contact Form: Study in Belgium
+
+payment_table=file/payment_table
+    
+submit_note=If you experience problems, kindly email your details to <a href="mailto:office@bibt.be">office@bibt.be</a>
+form_notes1 (#)=Notes:
+form_notes2 (#)=Please see the indexing information: <a href="http://bibt.be/index.php/ejser/about"target="_blank">here</a>
+   
+    form_inputs=file/form_inputs
+    form_calc=file/form_calc
+    
+    form_items_no=21
+          
+          form_item_1_type=text
+          form_item_1_label=Name of your Institution
+          form_item_1_required=yes
+          form_item_1_name=name_surname
+         
+          form_item_2_type=text
+          form_item_2_required=
+          form_item_2_label=Institution Website
+          form_item_2_name=website
+          
+          form_item_3_type=select
+          form_item_3_label=Number of co-authors, if any
+          form_item_3_name=how_many_co
+          form_item_3_just_admin=yes
+          form_item_3_titles=None|1|2|3|4|5|6|7|8
+          
+          form_item_4_type=text
+          form_item_4_required=yes
+          form_item_4_label=Email
+          form_item_4_name=email
+          
+          form_item_5_type=text
+          form_item_5_label=E-mail
+          form_item_5_label_help=
+          form_item_5_just_admin=yes
+          form_item_5_name=email_2
+
+          form_item_6_type=text
+          form_item_6_label=Phone
+          form_item_6_just_admin=yes
+          form_item_6_label_help=
+          form_item_6_name=phone
+          
+          form_item_7_type=text
+          form_item_7_label=Address, Country
+          form_item_7_just_admin=yes
+          form_item_7_required=
+          form_item_7_name=country
+                
+          form_item_8_type=radio
+          form_item_8_label=Institutional Contact Form
+          form_item_8_name=fee
+          form_item_8_titles=University Study in Belgium
+          form_item_8_just_admin=yes
+          form_item_8_descs=
+          form_item_8_prices=+0
+          form_item_8_price_titles=
+          form_item_8_hide=
+
+          form_item_9_type=static
+          form_item_9_just_admin=
+          form_item_9_label= We plan to open the following Bachelor programmes for the September 2026 intake: Business Administration, Computer Science, and Psychology. To study at our university in Brussels in September 2026, <b>what is the approximate number of students from your institution who would be interested </b>in the following:
+   
+          form_item_10_type=radio
+          form_item_10_label=<b>Bachelor in Business Administration</b>
+          form_item_10_name=busn
+          form_item_10_label_help=
+          form_item_10_titles=0-5 students|6-10 students|11-20 students|21-30 students|30-40 students|40+ students
+          form_item_10_descs=
+          form_item_10_prices=+0|+0|+0|+0|+0|+0|+0|+0
+          form_item_10_price_titles=||||||
+          form_item_10_label_help=
+          
+          form_item_11_type=radio
+          form_item_11_label=<b>Bachelor in Computer Science</b>
+          form_item_11_name=comp
+          form_item_11_label_help=
+          form_item_11_titles=0-5 students|6-11 students|11-20 students|21-30 students|30-40 students|40+ students
+          form_item_11_descs=
+          form_item_11_prices=+0|+0|+0|+0|+0|+0|+0|+0
+          form_item_11_price_titles=||||||
+          form_item_11_label_help=
+
+          form_item_12_type=radio
+          form_item_12_label=<b>Bachelor in Psychology</b>
+          form_item_12_name=psy
+          form_item_12_label_help=
+          form_item_12_titles=0-5 students|6-12 students|11-20 students|21-30 students|30-40 students|40+ students
+          form_item_12_descs=
+          form_item_12_prices=+0|+0|+0|+0|+0|+0|+0|+0
+          form_item_12_price_titles=||||||
+          form_item_12_label_help=
+          
+          form_item_13_type=radio
+          form_item_13_just_admin=
+          form_item_13_label=If your institution is interested in a mutually beneficial partnership to promote these programs, which type of collaboration is most suitable for you?
+          form_item_13_name=partnership
+          form_item_13_required=
+          form_item_13_titles=Joint webinars or online information sessions for students and parents|Direct student counseling and application support|Participation in your university fairs/events (virtual or in-person)|Institution can work as an agency.
+         
+          form_item_14_type=textarea
+          form_item_14_just_admin=
+          form_item_14_label=Remarks or Questions
+          form_item_14_name=remarks
+          
+          form_item_15_type=textarea
+          form_item_15_just_admin=yes
+          form_item_15_label=Review Note
+          form_item_15_name=review
+          
+          form_item_16_type=textarea
+          form_item_16_just_admin=yes
+          form_item_16_label=Edit Note
+          form_item_16_name=editnote
+           
+          form_item_17_type=textarea
+          form_item_17_just_admin=yes
+          form_item_17_label=Notes
+          form_item_17_name=notes
+         
+          form_item_18_type=textarea
+          form_item_18_just_admin=yes
+          form_item_18_label=Bank details
+          form_item_18_name=bank
+   
+          form_item_19_type=textarea
+          form_item_19_required=
+          form_item_19_just_admin=yes
+          form_item_19_label=Abstract
+          form_item_19_name=abstract
+
+          form_item_20_type=text
+          form_item_20_required=
+          form_item_20_just_admin=yes
+          form_item_20_label=Keywords
+          form_item_20_name=keywords
+
+          form_item_21_type=select
+          form_item_21_label=Paper Field
+          form_item_21_just_admin=yes
+          form_item_21_required=
+          form_item_21_name=paper_field
+          form_item_21_titles=Select|Economics|Education|Social Sciences|Language and Literature|Interdisciplinary in Humanities|Engineering and Formal Sciences|Medicine and Natural Sciences|Multidisciplinary Studies
+          
+         
+
+survey_inputs=file/survey_inputs
+survey_inputs_output=file/survey_inputs_output
+
+surveys=organizer-1,keynote-1,keynote-2,send_correct_file-1,timetable-1,timetable-2,upload_presentation_file-1,review_reminder-1,review_report-17,review_report-18,prtsrv-1,prtsrv-2
+surveys_reviewers=organizer-1,keynote-1,review_reminder-1
+
+prtsrv_sis_no=2
+  
+          prtsrv_si_1_type=radio
+          prtsrv_si_1_label=<b>How would you proceed further on the participation to the conference?</b>
+          prtsrv_si_1_required=yes
+          prtsrv_si_1_name=pfsrv
+          prtsrv_si_1_titles=I would proceed to pay if the payment deadline is extended a few days.|My plans have changed, I can no longer participate to this conference.|I will not join this conference due to following reasosn(s):
+          
+          prtsrv_si_2_type=text
+          prtsrv_si_2_label=<b>Please help us improve our quality for future events by writing your comments here. Thank you in advance for your suggestions and/or critiques.
+          prtsrv_si_2_required=yes
+          prtsrv_si_2_name=cmnts
+
+upload_presentation_file_sis_no=3
+
+          upload_presentation_file_si_1_type=radio
+          upload_presentation_file_si_1_label=Plenary Session
+          upload_presentation_file_si_1_required=yes
+          upload_presentation_file_si_1_name=plnr
+          upload_presentation_file_si_1_titles=I am not interested|I will think about it|Yes
+  
+          upload_presentation_file_si_2_type=file
+          upload_presentation_file_si_2_label=<b>File upload</b>
+          upload_presentation_file_si_2_name=file
+          upload_presentation_file_si_2_destination=new_folder
+          upload_presentation_file_si_2_file_name=prs
+          
+          upload_presentation_file_si_3_type=text
+          upload_presentation_file_si_3_label=Other
+          upload_presentation_file_si_3_name=other
+
+organizer_sis_no=1
+  
+          organizer_si_1_type=radio
+          organizer_si_1_label=Organizer Membership
+          organizer_si_1_required=yes
+          organizer_si_1_name=org
+          organizer_si_1_titles=Yes, I can take part in the organizing committee.|No, thank you, not at this time.
+          
+          
+keynote_sis_no=2
+  
+          keynote_si_1_type=radio
+          keynote_si_1_label=<b>Special Presentation Confirmation</b>
+          keynote_si_1_required=yes
+          keynote_si_1_name=key
+          keynote_si_1_titles=Yes, I can take part in the plenary session as a special presenter.|No, thank you, not at this time.    
+          
+          keynote_si_2_type=text
+          keynote_si_2_label=<b>Special Presentation Title</b> (an upload link will be sent later)
+          keynote_si_2_required=yes
+          keynote_si_2_name=keytitle
+                    
+          
+send_correct_file_sis_no=1
+         send_correct_file_si_1_type=radio
+         send_correct_file_si_1_label=Send me the Right File
+         send_correct_file_si_1_required=yes
+         send_correct_file_si_1_name=feedback
+         send_correct_file_si_1_titles=Publisher version of the file is wrong. Please send me the correct one.|The file is alright. I made no changes.|I modified the file and uploaded using the tool.
+
+timetable_sis_no=2
+  
+          timetable_si_1_type=radio
+          timetable_si_1_label=<b>Timetable Feedback</b>
+          timetable_si_1_required=yes
+          timetable_si_1_name=ttfeed
+          timetable_si_1_titles=The timetable is alright for me. No need for a change|A vital change is required for my presentation at the timetable
+          
+          timetable_si_2_type=text
+          timetable_si_2_label=<b>Please write here your request and submit.
+          timetable_si_2_required=yes
+          timetable_si_2_name=ttfeedback
+          
+review_reminder_sis_no=1
+          review_reminder_si_1_type=radio
+          review_reminder_si_1_label=Your Review Preference
+          review_reminder_si_1_required=yes
+          review_reminder_si_1_name=rmnd
+          review_reminder_si_1_titles=Yes, I will review the paper and submit the report shortly (I have the paper and report links already in my email).|I can review a paper but I did not receive such a notification. Please send me again.|No, thank you, not at this time. Please withdraw the paper.
+          
+          
+review_report_sis_no=17
+  
+          review_report_si_1_type=radio
+          review_report_si_1_top_title=A. ORIGINALITY
+          review_report_si_1_label=<b>1. The submission is original.</b> <i style="font-size: 11px;"> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report_si_1_required=yes
+          review_report_si_1_name=rw1
+          review_report_si_1_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report_si_2_type=radio
+          review_report_si_2_label=<b>2.	The paper helps to expand or further research in this subject area.</b> <i> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report_si_2_required=yes
+          review_report_si_2_name=rw2
+          review_report_si_2_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report_si_3_type=checkbox
+          review_report_si_3_label=<b>3. Which sections do you think are complete?</b> <i>Title, Abstract, Keywords, Introduction, Methodology, Discussion, Conclusion, References?</i>
+          review_report_si_3_name=rw3
+          review_report_si_3_titles=- Title|- Abstract|- Keywords|- Introduction|- Methodology|- Discussion|- Conclusion|- References (at least 15)
+          
+          review_report_si_4_type=text
+          review_report_si_4_top_title=B. COMMENTS TO THE AUTHOR(S)
+          review_report_si_4_label=<b>4. Do the authors need to improve clarity, succinctness, and the overall quality of presentation? Please indicate if any.</b>
+          review_report_si_4_required=
+          review_report_si_4_name=rw4
+          
+          review_report_si_5_type=text
+          review_report_si_5_label=<b>5. Do you think a shortening is required in specific areas? Please indicate if any.</b>
+          review_report_si_5_required=
+          review_report_si_5_name=rw5
+          
+          review_report_si_6_type=checkbox
+          review_report_si_6_top_title=C. POSITIVE COMMENTS
+          review_report_si_6_label=<b># Please check the items where you agree if the article is:</b> <i>well-written, appropriate for readership, important and recent, with typos.</i>
+          review_report_si_6_name=rw6
+          review_report_si_6_titles=- The manuscript is well-written in an engaging and lively style.|- The level is appropriate for readership.|- The subject is very important and recent|- This manuscript is alright after a few typos and other minor details have been attended to.|- This is a well-written article that does identify an important gap in the field.
+         
+          review_report_si_7_type=text
+          review_report_si_7_top_title=D. CRITICISM (if any)
+          review_report_si_7_label=<b># In the “Discussion” section I would have wished to see more information on:</b>
+          review_report_si_7_required=
+          review_report_si_7_name=rw7
+          
+          review_report_si_8_type=text
+          review_report_si_8_label=<b># I do not think that this article contains enough robust data to evidence the statement(s):</b>
+          review_report_si_8_required=
+          review_report_si_8_name=rw8
+          
+          review_report_si_9_type=text
+          review_report_si_9_label=<b># There is an interesting finding in this research about:</b>
+          review_report_si_9_required=
+          review_report_si_9_name=rw9
+          
+          review_report_si_10_type=text
+          review_report_si_10_label=<b># The conclusion section could be enlarged with:</b>
+          review_report_si_10_required=
+          review_report_si_10_name=rw10
+          
+          review_report_si_11_type=text
+          review_report_si_11_label=<b># The paper would be significantly improved with the addition of more details about:</b>
+          review_report_si_11_required=
+          review_report_si_11_name=rw11
+          
+          review_report_si_12_type=text
+          review_report_si_12_label=<b># To make this paper publishable, the author needs to improve in the following substantive points:</b>
+          review_report_si_12_required=
+          review_report_si_12_name=rw12
+          
+          review_report_si_13_type=radio
+          review_report_si_13_top_title=E. LANGUAGE CRITICISM (if any)
+          review_report_si_13_label=<b># Please select the option regarding the language level of the paper.</b>
+          review_report_si_13_required=yes
+          review_report_si_13_name=rw13
+          review_report_si_13_titles=English level of this paper is alright.|I would suggest that it may be useful to engage a professional English language editor following a restructure of the paper.|The paper is to benefit from making stylistic changes in the way it has been written to make a stronger, clearer, and more compelling argumentative case.
+          
+          review_report_si_14_type=textarea
+          review_report_si_14_label=<b># There are a few sentences that require rephrasing for clarity:</b>
+          review_report_si_14_required=
+          review_report_si_14_name=rw14
+          
+          review_report_si_15_type=radio
+          review_report_si_15_label=<b># Are the references mentioned within paragraphs? i.e (Brown, 2008)</b>
+          review_report_si_15_required=yes
+          review_report_si_15_name=rw15
+          review_report_si_15_titles= n/a| Yes| No (the author should update the paper mentioning references in paragraphs)
+
+          review_report_si_16_type=radio
+          review_report_si_16_label=<b># Is the number of references minimum 15? </b>
+          review_report_si_16_required=yes
+          review_report_si_16_name=rw16
+          review_report_si_16_titles=n/a| Yes| No (the author should update the paper adding more references)
+             
+          review_report_si_17_type=radio
+          review_report_si_17_top_title=F. RECOMMENDATION TO THE PUBLISHER
+          review_report_si_17_label=<b># How do you recommend for accepting/publishing of this paper?</b>
+          review_report_si_17_required=yes
+          review_report_si_17_name=rw17
+          review_report_si_17_titles=<b>Accept as it is</b> (The paper is suitable for publication in its current form)|<b>Accept with Minor Revision</b> (The paper will be ready for publication after light revisions.)|<b>Accept with Major Revision</b> (The paper would benefit from substantial changes such as expanded data analysis, widening of the literature review, or rewriting sections of the text.)
+          
+          review_report2_sis_no=18
+  
+          review_report2_si_1_type=radio
+          review_report2_si_1_top_title=A. ORIGINALITY
+          review_report2_si_1_label=<b>1. The submission is original.</b> <i style="font-size: 10px;"> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report2_si_1_required=yes
+          review_report2_si_1_name=rw1
+          review_report2_si_1_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report2_si_2_type=radio
+          review_report2_si_2_label=<b>2.	The paper helps to expand or further research in this subject area.</b> <i> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report2_si_2_required=yes
+          review_report2_si_2_name=rw2
+          review_report2_si_2_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report2_si_3_type=checkbox
+          review_report2_si_3_label=<b>3. Which sections do you think are complete?</b> <i>Title, Abstract, Keywords, Introduction, Methodology, Discussion, Conclusion, References?</i>
+          review_report2_si_3_name=rw3
+          review_report2_si_3_titles=- Title|- Abstract|- Keywords|- Introduction|- Methodology|- Discussion|- Conclusion|- References (at least 15)
+          
+          review_report2_si_4_type=text
+          review_report2_si_4_top_title=B. COMMENTS TO THE AUTHOR(S)
+          review_report2_si_4_label=<b>4. Do the authors need to improve clarity, succinctness, and the overall quality of presentation? Please indicate if any.</b>
+          review_report2_si_4_required=
+          review_report2_si_4_name=rw4
+          
+          review_report2_si_5_type=text
+          review_report2_si_5_label=<b>5. Do you think a shortening is required in specific areas? Please indicate if any.</b>
+          review_report2_si_5_required=
+          review_report2_si_5_name=rw5
+          
+          review_report2_si_6_type=checkbox
+          review_report2_si_6_top_title=C. POSITIVE COMMENTS
+          review_report2_si_6_label=<b># Please check the items where you agree if the article is:</b> <i>well-written, appropriate for readership, important and recent, with typos.</i>
+          review_report2_si_6_name=rw6
+          review_report2_si_6_titles=- The manuscript is well-written in an engaging and lively style.|- The level is appropriate for readership.|- The subject is very important and recent|- This manuscript is alright after a few typos and other minor details have been attended to.|- This is a well-written article that does identify an important gap in the field.
+         
+          review_report2_si_7_type=text
+          review_report2_si_7_top_title=D. CRITICISM (if any)
+          review_report2_si_7_label=<b># In the “Discussion” section I would have wished to see more information on:</b>
+          review_report2_si_7_required=
+          review_report2_si_7_name=rw7
+          
+          review_report2_si_8_type=text
+          review_report2_si_8_label=<b># I do not think that this article contains enough robust data to evidence the statement(s):</b>
+          review_report2_si_8_required=
+          review_report2_si_8_name=rw8
+          
+          review_report2_si_9_type=text
+          review_report2_si_9_label=<b># There is an interesting finding in this research about:</b>
+          review_report2_si_9_required=
+          review_report2_si_9_name=rw9
+          
+          review_report2_si_10_type=text
+          review_report2_si_10_label=<b># The conclusion section could be enlarged with:</b>
+          review_report2_si_10_required=
+          review_report2_si_10_name=rw10
+          
+          review_report2_si_11_type=text
+          review_report2_si_11_label=<b># The paper would be significantly improved with the addition of more details about:</b>
+          review_report2_si_11_required=
+          review_report2_si_11_name=rw11
+          
+          review_report2_si_12_type=text
+          review_report2_si_12_label=<b># To make this paper publishable, the author needs to improve in the following substantive points:</b>
+          review_report2_si_12_required=
+          review_report2_si_12_name=rw12
+          
+          review_report2_si_13_type=radio
+          review_report2_si_13_top_title=E. LANGUAGE CRITICISM (if any)
+          review_report2_si_13_label=<b># Please select the option regarding the language level of the paper.</b>
+          review_report2_si_13_required=yes
+          review_report2_si_13_name=rw13
+          review_report2_si_13_titles=English level of this paper is alright.|I would suggest that it may be useful to engage a professional English language editor following a restructure of the paper.|The paper is to benefit from making stylistic changes in the way it has been written to make a stronger, clearer, and more compelling argumentative case.
+          
+          review_report2_si_14_type=textarea
+          review_report2_si_14_label=<b># There are a few sentences that require rephrasing for clarity:</b>
+          review_report2_si_14_required=
+          review_report2_si_14_name=rw14
+          
+          review_report2_si_15_type=radio
+          review_report2_si_15_label=<b># Are the references mentioned within paragraphs? i.e (Brown, 2008)</b>
+          review_report2_si_15_required=yes
+          review_report2_si_15_name=rw15
+          review_report2_si_15_titles=n/a| Yes| No (the author should update the paper mentioning references in paragraphs)
+
+          review_report2_si_16_type=radio
+          review_report2_si_16_label=<b># Is the number of references minimum 15? </b>
+          review_report2_si_16_required=yes
+          review_report2_si_16_name=rw16
+          review_report2_si_16_titles=n/a| Yes| No (the author should update the paper adding more references)
+             
+          review_report2_si_17_type=radio
+          review_report2_si_17_top_title=F. RECOMMENDATION TO THE PUBLISHER
+          review_report2_si_17_label=<b># How do you recommend for accepting/publishing of this paper?</b>
+          review_report2_si_17_required=yes
+          review_report2_si_17_name=rw17
+          review_report2_si_17_titles=<b>Accept as it is</b> (The paper is suitable for publication in its current form)|<b>Accept with Minor Revision</b> (The paper will be ready for publication after light revisions.)|<b>Accept with Major Revision</b> (The paper would benefit from substantial changes such as expanded data analysis, widening of the literature review, or rewriting sections of the text.)
+          
+          
+          review_report2_si_18_type=file
+          review_report2_si_18_label=<b>Revised paper (where applicable)</b>
+          review_report2_si_18_required=
+          review_report2_si_18_name=rw18
+          review_report2_si_18_destination=reviewed_papers
+          review_report2_si_18_file_name=Revised_Paper
+ 
+ 
+           
+review_report3_sis_no=17
+  
+          review_report3_si_1_type=radio
+          review_report3_si_1_top_title=A. ORIGINALITY
+          review_report3_si_1_label=<b>1. The submission is original.</b> <i style="font-size: 10px;"> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report3_si_1_required=yes
+          review_report3_si_1_name=rw1
+          review_report3_si_1_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report3_si_2_type=radio
+          review_report3_si_2_label=<b>2.	The paper helps to expand or further research in this subject area.</b> <i> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report3_si_2_required=yes
+          review_report3_si_2_name=rw2
+          review_report3_si_2_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report3_si_3_type=checkbox
+          review_report3_si_3_label=<b>3. Which sections do you think are complete?</b> <i>Title, Abstract, Keywords, Introduction, Methodology, Discussion, Conclusion, References?</i>
+          review_report3_si_3_name=rw3
+          review_report3_si_3_titles=- Title|- Abstract|- Keywords|- Introduction|- Methodology|- Discussion|- Conclusion|- References (at least 15)
+          
+          review_report3_si_4_type=text
+          review_report3_si_4_top_title=B. COMMENTS TO THE AUTHOR(S)
+          review_report3_si_4_label=<b>4. Do the authors need to improve clarity, succinctness, and the overall quality of presentation? Please indicate if any.</b>
+          review_report3_si_4_required=
+          review_report3_si_4_name=rw4
+          
+          review_report3_si_5_type=text
+          review_report3_si_5_label=<b>5. Do you think a shortening is required in specific areas? Please indicate if any.</b>
+          review_report3_si_5_required=
+          review_report3_si_5_name=rw5
+          
+          review_report3_si_6_type=checkbox
+          review_report3_si_6_top_title=C. POSITIVE COMMENTS
+          review_report3_si_6_label=<b># Please check the items where you agree if the article is:</b> <i>well-written, appropriate for readership, important and recent, with typos.</i>
+          review_report3_si_6_name=rw6
+          review_report3_si_6_titles=- The manuscript is well-written in an engaging and lively style.|- The level is appropriate for readership.|- The subject is very important and recent|- This manuscript is alright after a few typos and other minor details have been attended to.|- This is a well-written article that does identify an important gap in the field.
+         
+          review_report3_si_7_type=text
+          review_report3_si_7_top_title=D. CRITICISM (if any)
+          review_report3_si_7_label=<b># In the “Discussion” section I would have wished to see more information on:</b>
+          review_report3_si_7_required=
+          review_report3_si_7_name=rw7
+          
+          review_report3_si_8_type=text
+          review_report3_si_8_label=<b># I do not think that this article contains enough robust data to evidence the statement(s):</b>
+          review_report3_si_8_required=
+          review_report3_si_8_name=rw8
+          
+          review_report3_si_9_type=text
+          review_report3_si_9_label=<b># There is an interesting finding in this research about:</b>
+          review_report3_si_9_required=
+          review_report3_si_9_name=rw9
+          
+          review_report3_si_10_type=text
+          review_report3_si_10_label=<b># The conclusion section could be enlarged with:</b>
+          review_report3_si_10_required=
+          review_report3_si_10_name=rw10
+          
+          review_report3_si_11_type=text
+          review_report3_si_11_label=<b># The paper would be significantly improved with the addition of more details about:</b>
+          review_report3_si_11_required=
+          review_report3_si_11_name=rw11
+          
+          review_report3_si_12_type=text
+          review_report3_si_12_label=<b># To make this paper publishable, the author needs to improve in the following substantive points:</b>
+          review_report3_si_12_required=
+          review_report3_si_12_name=rw12
+          
+          review_report3_si_13_type=radio
+          review_report3_si_13_top_title=E. LANGUAGE CRITICISM (if any)
+          review_report3_si_13_label=<b># Please select the option regarding the language level of the paper.</b>
+          review_report3_si_13_required=yes
+          review_report3_si_13_name=rw13
+          review_report3_si_13_titles=English level of this paper is alright.|I would suggest that it may be useful to engage a professional English language editor following a restructure of the paper.|The paper is to benefit from making stylistic changes in the way it has been written to make a stronger, clearer, and more compelling argumentative case.
+          
+          review_report3_si_14_type=textarea
+          review_report3_si_14_label=<b># There are a few sentences that require rephrasing for clarity:</b>
+          review_report3_si_14_required=
+          review_report3_si_14_name=rw14
+          
+          review_report3_si_15_type=radio
+          review_report3_si_15_label=<b># Are the references mentioned within paragraphs? i.e (Brown, 2008)</b>
+          review_report3_si_15_required=yes
+          review_report3_si_15_name=rw15
+          review_report3_si_15_titles=n/a| Yes| No (the author should update the paper mentioning references in paragraphs)
+
+          review_report3_si_16_type=radio
+          review_report3_si_16_label=<b># Is the number of references minimum 15? </b>
+          review_report3_si_16_required=yes
+          review_report3_si_16_name=rw16
+          review_report3_si_16_titles=n/a| Yes| No (the author should update the paper adding more references)
+             
+          review_report3_si_17_type=radio
+          review_report3_si_17_top_title=F. RECOMMENDATION TO THE PUBLISHER
+          review_report3_si_17_label=<b># How do you recommend for accepting/publishing of this paper?</b>
+          review_report3_si_17_required=yes
+          review_report3_si_17_name=rw17
+          review_report3_si_17_titles=<b>Accept as it is</b> (The paper is suitable for publication in its current form)|<b>Accept with Minor Revision</b> (The paper will be ready for publication after light revisions.)|<b>Accept with Major Revision</b> (The paper would benefit from substantial changes such as expanded data analysis, widening of the literature review, or rewriting sections of the text.)
+            
+review_report4_sis_no=19
+  
+          review_report4_si_1_type=radio
+          review_report4_si_1_top_title=A. ORIGINALITY
+          review_report4_si_1_label=<b>1. The submission is original.</b> <i style="font-size: 10px;"> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report4_si_1_required=yes
+          review_report4_si_1_name=rw1
+          review_report4_si_1_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report4_si_2_type=radio
+          review_report4_si_2_label=<b>2.	The paper helps to expand or further research in this subject area.</b> <i> (Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree)</i>
+          review_report4_si_2_required=yes
+          review_report4_si_2_name=rw2
+          review_report4_si_2_titles=- Strongly Agree|- Agree|- Neutral|- Disagree|- Strongly Disagree
+          
+          review_report4_si_3_type=checkbox
+          review_report4_si_3_label=<b>3. Which sections do you think are complete?</b> <i>Title, Abstract, Keywords?</i>
+          review_report4_si_3_name=rw3
+          review_report4_si_3_titles=- Title|- Abstract|- Keywords
+          
+          review_report4_si_4_type=text
+          review_report4_si_4_top_title=B. COMMENTS TO THE AUTHOR(S)
+          review_report4_si_4_label=<b>4. Do the authors need to improve clarity, succinctness, and the overall quality of presentation? Please indicate if any.</b>
+          review_report4_si_4_required=
+          review_report4_si_4_name=rw4
+          
+          review_report4_si_5_type=text
+          review_report4_si_5_label=<b>5. Do you think a shortening is required in specific areas? Please indicate if any.</b>
+          review_report4_si_5_required=
+          review_report4_si_5_name=rw5
+          
+          review_report4_si_6_type=checkbox
+          review_report4_si_6_top_title=C. POSITIVE COMMENTS
+          review_report4_si_6_label=<b># Please check the items where you agree if the article is:</b> <i>well-written, appropriate for readership, important and recent, with typos.</i>
+          review_report4_si_6_name=rw6
+          review_report4_si_6_titles=- The abstract is well-written in an engaging and lively style.|- The level is appropriate for readership.|- The subject is very important and recent|- This abstract is alright after a few typos and other minor details have been attended to.|- This is a well-written abstract that does identify an important gap in the field.
+         
+          review_report4_si_7_type=text
+          review_report4_si_7_top_title=D. CRITICISM (if any)
+          review_report4_si_7_label=<b># In the abstract, I would have wished to see more information on:</b>
+          review_report4_si_7_required=
+          review_report4_si_7_name=rw7
+          
+          review_report4_si_8_type=text
+          review_report4_si_8_label=<b># I do not think that this abstract contains enough summary for the title.</b>
+          review_report4_si_8_required=
+          review_report4_si_8_name=rw8
+          
+          review_report4_si_9_type=text
+          review_report4_si_9_label=<b># There is an interesting intoroduction in this abstract about:</b>
+          review_report4_si_9_required=
+          review_report4_si_9_name=rw9
+          
+          review_report4_si_10_type=text
+          review_report4_si_10_label=<b># The abstract could be enlarged with:</b>
+          review_report4_si_10_required=
+          review_report4_si_10_name=rw10
+          
+          review_report4_si_11_type=text
+          review_report4_si_11_label=<b># The abstract would be significantly improved with the addition of more details about:</b>
+          review_report4_si_11_required=
+          review_report4_si_11_name=rw11
+          
+          review_report4_si_12_type=text
+          review_report4_si_12_label=<b># To make this abstract publishable, the author needs to improve in the following substantive points:</b>
+          review_report4_si_12_required=
+          review_report4_si_12_name=rw12
+          
+          review_report4_si_13_type=radio
+          review_report4_si_13_top_title=E. LANGUAGE CRITICISM (if any)
+          review_report4_si_13_label=<b># Please select the option regarding the language level of the abstract.</b>
+          review_report4_si_13_required=yes
+          review_report4_si_13_name=rw13
+          review_report4_si_13_titles=English level of this abstract is alright.|I would suggest that it may be useful to engage a professional English language editor.|The abstract is to benefit from making stylistic changes in the way it has been written to make a stronger and clearer.
+          
+          review_report4_si_14_type=textarea
+          review_report4_si_14_label=<b># There are a few sentences that require rephrasing for clarity:</b>
+          review_report4_si_14_required=
+          review_report4_si_14_name=rw14
+          
+          review_report4_si_15_type=radio
+          review_report4_si_15_label=<b># Is the number words more than 120 and less than 250?</b>
+          review_report4_si_15_required=yes
+          review_report4_si_15_name=rw15
+          review_report4_si_15_titles=n/a| Yes| No (the author should update the abstract accordingly)
+
+          review_report4_si_16_type=radio
+          review_report4_si_16_label=<b># Is the number of keywords minimum 5? </b>
+          review_report4_si_16_required=yes
+          review_report4_si_16_name=rw16
+          review_report4_si_16_titles=n/a| Yes| No (the author should update the abstract accordingly)
+          
+          review_report4_si_17_type=radio
+          review_report4_si_17_label=<b># Is the abstract formed in one paragraph? </b>
+          review_report4_si_17_required=yes
+          review_report4_si_17_name=rw17
+          review_report4_si_17_titles=n/a| Yes| No (the author should update the abstract accordingly)
+             
+          review_report4_si_18_type=radio
+          review_report4_si_18_top_title=F. RECOMMENDATION TO THE PUBLISHER
+          review_report4_si_18_label=<b># How do you recommend for accepting/publishing of this abstract?</b>
+          review_report4_si_18_required=yes
+          review_report4_si_18_name=rw18
+          review_report4_si_18_titles=<b>Accept as it is</b> (The abstract is suitable for publication in its current form)|<b>Accept with Minor Revision</b> (The abstract will be ready for publication after light revisions.)|<b>Accept with Major Revision</b> (The abstract would benefit from substantial changes)
+
+          review_report4_si_19_type=file
+          review_report4_si_19_label=<b>Revised abstract (where applicable)</b>
+          review_report4_si_19_required=
+          review_report4_si_19_name=rw19
+          review_report4_si_19_destination=reviewed_papers
+          review_report4_si_19_file_name=revised_abstract

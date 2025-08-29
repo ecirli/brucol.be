@@ -1,0 +1,626 @@
+## CONFERENCE ##
+conference_name=London Stars College
+school_name=London Stars College
+conf_name_short=London Stars College
+conf_name_shortest=
+conf_name_long=
+conf_name_cert=
+conf_name_cert_2=London Stars College 
+conf_name_cert_3= 
+conference_name_desc_form=<p style="margin-bottom: 5px; line-height: 1.2; font-size: 18px;"><span>Get in touch, learn more and enrol when ready.</span><br><span>No payment is required at this stage.</span></p>
+conference_venue=
+conf_venue_addr= 11, Portland Road, London, SE25 4UF, United Kingdom
+school_address=11, Portland Road, London, SE25 4UF, United Kingdom
+school_tel=+44 20 8068 0407
+school_email=info@brucol.be
+school_web=https://brucol.be
+ltr_conf_name=
+ltr_conf_venue_short=
+ltr_conf_date=
+date_cert=
+ltr_conf_map=
+site_map=
+hotels_nearby=
+conf_name_long1=
+conf_name_long2=
+conf_name_long3=
+conf_name_long4=
+
+pre_spc_msg_prm_full=
+full_schools_start_date=
+
+rcpt_from=London Stars College
+rcpt_addr=11 Portland Rd, SE25 4EF, London, UK
+rcpt_UTR=7575820175
+
+#CONF EMAIL SETTINGS
+ltr_conf_user=AKIAZQ3D63SZA5TGTVOM
+ltr_conf_email_passw=BBl7qtcxbhVE3P+e1nBEq5qO8YvuiLd6WBw1Elfal3ki
+ltr_conf_email_smtp=email-smtp.eu-north-1.amazonaws.com
+ltr_conf_email_smtp_port=465
+ltr_conf_email_imap=
+ltr_conf_email_imap_passw=
+SetFromEmail=info@brucol.be
+ltr_conf_email=info@brucol.be
+email_from=London Stars College
+logo_cert=
+euser_logo=https://revistia.net/revistia_logo_cert.png
+euser_logo_text=https://revistia.net/revistia_logo.png
+icss_logo=https://revistia.net/icss_logo.png
+icss_logo_text=https://revistia.net/icss_logo_text.png
+
+gmail_user=info@brucol.be
+gmail_passw=rybpuixjqmjhohqo
+mail_on_off=
+
+#CONF WEB SETTINGS
+ltr_conf_web=https://brucol.be
+journal_web=
+ltr_conf_tel=+44 20 8068 0407
+lsc_whatsapp=+44 20 8068 0407
+ltr_conf_skype=
+conf_exp_nr_part=
+conf_exp_nr_cntr=
+nr_papers=
+conf_logo=
+conf_logo_2=
+conf_logo_big=
+conf_logo_big_2=
+pdf_file_name=pre-enrol
+conf_type=
+proceedingsv1=#
+v1downloadtitle=
+proceedingsv2=#
+v2downloadtitle=
+proceedingsv3=#
+v3downloadtitle=
+
+NEXT ICSS
+next_icss= London Stars College
+next_icss_short=London Stars College
+next_icss_deadline=
+next_icss_web=
+
+frame_img=assets/frame11.png
+
+reg_conf=https://brucol.be/reg/start/form/
+new_reg_email=info@brucol.be
+review_title=London Stars College Notice
+org_time=09:00
+
+## Deadlines
+
+pre_dep_fee_deadline=18 August 2023
+
+abstract_deadline=05 November 2023
+full_paper_deadline=18 December 2023
+revised_deadline=16.11.2023
+extended_deadline=14 November 2023 (5:00 PM your local time).
+reviewer_deadline=23.12.2023
+unpaid_reviewer_deadline=23.12.2023
+proofread_deadline=26.12.2023
+ttfeedback_deadline=15.11.2023
+noname_deadline=within 2 days
+revision_time= 2 days
+edt_book_pub_ddl=
+school_start_date=4 September 2023
+
+#Fees
+deposit_fee=120 GBP
+prim_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview:</strong><br><strong>Description:</strong> A comprehensive, three-year online programme providing full primary education (Years 4-6) for 8-11 year olds.<br><strong>Duration:</strong> Annually, 800 hours of live, face-to-face online classes covering the complete Cambridge Curriculum.<br><strong>Curriculum:</strong> Subjects include English, Mathematics, Science, Computing, Art & Design, Music, and Physical Education, aimed at nurturing expression, analytical thinking, exploration, coding skills, creativity, connection, and physical activity.<br><strong>Certification:</strong> Graduates receive a Cambridge Primary School Certificate from LSC.<br><strong>Outcome:</strong> Aims to empower pupils with confident expression, critical thinking, musical abilities, and an emphasis on physical well-being.<br><strong>Fee:</strong> The annual programme fee is £4,900.</div>
+comp_prim_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview:</strong><br><strong>Description:</strong> A one-year online programme preparing Year 6 pupils to blend their ongoing school education with the Cambridge primary curriculum.<br><strong>Duration:</strong> This programme can be attended in parallel with local education, offering 160 hours of live online courses in English and Basic Terminology, aligning with the Cambridge Curriculum.<br><strong>Eligibility:</strong> Pupils in local primary schools can enrol concurrently to enhance their education.<br><strong>Curriculum:</strong> Emphasizes English Language and Basic Terminology in alignment with the Cambridge Curriculum.<br><strong>Certification:</strong> Graduates will earn an additional Primary School Certificate from LSC.<br><strong>Outcome:</strong> The programme will enhance pupils\' comprehensive English language skills, mathematical terminology knowledge, scientific communication abilities, and understanding of essential art and design terminology and concepts.<br><strong>Fee:</strong> The all-inclusive programme fee is £1860.</div>
+low_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview:</strong><br><strong>Description:</strong> A three-year online programme offering comprehensive Cambridge Lower School education for pupils in years 7-9.<br><strong>Duration:</strong> Provides 800 hours of live, face-to-face online courses annually, adhering to the full Cambridge Curriculum.<br><strong>Curriculum:</strong> Designed to inspire interest in language, critical thinking, analytical reasoning, scientific investigation, computational skills, creativity, musical expression, and physical well-being.<br><strong>Certification:</strong> Graduates receive a Cambridge Lower School Certificate from LSC.<br><strong>Outcome:</strong> Graduates will be equipped to exhibit effective communication, critical thinking, analytical reasoning, scientific inquiry, technological proficiency, creative expression, musical exploration, and physical well-being.<br><strong>Fee:</strong> The annual programme fee is £5,900.</div>
+comp_low_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview</strong><br><strong>Description:</strong> A one-year programme for Year 8 and 9 pupils, complementing the Cambridge Lower School curriculum.<br><strong>Duration:</strong> Pupils receive 160 hours of live, face-to-face online courses.<br><strong>Eligibility:</strong> This programme is open to pupils currently enroled in local lower school education, serving as a complementary resource.<br><strong>Curriculum:</strong> Focuses on English Language and Basic Cambridge Curriculum Terminology.<br><strong>Certification:</strong> Graduates receive an additional Lower School Certificate from LSC.<br><strong>Outcome:</strong> Graduates will enhance their language skills, mathematical comprehension, scientific understanding, and artistic vocabulary, fostering effective communication and reasoning across these subjects.<br><strong>Fee:</strong> The comprehensive programme fee is £1860.</div>
+sec_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview</strong><br><strong>Description:</strong> A two-year online programme providing complete Cambridge Secondary School and IGCSE education for Years 10-11 pupils.<br><strong>Duration:</strong> Annually, pupils will participate in 526 hours of live, face-to-face online courses, in line with the Cambridge Curriculum.<br><strong>Curriculum:</strong> The curriculum includes mandatory subjects like English, Maths, and one Science (either Physics, Chemistry, Biology), with four additional elective subjects to choose from (i.e., Art & Design, Business Studies, Computer Science, Economics, English Literature, French, Spanish, German, Geography, History, Latin, Music, Sociology).<br><strong>Certification:</strong> Successful graduates will receive official IGCSE certificates and a Cambridge Secondary School Certificate from LSC.<br><strong>Outcome:</strong> Students can expect enhanced knowledge, critical thinking skills, improved career prospects, and practical application of subject content.<br><strong>Fee:</strong> The comprehensive fee for the programme is £6,900 per year.</div>
+comp_sec_sch_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview</strong><br><strong>Description:</strong> A two-year online programme providing complete Cambridge Secondary School and IGCSE education (Years 10-11).<br><strong>Duration:</strong> Annually, 526 hours of live, face-to-face online courses following the Cambridge Curriculum.<br><strong>Curriculum:</strong> Required subjects include English, Maths, and one Science (Physics, Chemistry, Biology). Four electives can be chosen (Art & Design, Business Studies, Computer Science, Economics, English Literature, French, Spanish, German, Geography, History, Latin, Music, Sociology).<br><strong>Certification:</strong> Graduates receive IGCSE certificates and a Cambridge Secondary School Certificate from LSC.<br><strong>Outcome:</strong> Enriched knowledge, enhanced critical thinking, improved career prospects, and practical application of subject content.<br><strong>Fee:</strong> The comprehensive annual fee is £6,900.</div>
+a_levels_fee=<div style="font-family: Arial; margin-bottom: 20px;"><strong>*Programme Overview</strong><br><strong>Description:</strong> A two-year programme designed to prepare pupils who have completed Year 11 for university.<br><strong>Duration:</strong> The programme includes 448 hours of live, face-to-face, online courses annually.<br><strong>Curriculum:</strong> The A Levels curriculum includes mandatory subjects such as English, Maths, and one of the Science subjects (Physics, Chemistry, Biology), plus four additional subjects from a wide range of options.<br><strong>Certification:</strong> Successful graduates will obtain official A Levels certificates for each subject, along with a Secondary School Certificate from LSC.<br><strong>Outcome:</strong> Our programme aims to provide a comprehensive and well-rounded education, equipping students with essential knowledge in core subjects and allowing for specialization in their areas of interest.<br><strong>Fee:</strong> The annual fee for the programme is £7,500.</div>
+prep_sch_fee=<div style="font-family: Arial; font-size: 14px;"><h2><strong>*Programme Overview</strong></h2><p><strong>Description:</strong> This online, one-year certified programme offers comprehensive English language preparatory courses for pupils aged 12+ across all proficiency levels.</p><p><strong>Duration:</strong> The programme provides 800 hours of live, face-to-face online courses throughout the year.</p><p><strong>Curriculum:</strong> The curriculum focuses on English Language, English Grammar, English Reading, English Writing, English Listening, and English Speaking.</p><p><strong>Certification:</strong> Graduates are awarded an English Proficiency Certificate upon successful completion of the programme.</p><p><strong>Outcome:</strong> Graduates will demonstrate advanced English proficiency, exhibiting exceptional reading, writing, and communication skills.</p><p><strong>Fee:</strong> The inclusive fee for the programme is £7,900.</p></div>
+eduwinter_fee=<div style="font-family: Arial; font-size: 14px;"><h2><strong>*Programme Overview</strong></h2><p><strong>Description:</strong> A two-week certified English Language programme designed for pupils aged 12-18.</p><p><strong>Duration:</strong> 56 hours of direct instruction, inclusive of accommodation, meals, excursions, and local language practice opportunities.</p><p><strong>Curriculum:</strong> English Language and English Practice (Listening and Speaking) taught by native English speakers.</p><p><strong>Location:</strong> The programme is conducted in the UK during winter.</p><p><strong>Dates:</strong> The 2023 programme will run from 16-26 December.</p><p><strong>Fee:</strong> The programme fee is £3,080.</p></div>
+eduspring_fee=<div style="font-family: Arial; font-size: 14px;"><h2><strong>*Programme Overview</strong></h2><p><strong>Description:</strong> A two-week certificated programme offering practical English Language courses for pupils aged 12-18 with an intermediary level of English.</p><p><strong>Duration:</strong> 56 hours of face-to-face courses, accommodation, meals, excursions, and language practice with locals.</p><p><strong>Curriculum:</strong> English Language and English Practice (Listening and Speaking) with native English-speaking teachers.</p><p><strong>Location:</strong> Held in the UK during the spring.</p><p><strong>Dates:</strong> 30 March-14 April 2024.</p><p><strong>Fee:</strong> £3,080.</p></div>
+edusummer_fee=<div style="font-family: Arial; font-size: 14px;"><h2><strong>*Programme Overview</strong></h2><p><strong>Description:</strong> A two-week certificated programme that provides practical English Language courses for students aged 12-18.</p><p><strong>Duration:</strong> The programme includes 56 hours of face-to-face courses, accommodation, meals, excursions, and language practice with locals.</p><p><strong>Curriculum:</strong> It focuses on English Language and English Practice (Listening and Speaking) with native English-speaking teachers.</p><p><strong>Location:</strong> The programme is held in the UK during the summer.</p><p><strong>Dates:</strong> It runs from 22 July to 31 August 2024.</p><p><strong>Fee:</strong> The programme fee is £3,080.</p></div>
+
+
+## WHAT IS NEXT
+What is Next?
+note1=As your contribution has been accepted, you can proceed to pay the due fee to complete your registration. Any revision remarks (if any) on your full paper is per quality improvement and will not change your paper's accepted status.
+note2=Due Fee Payment Deadline (you can pay earlier):<b>12 November 2023</b>
+note3=Abstract book will be published prior to conference dates. Proceedings book with full papers will be published within a month after the conference.</b>.
+note4=You can plan your travel based on the summary program. Detailed timetable will be announced prior to conference dates.</b>.
+note5=We will publish scientific journals on <b>29 April 2024</b>.
+note-in-person=
+
+
+## MAIL FIELDS
+ila_acc_note=Re:Your Recent Inquiry
+verification_header= Verification Message
+ila_acc_subject=Re:Your Pre-Enrolment
+ila_acc_subject2=Verification Message
+fla_acc_note=Final Acceptance
+fla_acc_email_title=Verification Message
+ila_ref_subject=Refusal Notice
+
+forum_url=https://brucol.be/reg/start/form//
+forum_contact_link=https://brucol.be/home/contact
+
+## PAYMENT PAGE
+payment_gate_title=
+payment_page_title=Your Invoice Summary
+payment_page_bnk=
+payment_page_paypal=
+payment_page_logo=
+form_logo=https://brucol.be/lsc-logo.png
+pym_cnf_email_to_revistia=info@brucol.be
+pay_ext=Payment Deadline Extension
+
+bank1=file/bank1
+bank2=file/bank2
+bank3=file/bank3
+WU=file/WU
+
+name_holder_category=Student
+name_holder_category_org=Organizer
+
+discount_eq_1=20
+discount_more_t_1=30
+discount_just_in_person_name=fee
+discount_just_in_person_val=0
+coa_present_calc_js=file/coa_present_calc_js
+presence_info_modal=file/presence_info_modal
+presence_info_text=Uncheck if this co-author not joining in-person..a discount is applied.
+
+stamp=file/stamp
+vula=file/vula
+sign_cert=assets/images/rs.png
+pdf_download=file/pdf
+chairman=Prof. Dr. Bob Barret
+chairman2=Prof. Dr. Ahmet Ecirli
+principal=Robert Cook
+
+#FORUM
+forum_header=- London Stars College FORUM
+
+## SHORT PROGRAM
+program_type=Detailed Timetable (ex ante)*
+prsn_time=12+3 min
+
+
+
+ct1=In-person Presentations
+day1=, Friday (Canada (UTC-4) )
+hr1=08:00-09:00
+pr1=In-Person Registration
+hr2=09:00-11:30
+pr2=In-Person Plenary Session with Keynotes
+hr3=11:30-12:00
+pr3=Coffee Break
+hr4=12:00-13:30
+pr4=Presentations
+hr5=13:30-14:00
+pr5=Lunch
+hr6=14:00-15:00
+pr6=Closing Remarks
+hr7=
+pr7=
+hr8=
+pr8=
+hr9=
+pr9
+
+act2=Real-time Online Presentations
+day2=18 November 2023, Saturday (London Time)
+hr1=08:30-10:00
+pr1=Live Online Plenary Session (with Keynotes)
+hr2=10:00-10:30
+pr2=Coffee Break I
+hr3=10:30-12:00
+pr3=Live Online  Oral Session I
+hr4=12:00-12:30
+pr4=Coffee & Refreshment Break
+hr5=12:30-14:00
+pr5=Live Online  Oral Session II
+hr6=14:00-14:30
+pr6=Coffee Break
+hr7=14:30-16:00
+pr7=Live Online  Oral Session III
+hr8=16:00-16:30
+pr8=Coffee Break
+hr9=16:30-18:00
+pr9=Closing Remarks
+
+act3=Offline Forum Presentations
+hr19=https://brucol.be/start/forum/
+pr19=Ofline Presentations <br><small>(Permanently Available)</small>
+
+note-ex_ante=*This is the summary program. The detailed timetable with topics will be shared prior to the conference dates.
+
+##
+survey_header=London Stars College Survey
+dist_prs_upl_deadline=
+dist_timetable=#
+in_person_timetable=#
+virtual_program=#
+venue_guideline=#
+virtual_sessions=18 November 2023
+sessions_evaluation=20 November and onwards (FORUM PLATFORM ONLY)
+country_list=Albania, Algeria, Austria, Belarus, Belgium, Bulgaria, Canada, Chile, Croatia, Georgia, Greece, Iraq, Italy, Japan, Kosovo, Latvia, Malaysia, Nigeria,, Portugal, R. N. Macedonia, Romania, Saudi Arabia, Slovakia, South Africa, Turkey, UK, USA
+
+
+## FORM ##
+form_header=Get Started
+
+payment_table=file/payment_table
+
+    submit_note=If you experience problems, kindly email your details to <a href="mailto:icms@revistia.com">icms@revistia.com</a>
+    form_notes1=Notes:
+    form_notes2=*Live Online: Includes oral in real-time online sessions
+    form_notes3=Offline: Your scientific contribution is presented in the Author Forum with prerecorded videos and slides.
+    form_notes4=All participants receive digital signed certificate, conference program, proceedings book & scientific journal in print-ready PDF, life time available.
+   
+   ##SPECIAL
+   
+    ## FLA
+    fla_logo=
+ 
+    form_inputs=file/form_inputs
+    form_calc=file/form_calc
+    
+   form_items_no=39
+  
+    form_item_1_type=select
+    form_item_1_label=Gender
+    form_item_1_required=
+    form_item_1_name=academic_title
+    form_item_1_titles=Select|Female|Male
+    form_item_1_hide=
+    form_item_1_just_admin=yes
+    
+    
+    form_item_2_type=text
+    form_item_2_required=yes
+    form_item_2_label=Name & Surname
+    form_item_2_name=name_surname
+
+    form_item_3_type=text
+    form_item_3_required=yes
+    form_item_3_label=E-mail
+    form_item_3_name=email
+    
+    form_item_4_type=text
+    form_item_4_just_admin=
+    form_item_4_label=Tel
+    form_item_4_name=tel
+   
+    form_item_5_type=text
+    form_item_5_label=E-mail
+    form_item_5_just_admin=yes
+    form_item_5_label_help=(An alternative email )
+    form_item_5_name=email_2
+    
+    form_item_6_type=text
+    form_item_6_label=Country
+    form_item_6_label_help=
+    form_item_6_name=country
+    form_item_6_just_admin=
+    form_item_6_required=yes
+    
+    form_item_7_type=text
+    form_item_7_label=City/Region
+    form_item_7_just_admin=yes
+    form_item_7_required=
+    form_item_7_name=region
+    
+    form_item_8_type=text
+    form_item_8_required=
+    form_item_8_just_admin=yes
+    form_item_8_label=Address
+    form_item_8_label_help=(for delivery of the certificate)
+    form_item_8_name=address
+   
+    form_item_9_type=date
+    form_item_9_label=Date of Birth
+    form_item_9_just_admin=
+    form_item_9_label_help=<br>Student
+    form_item_9_name=birth
+    form_item_9_required=yes
+    
+    form_item_10_type=select
+    form_item_10_label=The primary reason for completing this form
+    form_item_10_name=reason
+    form_item_10_required=yes
+    form_item_10_titles=Select|To book an appointment|To reserve a spot|To gather information|To understand eligibility|To aid planning
+    form_item_10_hide=
+    form_item_10_just_admin=
+    
+    form_item_11_type=radio
+    form_item_11_label=<b>Programme Preference</b>
+    form_item_11_label_help=<br><small>No payment is required at this stage.</small>
+    form_item_11_name=fee
+    form_item_11_titles=<span style="font-size:16px;">Cambridge Primary School</span>|<span style="font-size:16px;">Complementary Primary School</span>|<span style="font-size:16px;">Cambridge Lower School</span>|<span style="font-size:16px;">Complementary Lower School</span>|<span style="font-size:16px;">Cambridge Secondary School</span>|<span style="font-size:16px;">Complementary Secondary School</span>|<span style="font-size:16px;">Cambridge A Levels</span>|<span style="font-size:16px;">English Prep School</span>|<span style="font-size:16px;">Eduwinter</span>|<span style="font-size:16px;">EduSpring</span>|<span style="font-size:16px;">EduSummer</span>
+    form_item_11_descs= <b>(£4,900/year, Diploma, KS2, 3-year duration, online, year 4-6, ages 8-11)</b>|<b> (£1,860, Diploma, 160 hrs, online, year 6, ages 11-12)</b>| <b>(£5,900/year, Diploma, KS3, 3-year duration, online, year 7-9, ages 11-14)</b>|<b> (£1,860, Diploma, 160 hrs, online, year 9, ages 12-14)</b>|  <b>(£5,900/year, Diploma, IGCSE, 2-year duration, online, year 10-11, ages 14-16)</b>| <b>(£1,860, Diploma, 160 hrs, online, year 10-11, ages 14-16) </b>| <b>( £5,900/year, Cambridge AICE Diploma, A Levels, 2-year duration, online, year 11+, ages 16-19)</b>| <b>(£7,900/year, Certificate, 1-year duration, online, 1 year, ages 12+, 18+)</b>| <b>( £3,080, Certificate, 2 weeks, in UK all-inclusive, 16 Dec 23)</b>| <b>( £3,080, Certificate, 2 weeks, in UK all-inclusive, 30 Mar 24 )</b>|<b>( £3,080, Certificate, 2 weeks, in UK all-inclusive, 5 Aug 24)</b>
+    form_item_11_prices=120|120|120|120|120|120|120|120|120|120|120
+    form_item_11_price_titles=Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment|Advance Payment
+    form_item_11_hide=
+    
+    form_item_12_type=static
+    form_item_12_just_admin=yes
+    form_item_12_label=<div> <a href="#">◯</a><b> An  external link 
+   
+    form_item_13_type=radio
+    form_item_13_label=<b>Other Option & Fee</b>
+    form_item_13_name=journal
+    form_item_13_titles=
+    form_item_13_label_help=
+    form_item_13_descs=
+    form_item_13_prices=
+    form_item_13_price_titles=
+    form_item_13_just_admin=yes
+    
+    form_item_14_type=static
+    form_item_14_just_admin=
+    form_item_14_label=<p style="color: #0c51f2"> For questions i.e about dates, fees, sibling discounts, or private tutoring, please choose an option and ask details in your message.</p></b>
+   
+    
+    form_item_15_type=select
+    form_item_15_label=Field
+    form_item_15_required=
+    form_item_15_name=paper_field
+    form_item_15_titles=Select
+    form_item_15_just_admin=yes
+    
+    form_item_16_type=select
+    form_item_16_required=
+    form_item_16_label=A preference
+    form_item_16_name=reviewer
+    form_item_16_titles=Select
+    form_item_16_just_admin=yes
+    
+    form_item_17_type=text
+    form_item_17_required=
+    form_item_17_label=Title
+    form_item_17_name=paper_title
+    form_item_17_just_admin=yes
+    
+    form_item_18_type=textarea
+    form_item_18_required=
+    form_item_18_label=Your Message
+    form_item_18_name=message
+    
+    form_item_19_type=textarea
+    form_item_19_just_admin=yes
+    form_item_19_label=Answer
+    form_item_19_name=answer
+    
+    form_item_20_type=textarea
+    form_item_20_just_admin=yes
+    form_item_20_label=Recommendation
+    form_item_20_name=recommend
+    
+    form_item_21_type=select
+    form_item_21_just_admin=yes
+    form_item_21_label=Keynote
+    form_item_21_name=keynote
+    form_item_21_titles=Select|Yes|No
+    
+    form_item_22_type=text
+    form_item_22_just_admin=yes
+    form_item_22_label=Keynote title
+    form_item_22_name=keynote_title
+    
+    form_item_23_type=select
+    form_item_23_label_help=
+    form_item_23_descs
+    form_item_23_titles=Select|We understand your situation, and London Stars College offers a supportive and flexible online learning environment, which could be a great alternative for you. We welcome you to explore our English Prep School as an option to continue your education.|We understand the importance of continuity in education, and we will do our best to ensure a smooth transition for your child into the next grade. Our team is dedicated to helping them excel academically and providing the necessary support for his continued growth and success. We are committed to providing a supportive and flexible learning environment, and online education can indeed be a great option, especially considering his current circumstances.|We understand your situation, and London Stars College offers a supportive and flexible online learning environment, which could be a great alternative given the challenges you're facing.|We're delighted to have you here and look forward to supporting you in improving your English language skills.|Our English Prep School is an excellent way to prepare for successful results in the IELTS Examination. Upon completing our programme, you will also receive an English Language Certificate.|Our English Prep School is an excellent way to prepare for ACCA education. We offer comprehensive resources that will support your journey towards success in your goals.|Our A Levels curriculum includes a range of subjects, and we encourage students to explore a variety of options. While enroling for two specific courses may not be possible, we can discuss together the best combination that aligns with your academic interests and goals. The A Levels programme is designed as a two-year course, and the upcoming September/November exams will not be feasible for new enrolees. However, if you already have a background in A Levels, we can assess your past transcripts and find the most suitable placement to continue your academic journey effectively. Let's work together to create a path that fits your unique situation and aspirations.|We're delighted to have you here and look forward to supporting you in improving your English language skills. Let's embark on an exciting journey of growth and learning together!|To ensure the provision of high-quality education and maintain our commitment to excellence, we kindly request that payment is made as it is an essential requirement at London Stars College. We appreciate your understanding and support in this matter.|As mentioned in the Programme Description below, the comprehensive fee for the full programme is £7,900 per year. If you are interested in the one-month summer version, the cost is £1,860.|We're delighted to have you here and look forward to supporting you in improving your English language skills.|Our English Prep School offers a comprehensive curriculum that caters to learners from beginner (B1) to advanced (C2) levels. You can definitely achieve your language goals with us.|Thank you for sharing your concerns with us. We understand the challenges your child faces, and we are here to provide a supportive and flexible learning environment. Our online school can offer a safe and comfortable space for her education, where she can thrive at her own pace.|Our online education offers a great solution for you to continue learning seamlessly during terms 3 and 4. We are here to support your academic journey and provide you with a high-quality education online. Let's embark on this learning adventure together!|We are delighted to have you here. Our English language courses are designed to support your writing and speaking skills.|As you strive to achieve your goals in year 12, we have a fantastic suggestion for you! Consider enroling in our Complementary Secondary School programme, where you can seamlessly continue your current education and receive an additional diploma upon completion, while accessing the Cambridge curriculum alongside it. Alternatively, you can transfer to our Full Secondary School programme. We're here to support your success!|We are pleased to inform you about the exclusive 20% discount available for each sibling at London Stars College. Rishi Mahadev Sundaram Venkat is also enroled, making both of you eligible for this wonderful opportunity to enhance your learning experience together. Voucher Code: C62-4A9|We are pleased to inform you about the exclusive 20% discount available for each sibling at London Stars College. Laya Mahamayee Sundaram Venkat is also enroled, making both of you eligible for this wonderful opportunity to enhance your learning experience together. Voucher Code: F57-09A|We would like to inform you that, due to age limitations, our English Prep School is the suitable option for you, as our Primary School is designed for pupils aged between 8 and 11 years old. However, if you are interested in learning more about our Cambridge Primary School programme for other purposes (for someone you know, etc.), please let us know in our survey, which you can find below.|We would like to inform you that, due to age limitations, our English Prep School is the suitable option for you, as our Private Tutoring: A Levels is designed for pupils aged between 16 and 19 years old. However, if you are interested in learning more about our Private Tutoring: A Levels programme for other purposes (for someone you know, etc.), please let us know in our survey, which you can find below.|We would like to inform you that, due to age limitations, our English Prep School is the suitable option for you, as our A Levels is designed for pupils aged between 16 and 19 years old. However, if you are interested in learning more about our A Levels programme for other purposes (for someone you know, etc.), please let us know in our survey, which you can find below.|We are pleased to inform you about the exclusive 20% discount available for each sibling at London Stars College. Voucher Code: 120-31B|We would like to inform you that, due to age limitations, our English Prep School is the suitable option for you, as our Private Tutoring: A Levels is designed for pupils aged between 16 and 19 years old. However, if you are interested in learning more about our Private Tutoring:\ A Levels programme for other purposes (for someone you know, etc.), please let us know in our survey, which you can find below.
+    form_item_23_label=<b>Ready Answers</b>
+    form_item_23_name=templates
+    form_item_23_just_admin=yes
+
+    form_item_24_type=text
+    form_item_24_just_admin=yes
+    form_item_24_label=Review Title
+    form_item_24_name=review_title
+    
+    form_item_25_type=text
+    form_item_25_just_admin=yes
+    form_item_25_label=Review Note
+    form_item_25_name=review 
+    
+    form_item_26_type=select
+    form_item_26_just_admin=yes
+    form_item_26_label=Organizer
+    form_item_26_name=organizer
+    form_item_26_titles=Select|Yes|No
+    
+    form_item_27_type=text
+    form_item_27_just_admin=yes
+    form_item_27_label=Paper Category
+    form_item_27_name=category
+    
+    form_item_28_type=text
+    form_item_28_just_admin=yes
+    form_item_28_label=Keynote description
+    form_item_28_name=keynote_description
+    
+    form_item_29_type=text
+    form_item_29_just_admin=yes
+    form_item_29_label=Keynote order
+    form_item_29_name=keynote_order
+    
+    form_item_30_type=text
+    form_item_30_just_admin=yes
+    form_item_30_label=Notes
+    form_item_30_name=notes
+    
+    form_item_31_type=textarea
+    form_item_31_just_admin=yes
+    form_item_31_label=Bank details
+    form_item_31_name=bank
+    
+    form_item_32_type=text
+    form_item_32_required=
+    form_item_32_label=Referee (if any)
+    form_item_32_descs=
+    form_item_32_name=promo_coupon
+    form_item_32_just_admin=yes
+    
+    form_item_33_type=text
+    form_item_33_required=
+    form_item_33_label=Referee (if any)
+    form_item_33_descs=
+    form_item_33_name=referee
+    form_item_33_just_admin=yes
+    
+    form_item_34_type=select
+    form_item_34_label=Where did you learn about us
+    form_item_34_name=paper_type
+    form_item_34_required=
+    form_item_34_titles=Select|Facebook|Google|Through your school|Other
+    form_item_34_descs=
+    
+    form_item_35_type=select
+    form_item_35_label=Publishing Preference
+    form_item_35_name=pub_prf
+    form_item_35_required=
+    form_item_35_titles=Select
+    form_item_35_descs=
+    form_item_35_just_admin=yes
+ 
+    form_item_36_type=select
+    form_item_36_label=Enrolment Type
+    form_item_36_just_admin=
+    form_item_36_name=how_many_co
+    form_item_36_titles=Get Started
+    
+    form_item_37_type=textarea
+    form_item_37_just_admin=yes
+    form_item_37_label=Recommendation
+    form_item_37_name=program
+    
+    form_item_38_type=textarea
+    form_item_38_just_admin=yes
+    form_item_38_label=Edit Note
+    form_item_38_name=editnote
+    
+    form_item_39_type=textarea
+    form_item_39_required=
+    form_item_39_label=Abstract
+    form_item_39_name=abstract
+    form_item_39_just_admin=yes
+
+    
+                  
+survey_inputs=file/survey_inputs
+survey_inputs_output=file/survey_inputs_output
+
+surveys=organizer-1,keynote-1,keynote-2,send_correct_file-1,timetable-1,timetable-2,prtsrv-1,prtsrv-2,last_reminder-1,adr_reqst-1,adr_reqst-2,transfer-1,testimonial-2
+
+surveys_reviewers=organizer-1,keynote-1,last_reminder-1,adr_reqst-1,transfer-1,tstm
+
+Help
+#1  file name under survey folder must be the same as survey name before _sis (i.e prtsrv ---> prtsrv.php)
+#2 survey name wit "-1" must be written in surveys= list. i.e prtsrv-1
+#3 survey _si_1_name=xyz must be given to _radio_xyz
+
+prtsrv_sis_no=2
+  
+          prtsrv_si_1_type=radio
+          prtsrv_si_1_label=<b>Help us shape a custom solution for your enrolment needs.</b>
+          prtsrv_si_1_required=yes
+          prtsrv_si_1_name=pfsrv
+          prtsrv_si_1_titles=<strong>Proceeding with Full Enrolment:</strong> I plan to fully enrol and pay a deposit fee to secure a place in the programme.  |<strong>Financial Inadequacy:</strong> I am considering enroling, but can not proceed due to financial concerns.  |<strong>Need Appointment:</strong> I am interested but unsure about some points, schedule with me a meeting.  |<strong>Sibling Discount:</strong> I am interested but would like to know about sibling discounts.  |<strong>Considering Other Schools:</strong> I am exploring other educational options at the moment.  |<strong>Special Requirements:</strong> I have specific academic or personal requirements, and I need further discussion.  |<strong>Trial Program Requested:</strong> I am looking for online programme trial options before committing.  |<strong>Curriculum Clarification:</strong> I need assistance in understanding the curriculum and academic expectations.  |<strong>Career Path Guidance:</strong> I am seeking guidance on potential career pathways related to the programme.  |<strong>Technical Support:</strong> I need more information about the online learning platform and technology requirements.  |<strong>Credit Transfer Inquiry:</strong> I am interested but need to check if my current school will accept the transfer.  |<strong>Subscribe for Updates:</strong> I am not ready to enrol at the moment but would like to receive updates about future programmes.  |<strong>Open-ended Response:</strong> Please specify your preferences or concerns.
+          
+          prtsrv_si_2_type=text
+          prtsrv_si_2_label=<b>Please detail your alternative enrolment preference.
+          prtsrv_si_2_required=
+          prtsrv_si_2_name=openresponse
+          
+transfer_sis_no=1
+
+          transfer_si_1_type=radio
+          transfer_si_1_label=<b>Would you like to transfer your registration to the next conference?</b>
+          transfer_si_1_required=yes
+          transfer_si_1_name=trnsfr
+          transfer_si_1_titles=I want to transfer my registration to the upcoming conference. Please do the transfer and send me the new acceptance letter.|I do not want to transfer my registration. Please remove all the data I provided and cancel my registration.
+         
+
+organizer_sis_no=1
+  
+          organizer_si_1_type=radio
+          organizer_si_1_label=Organizer Membership
+          organizer_si_1_required=yes
+          organizer_si_1_name=org
+          organizer_si_1_titles=Yes, I can take part in the organizing committee.|No, thank you, not at this time.
+          
+last_reminder_sis_no=1
+
+          last_reminder_si_1_type=radio
+          last_reminder_si_1_label=Participation Feedback
+          last_reminder_si_1_required=yes
+          last_reminder_si_1_name=feedb
+          last_reminder_si_1_titles=I will complete my registration by paying the fee soon.|I don't have access to my letter of acceptance or invoice, please send me again.|I can complete my registration if payment deadline is extended a few days.|I paid by bank recently, please verify.|I will not participate to the conference this time.
+         
+keynote_sis_no=2
+  
+          keynote_si_1_type=radio
+          keynote_si_1_label=<b>Special Presentation Confirmation</b>
+          keynote_si_1_required=yes
+          keynote_si_1_name=key
+          keynote_si_1_titles=Yes, I can take part in the plenary session as a special presenter.|No, thank you, not at this time.    
+          
+          keynote_si_2_type=text
+          keynote_si_2_label=<b>Special Presentation Title</b> (an upload link will be sent later)
+          keynote_si_2_required=yes
+          keynote_si_2_name=keytitle
+          
+          
+testimonial_sis_no=3
+  
+          testimonial_si_1_type=radio
+          testimonial_si_1_label=<b>Kind Request for a Testimonial</b>
+          testimonial_si_1_required=
+          testimonial_si_1_name=tstmnl
+          testimonial_si_1_titles=Yes, I can provide a short testimonial.|No, not at this time.    
+          
+          testimonial_si_2_type=text
+          testimonial_si_2_label=<b>Write your testimonial here and submit</b> (optionally you can upload your photo below, to be published along with your testimonial)
+          testimonial_si_2_required=
+          testimonial_si_2_name=testimonial
+          
+          testimonial_si_3_type=file
+          testimonial_si_3_label=<b>Upload Your Photo (Optional)</b>
+          testimonial_si_3_required=
+          testimonial_si_3_name=file
+          testimonial_si_3_destination=_photos
+          testimonial_si_3_file_name=tstm
+
+adr_reqst_sis_no=2
+  
+          adr_reqst_si_1_type=radio
+          adr_reqst_si_1_label=<b>Address Confirmation</b>
+          adr_reqst_si_1_required=yes
+          adr_reqst_si_1_name=adr
+          adr_reqst_si_1_titles=The address given initially is alright to send my certificate.|I need to update the address. Let me provide it.
+          
+          adr_reqst_si_2_type=text
+          adr_reqst_si_2_label=<b>The final address</b>
+          adr_reqst_si_2_required=yes
+          adr_reqst_si_2_name=newaddr
+          
+send_correct_file_sis_no=1
+         send_correct_file_si_1_type=radio
+         send_correct_file_si_1_label=Send me the Right File
+         send_correct_file_si_1_required=yes
+         send_correct_file_si_1_name=feedback
+         send_correct_file_si_1_titles=Publisher version of the file is wrong. Please send me the correct one.|The file is alright. I made no changes.|I modified the file and uploaded using the tool.
+
+timetable_sis_no=2
+  
+          timetable_si_1_type=radio
+          timetable_si_1_label=<b>Timetable Feedback</b>
+          timetable_si_1_required=yes
+          timetable_si_1_name=ttfeed
+          timetable_si_1_titles=The timetable is alright for me. No need for a change|A vital change is required for my presentation at the timetable
+          
+          timetable_si_2_type=text
+          timetable_si_2_label=<b>Please write here your request and submit.
+          timetable_si_2_required=
+          timetable_si_2_name=ttfeedback
