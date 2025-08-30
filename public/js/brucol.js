@@ -1,186 +1,134 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const isCoursesPage = window.location.pathname.includes('courses') || window.location.pathname.includes('courses.php');
-    const isHomePage = window.location.pathname === '/' || window.location.pathname.includes('home');
-    
-    // Portfolio filter functionality
-    function initPortfolioFilters() {
-        const container = document.querySelector('.portfolio-filter');
-        if (!container) return;
-
-        const handleFilterEvent = (e) => {
-            const link = e.target.closest('a[data-filter]');
-            if (!link) return;
-            e.preventDefault();
-            e.stopPropagation();
-
-            // Remove active class from all tabs
-            container.querySelectorAll('li.nav').forEach(li => li.classList.remove('active'));
-            
-            // Add active class to clicked tab
-            const parentLi = link.closest('li.nav');
-            if (parentLi) parentLi.classList.add('active');
-
-            const filterValue = link.getAttribute('data-filter') || '*';
-            applyFilter(filterValue);
-        };
-
-        // Add event listeners for both desktop and mobile
-        container.addEventListener('click', handleFilterEvent, { passive: false });
-        container.addEventListener('pointerup', handleFilterEvent, { passive: false });
-    }
-
-    // Apply filter to portfolio items
-    function applyFilter(filterValue) {
-        // Try Isotope first if available
-        if (typeof $ !== 'undefined' && $.fn.isotope) {
-            $('.portfolio-wrapper').isotope({
-                filter: filterValue === '*' ? '*' : filterValue
-            });
-            return;
-        }
-
-        // Fallback manual filtering
-        const items = document.querySelectorAll('.portfolio-wrapper .grid-item');
-        const targetClass = filterValue === '*' ? null : filterValue.substring(1);
-        
-        items.forEach(item => {
-            const shouldShow = filterValue === '*' || item.classList.contains(targetClass);
-            item.style.display = shouldShow ? 'block' : 'none';
-            item.style.opacity = shouldShow ? '1' : '0';
-        });
-
-        // Trigger layout recalculation
-        setTimeout(() => {
-            window.dispatchEvent(new Event('resize'));
-        }, 50);
-    }
-
-    // Initialize Isotope if available
-    function initIsotope() {
-        if (typeof $ !== 'undefined' && $.fn.isotope) {
-            const $grid = $('.portfolio-wrapper');
-            if (!$grid.data('isotope')) {
-                $grid.isotope({
-                    itemSelector: '.grid-item',
-                    layoutMode: 'fitRows',
-                    percentPosition: true
-                });
-            }
-        }
-    }
-
-    // Handle courses page URL filtering
-    if (isCoursesPage) {
-        initIsotope();
-        initPortfolioFilters();
-        
-        // Check for URL filter parameter
+// Only run on courses page
+if (window.location.pathname.includes('courses') || window.location.pathname.includes('courses.php')) {
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const filterParam = urlParams.get('filter');
         
+        // If any filter is requested
         if (filterParam) {
+            // Map filter parameters to data-filter attributes
             const filterMap = {
                 'foundation': '.foundation',
-                'undergraduate': '.undergraduate', 
-                'graduate': '.graduate',
-                'all': '*'
+                'undergraduate': '.undergraduate',
+                'graduate': '.graduate'
             };
             
-            const dataFilter = filterMap[filterParam.toLowerCase()];
+            const dataFilter = filterMap[filterParam];
             
             if (dataFilter) {
-                // Set active tab
+                // Remove active class from all nav items
+                document.querySelectorAll('.portfolio-filter .nav').forEach(nav => {
+                    nav.classList.remove('active');
+                });
+                
+                // Add active class to selected tab
                 const selectedTab = document.querySelector(`.portfolio-filter a[data-filter="${dataFilter}"]`);
                 if (selectedTab) {
-                    document.querySelectorAll('.portfolio-filter .nav').forEach(nav => {
-                        nav.classList.remove('active');
-                    });
                     selectedTab.parentElement.classList.add('active');
+                    
+                    // Filter the grid items
+                    const items = document.querySelectorAll('.portfolio-wrapper .grid-item');
+                    items.forEach(item => {
+                        if (dataFilter === '*' || item.classList.contains(dataFilter.substring(1))) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                    
+                    // Scroll to the tabs section
+                    setTimeout(function() {
+                        const tabsSection = document.querySelector('.portfolio-filter');
+                        if (tabsSection) {
+                            tabsSection.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'start' 
+                            });
+                        }
+                    }, 100);
                 }
-                
-                // Apply filter
-                applyFilter(dataFilter);
-                
-                // Scroll to tabs section
-                setTimeout(() => {
-                    const tabsSection = document.querySelector('.portfolio-filter');
-                    if (tabsSection) {
-                        tabsSection.scrollIntoView({ 
-                            behavior: 'smooth', 
-                            block: 'start' 
-                        });
-                    }
-                }, 100);
             }
         }
-    }
+    });
+}
 
-    // Handle home page
-    if (isHomePage) {
-        initIsotope();
-        initPortfolioFilters();
+// Only run on home page
+if (window.location.pathname === '/' || window.location.pathname.includes('home') || document.querySelector('#programmesAccordion')) {
+    document.addEventListener('DOMContentLoaded', function() {
+        const programmesAccordion = document.getElementById('programmesContent');
+        const programmesIntro = document.getElementById('programmesIntro');
+        const chevronIcon = document.querySelector('#programmesHeading i.fa-chevron-down');
         
-        // Show all items by default
-        setTimeout(() => {
-            applyFilter('*');
-        }, 100);
-    }
-
-    // Additional utility functions that might be used by other scripts
-    
-    // Smooth scroll functionality (if needed by header menu)
-    function initSmoothScroll() {
-        const scrollLinks = document.querySelectorAll('a[href^="#"]');
-        scrollLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    e.preventDefault();
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+        if (programmesAccordion && chevronIcon) {
+            // Hide intro when accordion opens
+            programmesAccordion.addEventListener('show.bs.collapse', function () {
+                if (programmesIntro) programmesIntro.style.display = 'none';
+                chevronIcon.style.transform = 'rotate(180deg)';
             });
-        });
-    }
-
-    // Initialize smooth scroll
-    initSmoothScroll();
-
-    // Mobile menu toggle (if needed)
-    function initMobileMenu() {
-        const mobileToggle = document.querySelector('.navbar-toggler');
-        const mobileMenu = document.querySelector('.navbar-collapse');
+            
+            // Show intro when accordion closes
+            programmesAccordion.addEventListener('hide.bs.collapse', function () {
+                if (programmesIntro) programmesIntro.style.display = 'block';
+                chevronIcon.style.transform = 'rotate(0deg)';
+            });
+            
+            // Fix portfolio grid after accordion opens
+            programmesAccordion.addEventListener('shown.bs.collapse', function () {
+                setTimeout(function() {
+                    // Show all portfolio items first
+                    const allItems = document.querySelectorAll('.grid-item');
+                    allItems.forEach(function(item) {
+                        item.style.display = 'block';
+                        item.style.opacity = '1';
+                    });
+                    
+                    // Trigger layout recalculation
+                    window.dispatchEvent(new Event('resize'));
+                    
+                    // If using Isotope, refresh it
+                    if (typeof $ !== 'undefined' && $.fn.isotope) {
+                        $('.portfolio-wrapper').isotope('layout');
+                    }
+                }, 150);
+            });
+        }
         
-        if (mobileToggle && mobileMenu) {
-            // Close menu when clicking on menu items
-            const menuItems = mobileMenu.querySelectorAll('a');
-            menuItems.forEach(item => {
-                item.addEventListener('click', () => {
-                    if (mobileMenu.classList.contains('show')) {
-                        mobileToggle.click();
+        // Fix portfolio filter functionality on home page
+        const portfolioFilters = document.querySelectorAll('.portfolio-filter a');
+        if (portfolioFilters.length > 0) {
+            portfolioFilters.forEach(function(filter) {
+                filter.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all filters
+                    portfolioFilters.forEach(f => f.parentElement.classList.remove('active'));
+                    
+                    // Add active class to clicked filter
+                    this.parentElement.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Apply filter
+                    if (typeof $ !== 'undefined' && $.fn.isotope) {
+                        $('.portfolio-wrapper').isotope({
+                            filter: filterValue === '*' ? '*' : filterValue
+                        });
+                    } else {
+                        // Fallback manual filtering
+                        const items = document.querySelectorAll('.portfolio-wrapper .grid-item');
+                        items.forEach(item => {
+                            if (filterValue === '*' || item.classList.contains(filterValue.substring(1))) {
+                                item.style.display = 'block';
+                                item.style.opacity = '1';
+                            } else {
+                                item.style.display = 'none';
+                                item.style.opacity = '0';
+                            }
+                        });
                     }
                 });
             });
         }
-    }
-
-    // Initialize mobile menu
-    initMobileMenu();
-
-    // Window resize handler for responsive adjustments
-    let resizeTimer;
-    window.addEventListener('resize', function() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function() {
-            // Refresh isotope layout if available
-            if (typeof $ !== 'undefined' && $.fn.isotope) {
-                $('.portfolio-wrapper').isotope('layout');
-            }
-        }, 250);
     });
-});
+}
