@@ -450,11 +450,11 @@ include 'header.php';
             </div>
             <!-- end client item -->
             <!-- start client item -->
-            <div class="col">
+            <!-- <div class="col">
                 <div class="client-box">
                     <a href="#"><img src="images/brussels-college-wh.png" class="h-40px" alt="CareerHub" /></a> 
                 </div>
-            </div>
+            </div> -->
             <!-- end client item -->
         </div>
     </div>

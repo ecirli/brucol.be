@@ -93,7 +93,7 @@
                  ?>
 
                             <div class="uk-margin">
-                                <div class="uk-form-label"><strong>We welcome further discussion. Please reach out to us at office@bibt.be or +32 476 30 63 73 (WA).</strong></div>
+                                <div class="uk-form-label"><strong>We welcome further discussion. Please reach out to us at office@brucol.be or +32 476 30 63 73 (WA).</strong></div>
                                 <div class="uk-form-controls">
                                     <div uk-form-custom>
                                         <input type="file" name="file" >

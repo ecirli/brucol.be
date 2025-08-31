@@ -51,8 +51,8 @@
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a href="courses?filter=foundation">Foundation Programmes<i class="bi bi-book"></i></a></li>
-                                        <li><a href="courses?filter=undergraduate">Integrated Bachelor's Degree Programmes<i class="bi bi-translate"></i></a></li>
-                                        <li><a href="courses?filter=graduate">Integrated Master's Degree Programmes<i class="bi bi-journal-bookmark"></i></a></li>
+                                        <li><a href="courses?filter=undergraduate">Graduate Degree Programmes<i class="bi bi-translate"></i></a></li>
+                                        <li><a href="courses?filter=graduate">Postgraduate Degree Programmes<i class="bi bi-journal-bookmark"></i></a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown dropdown-with-icon">
@@ -103,6 +103,16 @@
                                         <a href="about"><i class="bi bi-info-circle"></i>
                                             <div class="submenu-icon-content">
                                                 <span>About Us</span>
+                                                <p></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                                                        <li>
+                                        <a href="about-programmes"><i class="bi bi-info-circle"></i>
+                                            <div class="submenu-icon-content">
+                                                <span>About Programmes</span>
                                                 <p></p>
                                             </div>
                                         </a>

@@ -1,10 +1,10 @@
 <?php 
 
 	define('ROOT', $_SERVER['DOCUMENT_ROOT'].'/press/payment/');
-	define('URL', 'https://bibt.be/reg/contact/payment/');
-	define('FORM_URL', 'https://bibt.be/reg/contact/form/');
+	define('URL', 'https://brucol.be/reg/contact/payment/');
+	define('FORM_URL', 'https://brucol.be/reg/contact/form/');
 	define('FORM_DIR', $_SERVER['DOCUMENT_ROOT'].'/press/form/');
-	define('MAIN_DIR', '/var/www/bibt.be/reg/contact/');
+	define('MAIN_DIR', '/var/www/brucol.be/reg/contact/');
 
 	define('DB_HOSTNAME', 'localhost');
 	define('DB_DATABASE', '');

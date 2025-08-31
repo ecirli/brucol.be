@@ -1,12 +1,12 @@
 #!/bin/bash
-# filepath: /var/www/bibt.be/reg/contact/scripts/watch_database.sh
+# filepath: /var/www/brucol.be/reg/contact/scripts/watch_database.sh
 
 # Optionally set an end date (format: YYYY-MM-DD) to auto-stop the script.
 # Leave blank to run indefinitely.
 END_DATE=""
 
-WATCH_DIR="/var/www/bibt.be/reg/contact/form/_database"
-TARGET="/var/www/bibt.be/reg/contact/forum/topics/Abstracts & Presentations"
+WATCH_DIR="/var/www/brucol.be/reg/contact/form/_database"
+TARGET="/var/www/brucol.be/reg/contact/forum/topics/Abstracts & Presentations"
 
 # Function to check if an entry already exists in the target file
 entry_exists() {

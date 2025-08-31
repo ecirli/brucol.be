@@ -1,16 +1,16 @@
 ## CONFERENCE ##
-conference_name=Benelux Institute of Business and Technology
-conf_name_short=Benelux Institute of Business and Technology
+conference_name=Brussels College
+conf_name_short=Brussels College
 conf_name_shortest=
 conf_name_cert=BIBT
-conf_name_cert_2=Benelux Institute of Business and Technology
-conference_name_desc_form=Dear Manager,<br>Benelux Institute of Business and Technology (BIBT) is a new private higher education institution in Brussels, Belgium, dedicated to developing attractive Bachelor degree pathways for international graduates.<br>We believe Belgium offers compelling advantages, including more affordable tuition and living costs (approx. one-third of the UK and one fourth of the US), alongside excellent student employment and post-graduation career prospects.<br>To ensure accessibility, we provide an English prep school and a Foundation program even for students without A-Level/IB, with an English prep option also available.<br>This form serves as an initial contact point to gauge your graduates interest in studying in Belgium and their program preferences. Your brief input (approx. 2-3 minutes) will help us tailor potential collaboration opportunities relevant to your school and students.<br>Thank you for considering this opportunity to connect. <br><br><b>Please complete the following sections to share your valuable insights.</b>
-conference_venue=Benelux Institute of Business and Technology
+conf_name_cert_2=Brussels College
+conference_name_desc_form=Dear Manager,<br>Brussels College (BIBT) is a new private higher education institution in Brussels, Belgium, dedicated to developing attractive Bachelor degree pathways for international graduates.<br>We believe Belgium offers compelling advantages, including more affordable tuition and living costs (approx. one-third of the UK and one fourth of the US), alongside excellent student employment and post-graduation career prospects.<br>To ensure accessibility, we provide an English prep school and a Foundation program even for students without A-Level/IB, with an English prep option also available.<br>This form serves as an initial contact point to gauge your graduates interest in studying in Belgium and their program preferences. Your brief input (approx. 2-3 minutes) will help us tailor potential collaboration opportunities relevant to your school and students.<br>Thank you for considering this opportunity to connect. <br><br><b>Please complete the following sections to share your valuable insights.</b>
+conference_venue=Brussels College
 conf_venue_addr=Excelsiorlaan 5, 1930, Zaventem, Brussels, Belgium
-ltr_conf_name=Benelux Institute of Business and Technology
-board_name=Benelux Institute of Business and Technology
+ltr_conf_name=Brussels College
+board_name=Brussels College
 cert_type=Certificate of Publication
-ltr_conf_venue_short=Benelux Institute of Business and Technology
+ltr_conf_venue_short=Brussels College
 ltr_conf_date=
 ltr_conf_map=
 
@@ -26,8 +26,8 @@ ltr_conf_email_smtp=email-smtp.eu-north-1.amazonaws.com
 ltr_conf_email_smtp_port=587
 ltr_conf_email_imap=
 ltr_conf_email_imap_passw=
-SetFromEmail=office@bibt.be
-ltr_conf_email=office@bibt.be
+SetFromEmail=office@brucol.be
+ltr_conf_email=office@brucol.be
 
 gmail_user=
 gmail_passw=
@@ -35,23 +35,23 @@ mail_on_off=
 
 
 #CONF WEB SETTINGS
-ltr_conf_web=https://bibt.be/
+ltr_conf_web=https://brucol.be/
 ltr_conf_tel= (WhatsApp) +32 476 30 63 73
 ltr_conf_skype=
 conf_exp_nr_part=
 conf_exp_nr_cntr=
 nr_papers=
-conf_logo=https://bibt.be/reg/contact/logo-bibt-sml.png
-conf_logo_2=https://bibt.be/reg/contact/logo-bibt.png
-conf_logo_big=https://bibt.be/reg/contact/logo-bibt.png
-conf_logo_big_2=https://bibt.be/reg/contact/logo-bibt.png
+conf_logo=https://brucol.be/reg/contact/logo-bibt-sml.png
+conf_logo_2=https://brucol.be/reg/contact/logo-bibt.png
+conf_logo_big=https://brucol.be/reg/contact/logo-bibt.png
+conf_logo_big_2=https://brucol.be/reg/contact/logo-bibt.png
 pdf_file_name=BIBT
 
 frame_img=assets/frame11.png
 
-reg_conf=https://bibt.be/reg/contact/form
+reg_conf=https://brucol.be/reg/contact/form
 extended_deadline=
-new_reg_email=office@bibt.be
+new_reg_email=office@brucol.be
 review_title=BIBT Notification
 full_paper_deadline=
 revised_deadline=
@@ -66,18 +66,18 @@ reviewer_deadline=06.08.2030 17:00
 unpaid_reviewer_deadline=08.08.2030 17:00
 
 
-forum_url=https://bibt.be/reg/contact/forum/
+forum_url=https://brucol.be/reg/contact/forum/
 forum_contact_link=
 
 
 ## PAYMENT PAGE
 payment_gate_title=BIBT Online Payment Page 
 payment_page_title=Your Invoice Summary
-payment_page_bnk=https://bibt.be/reg/payment/wiring
-payment_page_paypal=https://bibt.be/reg/payment/pay-via-paypal
-payment_page_logo=https://bibt.be/reg/contact/logo-bibt-sml.png
-form_logo=https://bibt.be/reg/contact/logo-bibt-sml.png
-pym_cnf_email_to_euser=office@bibt.be
+payment_page_bnk=https://brucol.be/reg/payment/wiring
+payment_page_paypal=https://brucol.be/reg/payment/pay-via-paypal
+payment_page_logo=https://brucol.be/reg/contact/logo-bibt-sml.png
+form_logo=https://brucol.be/reg/contact/logo-bibt-sml.png
+pym_cnf_email_to_euser=office@brucol.be
 
 
 bank1=file/bank1
@@ -145,16 +145,16 @@ in-person_timetable=
 
 
  ## FLA
- fla_logo=http://bibt.be/reg/contact/logo-bibt.png
+ fla_logo=http://brucol.be/reg/contact/logo-bibt.png
  
 ## FORM ##
 form_header=Institutional Contact Form: Study in Belgium
 
 payment_table=file/payment_table
     
-submit_note=If you experience problems, kindly email your details to <a href="mailto:office@bibt.be">office@bibt.be</a>
+submit_note=If you experience problems, kindly email your details to <a href="mailto:office@brucol.be">office@brucol.be</a>
 form_notes1 (#)=Notes:
-form_notes2 (#)=Please see the indexing information: <a href="http://bibt.be/index.php/ejser/about"target="_blank">here</a>
+form_notes2 (#)=Please see the indexing information: <a href="http://brucol.be/index.php/ejser/about"target="_blank">here</a>
    
     form_inputs=file/form_inputs
     form_calc=file/form_calc
