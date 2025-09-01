@@ -66,7 +66,7 @@
                     <!-- start footer column -->
                     <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin xs-mb-30px">
                         <span class="fw-500 fs-18 d-block text-white mb-10px">Need help?</span>
-                        <span class="lh-26 d-block">Call us directly:</span>
+                        <span class="lh-26 d-block">Call us</span>
                         <span class="text-white d-block mb-10px">
                             <a href="tel:+30471096641">+30 471 09 6641</a>
                             <span class="bg-base-color fw-700 text-dark-gray lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-11 ms-5px d-inline-block align-middle">Dial</span>
@@ -77,8 +77,8 @@
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-lg-3 col-md-12 col-sm-6 text-md-center text-lg-start">
-                        <span class="fs-18 fw-500 d-block text-white mb-20px">Subscribe to our newsletter</span>
-                        <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-15px">
+                        <!-- <span class="fs-18 fw-500 d-block text-white mb-20px">Subscribe to our newsletter</span> -->
+                        <!-- <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-15px">
                            <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
                                 <input class="input-small bg-dark-gray border-color-transparent-white-light w-100 fs-14 form-control required" type="email" name="email" placeholder="Enter your email...">
                                 <button type="submit" aria-label="submit" class="btn pe-20px text-white fs-13 fw-500 lg-ps-15px lg-pe-15px submit">
@@ -86,7 +86,7 @@
                                 </button>
                                 <div class="form-results border-radius-4px pt-5px pb-5px ps-15px pe-15px fs-14 lh-22 mt-10px w-100 text-center position-absolute d-none"></div>
                             </form>
-                        </div>
+                        </div> -->
                         <div class="d-flex align-items-center justify-content-center justify-content-md-center justify-content-sm-start justify-content-lg-start fs-14">
                         <div class="d-inline-block">
                             <i class="line-icon-Handshake me-10px align-middle icon-very-medium"></i>

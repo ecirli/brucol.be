@@ -110,10 +110,10 @@ if( ! empty( $_POST['email'] ) ) {
 
 			// Use the environment variables
 			$mail->isSMTP();
-			$mail->Host     = $env['SMTP_HOST']; // Your SMTP Host
+			$mail->Host     = $env['SMTP_HOST2']; // Your SMTP Host
 			$mail->SMTPAuth = true;
-			$mail->Username = $env['SMTP_USERNAME']; // Your Username
-			$mail->Password = $env['SMTP_PASSWORD']; // Your Password
+			$mail->Username = $env['SMTP_USERNAME2']; // Your Username
+			$mail->Password = $env['SMTP_PASSWORD2']; // Your Password
 			$mail->SMTPSecure = $env['SMTP_SECURE']; // Your Secure Connection
 			$mail->Port     = $env['SMTP_PORT']; // Your Port
 			$mail->setFrom('info@brucol.be', 'BC');

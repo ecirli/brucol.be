@@ -116,6 +116,11 @@ error_reporting(E_ALL);
                                 <div class="col-md-8 sm-mb-30px text-center text-md-start">
                                     <p class="mb-0 fs-15 lh-26 w-80 lg-w-100">We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</p>
                                 </div>
+
+                                <div style="display: none;">
+                                    <label for="website">Website (leave blank):</label>
+                                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                                </div>
                                   <div class="col-md-4 text-center text-md-end">
                                     <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
                                     <button class="btn btn-large btn-dark-gray btn-rounded btn-box-shadow btn-switch-text left-icon submit" type="submit">
