@@ -1,5 +1,7 @@
 <?php
-// filepath: /var/www/brucol.be/public/email-templates/contact-form.php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+error_log("POST data: " . print_r($_POST, true));
 
 function loadEnv($filePath) {
     if (!file_exists($filePath)) {
@@ -118,18 +120,13 @@ if (!checkRateLimit($_POST['email'])) {
 }
 
 // --- EMAIL PROCESSING (Your existing logic with fixes) ---
-
+$env = loadEnv(__DIR__ . '/.env');
 // Enable / Disable SMTP
 $enable_smtp = 'yes'; // yes OR no
 
-// Email Receiver Address
-$receiver_email = 'info@brucol.be';
-
-// Email Receiver Name for SMTP Email
-$receiver_name = 'BC';
-
-// Email Subject
-$subject = 'Contact form details';
+$receiver_email = isset($env['EMAIL_RECEIVER']) ? $env['EMAIL_RECEIVER'] : 'info@brucol.be';
+$receiver_name = isset($env['EMAIL_RECEIVER_NAME']) ? $env['EMAIL_RECEIVER_NAME'] : 'BC';
+$subject = isset($env['EMAIL_SUBJECT']) ? $env['EMAIL_SUBJECT'] : 'Contact form details';
 
 $from = $_POST['email'];
 $name = isset($_POST['name']) ? $_POST['name'] : '';
@@ -243,8 +240,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $mail = new PHPMailer\PHPMailer\PHPMailer();
 
-        // Load the .env file
-        $env = loadEnv(__DIR__ . '/.env');
 
         // Use the environment variables
         $mail->isSMTP();

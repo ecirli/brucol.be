@@ -2,6 +2,7 @@
 include 'header.php';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+error_log("POST data: " . print_r($_POST, true));
 
 ?>
         <!-- start page title -->
