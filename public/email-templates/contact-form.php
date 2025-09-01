@@ -1,5 +1,21 @@
 <?php
 
+function loadEnv($filePath) {
+				if (!file_exists($filePath)) {
+					throw new Exception("Environment file not found: " . $filePath);
+				}
+				$env = [];
+				$lines = file($filePath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+				foreach ($lines as $line) {
+					if (strpos(trim($line), '#') === 0) {
+						continue; // Skip comments
+					}
+					list($key, $value) = explode('=', $line, 2);
+					$env[trim($key)] = trim($value);
+				}
+				return $env;
+			}
+
 if( ! empty( $_POST['email'] ) ) {
 
 	// Enable / Disable SMTP
@@ -15,7 +31,7 @@ if( ! empty( $_POST['email'] ) ) {
 	$subject = 'Contact form details';
 
 	// Google reCaptcha secret Key
-	$grecaptcha_secret_key = 'YOUR_SECRET_KEY';
+	$grecaptcha_secret_key = '6LfqrrUpAAAAAAUOx5UekXSftlFauW5wUvNFrVFa';
 
 	$from 	= $_POST['email'];
 	$name 	= isset( $_POST['name'] ) ? $_POST['name'] : '';
@@ -150,14 +166,18 @@ if( ! empty( $_POST['email'] ) ) {
 			require 'phpmailer/SMTP.php';
 
 			$mail = new PHPMailer\PHPMailer\PHPMailer();
+			
+			// Load the .env file
+			$env = loadEnv(__DIR__ . '/.env');
 
+			// Use the environment variables
 			$mail->isSMTP();
-			$mail->Host     = 'email-smtp.eu-north-1.amazonaws.com'; // Your SMTP Host
+			$mail->Host     = $env['SMTP_HOST']; // Your SMTP Host
 			$mail->SMTPAuth = true;
-			$mail->Username = 'AKIAZQ3D63SZA5TGTVOM'; // Your Username
-			$mail->Password = 'BBl7qtcxbhVE3P+e1nBEq5qO8YvuiLd6WBw1Elfal3ki'; // Your Password
-			$mail->SMTPSecure = 'ssl'; // Your Secure Connection
-			$mail->Port     = 465; // Your Port
+			$mail->Username = $env['SMTP_USERNAME']; // Your Username
+			$mail->Password = $env['SMTP_PASSWORD']; // Your Password
+			$mail->SMTPSecure = $env['SMTP_SECURE']; // Your Secure Connection
+			$mail->Port     = $env['SMTP_PORT']; // Your Port
 			$mail->setFrom('info@brucol.be', 'BC');
 			$mail->addReplyTo($fields['Email'], $fields['Name']);
 			

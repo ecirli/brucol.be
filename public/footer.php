@@ -133,5 +133,7 @@
         <script type="text/javascript" src="js/vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/brucol.js"></script>
+        <!-- Include the reCAPTCHA JavaScript -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </body>
 </html>
