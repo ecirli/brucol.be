@@ -399,7 +399,7 @@ include 'header.php';
                                     "Through strategic partnerships with prestigious UK institutions, we're creating pathways to world-class education and building an international academic community in Brussels."
                                     </p>
                                     <div class="fs-18 lh-20 fw-600 text-dark-gray">Kawita van Winkel, PhD</div>
-                                    <span class="fs-16 lh-20">Partnership Manager<</span>
+                                    <span class="fs-16 lh-20">Partnership Manager</span>
                                 </div>
                             </div> 
                         </div>

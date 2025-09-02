@@ -14,7 +14,7 @@
                                         <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                             <span class="d-block mb-10px"><a href="fnd-bm" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Foundation in Business and Management</a><span class="fs-16">Register to start in January 2026</span></span>
                                             <div class="d-flex align-items-center mb-5px">
-                                                <a href="fnd-bm" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">A 120-credit Regulated Qualification, equivalent to an A-Level or Access to HE qualification. It is for learners who want to progress to a business or management degree but may lack traditional qualifications.</a>
+                                                <a href="fnd-bm" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">A Regulated Qualification, equivalent to an A-Level or Access to HE qualification. It is for learners who want to progress to a business or management degree but may lack traditional qualifications.</a>
                                             </div>
                                             <div class="d-flex align-items-center">
                                                 <!-- <div class="d-inline-block me-auto">
@@ -54,7 +54,7 @@
                                         <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
                                             <span class="d-block mb-10px"><a href="fnd-it" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Foundation in Information and Digital Technologies</a><span class="fs-16">Register to start in January 2026</span></span>
                                             <div class="d-flex align-items-center mb-5px">
-                                                <a href="fnd-it" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">This is a 120-credit regulated qualification equivalent to an A-Level. Designed for those without traditional entry qualifications, it provides the essential knowledge and skills for a Bachelor’s degree in computer science.</a>
+                                                <a href="fnd-it" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">This is a regulated qualification equivalent to an A-Level. Designed for those without traditional entry qualifications, it provides the essential knowledge and skills for a Bachelor’s degree in computer science.</a>
                                             </div>
                                             <div class="d-flex align-items-center">
                                                 <!-- <div class="d-inline-block me-auto">
@@ -92,7 +92,7 @@
                                     <div class="bg-white position-relative">
                                         <!-- <div class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"><i class="fas fa-hourglass-half"></i></div> -->
                                         <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                            <span class="d-block mb-10px"><a href="english-prep" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Intensive English</a><span class="fs-16">Integrated Module</span></span>
+                                            <span class="d-block mb-10px"><a href="english-prep" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Intensive English</a><span class="fs-16">Module Programme</span></span>
                                             <div class="d-flex align-items-center mb-5px">
                                                 <a href="english-prep" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">A specialised module designed to strengthen English language skills, seamlessly integrated into the Foundation programme to ensure students are prepared for academic success and confident participation in their fields of study.</a>
                                             </div>

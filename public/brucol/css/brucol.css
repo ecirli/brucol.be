@@ -249,6 +249,7 @@ footer .footer-logo img {
 footer ul li {
     margin-bottom: 2px;
 }
+
 /* media query responsive */
 @media (max-width: 1399px) {
     .accordion-style-06 .accordion-item {
