@@ -107,7 +107,7 @@ include 'header.php';
                                         <p>In addition, you will obtain a regulated award: <b>"Foundation Diploma in Business Management"</b><sup>*</sup></p>
                                         <p>Duration: 1 academic year.</p>
                                         <p>Delivered on campus.</p>
-                                        <p><small><sup>*</sup>This is a UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers.</small></p>
+                                        <p><small><sup>*</sup>This is a 120 UCAS (60 ECTS) credit UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers.</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ include 'header.php';
                                         <p>Upon successful completion, you will obtain a recognised and regulated award: <b>"Diploma in Business Management (Level 4)"</b><sup>*</sup></p>
                                         <p>Duration: 1 academic year.</p>
                                         <p>Delivered on campus.</p>
-                                        <p><small><sup>*</sup>This is a UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers.</small></p>
+                                        <p><small><sup>*</sup>This is a 120 UCAS credit (60 ECTS)UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers.</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -171,6 +171,7 @@ include 'header.php';
                                     <p>This stage is delivered through our integrated model, combining the Top-Up modules delivered by WINC with additional local courses and internships at Brussels College in Belgium, leading to the final award conferred by the University of Bolton (UK)<sup>*</sup>.</p>
                                     <p>Duration: 1 academic year.</p>
                                     <p><small><sup>*</sup>These modules by WINC are delivered via distance learning, with the degree awarded by the University of Bolton (UK). Progression is subject to meeting the entry and academic requirements set by WINC and the University of Bolton.</small></p>
+                                    <p><small><sup>*</sup>Contact us for more information. <br> Brussels College: top-up@brucol.be <br> WINC: tba <br> UoB: tba</small></p>
                                 </div>
                                 </div>
                             </div>
@@ -340,6 +341,7 @@ include 'header.php';
                             </div>
 
                         </div>
+                        <p class="mt-20px"><small><em>Each unit is worth 20 UCAS credits. Students complete all six units, earning a total of 120 UCAS credits (60 ECTS) at Year 1.</em></small></p>
                     </div>
 
                     <!-- Year 1 -->
@@ -551,7 +553,7 @@ include 'header.php';
 
     </div>
 
-    <p class="mt-20px"><small><em>Each unit is worth 20 credits. Students complete all six units, earning a total of 120 credits at Year 2.</em></small></p>
+    <p class="mt-20px"><small><em>Each unit is worth 20 credits. Students complete all six units, earning a total of 120 credits (60 ECTS) at Year 2.</em></small></p>
 </div>
 
 <!-- Year 3 (Top-Up) -->
@@ -815,12 +817,12 @@ include 'header.php';
             <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px">Entry Requirements</span>
 
             <!-- Block A: Brussels College on-campus entry (Integrated pathway — Foundation, Year 1, Year 2, Year 3) -->
-            <span class="fs-16 text-dark-gray fw-600 ls-minus-05px d-block mb-5px mt-15px">For Brussels College on-campus study (Integrated Pathway — Foundation, Year 1, Year 2 & Year 3)</span>
+            <!-- <span class="fs-16 text-dark-gray fw-600 ls-minus-05px d-block mb-5px mt-15px">For Brussels College on-campus study (Integrated Pathway — Foundation, Year 1, Year 2 & Year 3)</span> -->
 
             <ul class="p-0 m-0 list-style-02 text-dark-gray" style="column-count:1; -webkit-column-count:1; -moz-column-count:1;">
                 <li class="pb-5px d-flex">
                     <i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>
-                    <span class="item-text"><strong>Intensive English Module:</strong> Required for applicants below <strong>IELTS 5.5</strong> (or equivalent); study <em>alongside the Foundation Year</em> or, if no Foundation is needed, this is offered as a <em>standalone one-semester</em> course.</span>
+                    <span class="item-text"><strong>Intensive English Module:</strong> Required for applicants below IELTS 5.5 (or equivalent); study <em>alongside the Foundation Year</em> or, if no Foundation is needed, this is offered as a <em>standalone one-semester</em> course.</span>
                 </li>
                 <li class="pb-5px d-flex">
                     <i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>
@@ -976,7 +978,7 @@ include 'header.php';
                             <span class="me-5px"><i class="bi bi-globe fs-20"></i></span>
                             <span class="fw-600">Mode</span>
                         </span>
-                        <span class="ms-auto">Full-time</span>
+                        <span class="ms-auto">Integrated Programme</span>
                     </li>
                     <li class="pt-15px">
                         <span class="text-dark-gray">
