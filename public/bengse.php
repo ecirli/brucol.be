@@ -1,7 +1,59 @@
 <?php
 include 'header.php';
 ?>
-
+<section class="ipad-top-space-margin bg-dark-gray cover-background page-title-big-typography" style="background-image: url('https://via.placeholder.com/1920x540')">
+    <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('images/vertical-line-bg-small.svg')"></div>
+    <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100"
+         data-particle="true"
+         data-particle-options='{"particles":{"number":{"value":8,"density":{"enable":true,"value_area":2000}},"color":{"value":["#d5d52b"]},"shape":{"type":"circle"},"opacity":{"value":1},"size":{"value":8},"move":{"enable":true,"speed":1,"direction":"right"}},"interactivity":{"events":{"onhover":{"enable":false},"onclick":{"enable":false}}},"retina_detect":false}'>
+    </div>
+    <div class="container">
+        <div class="row align-items-center extra-small-screen">
+            <div class="col-xl-6 col-lg-7 col-md-8 col-sm-9 position-relative page-title-extra-small"
+                 data-anime='{ "el":"childs","translateY":[-15,0],"perspective":[1200,1200],"scale":[1.1,1],"rotateX":[50,0],"opacity":[0,1],"duration":800,"delay":200,"staggervalue":300,"easing":"easeOutQuad"}'>
+                <h1 class="mb-20px alt-font text-yellow">Integrated Undergraduate Programme</h1>
+                <h2 class="fw-500 m-0 ls-minus-2px text-white alt-font">BEng (Hons) Software Engineering</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="border-bottom border-color-extra-medium-gray pt-20px pb-20px">
+    <div class="container">
+        <div class="row text-center justify-content-center align-items-center"
+             data-anime='{ "el":"childs","opacity":[0,1],"translateX":[30,0],"duration":600,"delay":0,"staggervalue":200,"easing":"easeOutQuad"}'>
+            
+            <div class="col-lg-auto d-flex justify-content-center md-mb-10px icon-with-text-style-08 text-center text-sm-start">
+                <div class="feature-box feature-box-left-icon-middle d-inline-flex align-middle">
+                    <div class="feature-box-icon me-15px">
+                        </div>
+                    <div class="feature-box-content">
+                        <span><span class="fw-600 text-dark-gray">Mode:</span> Integrated Programme</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-auto lg-p-0 d-none d-lg-block">
+                <span class="w-1px h-20px bg-extra-medium-gray d-block"></span>
+            </div>
+            
+            <div class="col-sm-auto">
+                <span><span class="fw-600 text-dark-gray">Duration:</span> 3 years</span>
+            </div>
+            
+            <div class="col-auto lg-p-0 d-none d-sm-inline-block">
+                <span class="w-1px h-20px bg-extra-medium-gray d-block"></span>
+            </div>
+            
+            <div class="col-sm-auto">
+                <span><span class="fw-600 text-dark-gray">Awards:</span> HNDs & BEng (Hons) Software Engineering (Top-up)</span>
+            </div>
+            
+            <div class="col-auto lg-p-0 d-none d-md-inline-block">
+                <span class="w-1px h-20px bg-extra-medium-gray d-block"></span>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- ======================= BEng (Hons) Software Engineering — FULL PAGE ======================= -->
 <section class="position-relative">
     <div class="container">
@@ -34,7 +86,7 @@ include 'header.php';
     <div class="row align-items-center justify-content-center">
         <div class="col-12">
             <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px">Integrated Degree Programme via HNDs & BEng (Hons) Top-up</span>
-            <p>From cutting-edge mobile apps to mission-critical enterprise systems, every organisation depends on effective and skilled software engineers. The Integrated Degree Programme, offered through Brussels College in collaboration with WINC and awarded by the University of Bolton (UK), provides a seamless route from HND-level study to a full UK Bachelor’s degree. If you have completed the courses listed below at Brussels College, this pathway allows you to progress smoothly to honours-level study, gaining advanced knowledge and practical experience.</p>
+            <p>From cutting-edge mobile apps to mission-critical enterprise systems, every organisation depends on effective and skilled software engineers. The Integrated Degree Programme, offered through Brussels College in collaboration with Western International College (WINC) (Western International College) and awarded by the University of Greater Manchester (UK), provides a seamless route from HND-level study to a full UK Bachelor’s degree. If you have completed the courses listed below at Brussels College, this pathway allows you to progress smoothly to honours-level study, gaining advanced knowledge and practical experience.</p>
 
             <div class="accordion accordion-style-04" id="accordion-content" data-active-icon="fa-angle-down" data-inactive-icon="fa-angle-right">
 
@@ -97,7 +149,7 @@ include 'header.php';
                             <p>Upon successful completion, you will obtain a recognised and regulated award: <b>"Diploma in Digital Technologies (Level 5)"</b><sup>*</sup></p>
                             <p>Duration: 1 academic year.</p>
                             <p>Delivered on campus.</p>
-                            <p><small><sup>*</sup>This is a UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers.</small></p>
+                            <p><small><sup>*</sup>This is a UK qualification Diploma delivered on campus by Brussels College, recognised internationally by universities and employers. WINC (Western International College) </small></p>
                         </div>
                     </div>
                 </div>
@@ -116,10 +168,10 @@ include 'header.php';
                             <p>The final stage of the Integrated Degree Programme allows you to progress from the HND-level qualifications completed at Brussels College to a full UK Bachelor’s degree.</p>
                             <p>You will explore advanced areas of software engineering including object-oriented programming, data structures, and software quality assurance. The curriculum is designed in line with current industry needs and aims to enhance your employability in an international context.</p>
                             <p>Upon successful completion of this Top-Up stage, you will be awarded the internationally recognised <b>"BEng (Hons) Software Engineering"</b>.</p>
-                            <p>This stage is delivered through our integrated model, combining the Top-Up modules delivered by WINC with additional local courses and internships at Brussels College in Belgium, leading to the final award conferred by the University of Bolton (UK)<sup>*</sup>.</p>
+                            <p>This stage is delivered through our integrated model, combining the Top-Up modules delivered by WINC with additional local courses and internships at Brussels College in Belgium, leading to the final award conferred by the University of Greater Manchester (UK)<sup>*</sup>.</p>
                             <p>Duration: 1 academic year.</p>
-                            <p><small><sup>*</sup>These modules by WINC are delivered via distance learning, with the degree awarded by the University of Bolton (UK). Progression is subject to meeting the entry and academic requirements set by WINC and the University of Bolton.</small></p>
-                            <p><small><sup>*</sup>Contact us for more information. <br> Brussels College: top-up@brucol.be <br> WINC: tba <br> UoB: tba</small></p>
+                            <p><small><sup>*</sup>These modules by WINC are delivered via distance learning, with the degree awarded by the University of Greater Manchester (UK). Progression is subject to meeting the entry and academic requirements set by WINC and the University of Greater Manchester.</small></p>
+                            <p><small><sup>*</sup>Contact us for more information. <br> Brussels College: top-up@brucol.be <br> WINC: tba <br> UoGM: tba</small></p>
                         </div>
                     </div>
                 </div>

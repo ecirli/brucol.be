@@ -9,6 +9,7 @@ if (isset($_GET['clear_bypass'])) {
 
 // Site offline configuration
 define('OFFLINE_MODE', true); // Set to false to bring site online
+// define('OFFLINE_MODE', false); // Set to true to bring site offline
 define('OFFLINE_PASSWORD', 'brussels2025_'); // Change this password
 define('BYPASS_COOKIE', 'site_bypass_' . md5(__DIR__)); // Unique bypass cookie name
 

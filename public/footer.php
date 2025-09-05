@@ -36,7 +36,7 @@
 <!-- start footer column -->
                     <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column last-paragraph-no-margin md-mb-40px xs-mb-30px">
                         <a href="https://brucol.be" class="footer-logo mb-15px d-inline-block">
-                            <img src="images/brucol-footer-logo@2x.png" data-at2x="images/brucol-footer-logo@2x.png" alt="">
+                            <img src="images/brucol-logo-white@2x.png" data-at2x="images/brucol-logo-white@2x.png" alt="">
                         </a>
                         <p class="lh-28">Blending British Academic Excellence with a European Advantage!</p>
                         <div class="elements-social social-text-style-01 mt-9 xs-mt-15px">
@@ -58,8 +58,8 @@
                         <span class="fw-500 fs-18 d-block text-white mb-10px">Programmes</span>
                         <ul>
                             <li><a href="courses?filter=foundation">Foundation</a></li>
-                            <li><a href="courses?filter=graduate">Integrated Bachelor's Degree Programmes</a></li>
-                            <li><a href="courses?filter=postgraduate">Integrated Master's Degree Programmes</a></li>
+                            <li><a href="courses?filter=graduate">Integrated Undergraduate Degree Programmes</a></li>
+                            <li><a href="courses?filter=postgraduate">Integrated Postgraduate Degree Programmes</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->

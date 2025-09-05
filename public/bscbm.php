@@ -66,7 +66,7 @@ include 'header.php';
                 <div class="col-12">
                     <br>
                     <p>The BSc (Hons) Business Management at Brussels College offers a distinctive integrated pathway to a UK degree. During your studies in Brussels, you’ll gain a solid foundation in management, strategy, finance, and leadership, while sharpening practical skills through projects, case studies, and internships with local companies.</p>
-                    <p>In the final stage, you progress seamlessly to the Top-Up year in collaboration with WINC, leading to a degree awarded by the University of Bolton (UK)<sup>*</sup>. This pathway ensures you graduate with an internationally recognised qualification, real-world experience, and the confidence to succeed in today’s competitive global business environment.</p>
+                    <p>In the final stage, you progress seamlessly to the Top-Up year in collaboration with Western International College (WINC), leading to a degree awarded by the University of Greater Manchester (UK)<sup>*</sup>. This pathway ensures you graduate with an internationally recognised qualification, real-world experience, and the confidence to succeed in today’s competitive global business environment.</p>
                     <p><small><sup>*</sup> For details on how the final top-up year is delivered, see the Overview section.</small></p>
                 </div>
 
@@ -86,7 +86,7 @@ include 'header.php';
                 <div class="row align-items-center justify-content-center">
                     <div class="col-12">
                         <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px">Integrated Degree Programme via HNDs & BSc (Hons) Top-up</span>
-                        <p>From local start-ups to global enterprises, and from government agencies to international charities, every organisation needs effective and skilled managers. The Integrated Degree Programme, offered through Brussels College in collaboration with WINC and awarded by the University of Bolton (UK), provides a seamless route from HND-level study to a full UK Bachelor’s degree. If you have completed the courses listed below at Brussels College, this pathway allows you to progress smoothly to honours-level study, gaining advanced knowledge and practical experience.</p>
+                        <p>From local start-ups to global enterprises, and from government agencies to international charities, every organisation needs effective and skilled managers. The Integrated Degree Programme, offered through Brussels College in collaboration with Western International College (WINC) and awarded by the University of Greater Manchester (UK), provides a seamless route from HND-level study to a full UK Bachelor’s degree. If you have completed the courses listed below at Brussels College, this pathway allows you to progress smoothly to honours-level study, gaining advanced knowledge and practical experience.</p>
 
                         <div class="accordion accordion-style-04" id="accordion-content" data-active-icon="fa-angle-down" data-inactive-icon="fa-angle-right">
 
@@ -168,10 +168,10 @@ include 'header.php';
                                     <p>The final stage of the Integrated Degree Programme allows you to progress from the HND-level qualifications completed at Brussels College to a full UK Bachelor’s degree.</p>
                                     <p>You will explore advanced areas of business management including strategy, leadership, research, and professional practice. The curriculum is designed in line with current industry needs and aims to enhance your employability in an international context.</p>
                                     <p>Upon successful completion of this Top-Up stage, you will be awarded the internationally recognised <b>"BSc (Hons) Business Management"</b>.</p>
-                                    <p>This stage is delivered through our integrated model, combining the Top-Up modules delivered by WINC with additional local courses and internships at Brussels College in Belgium, leading to the final award conferred by the University of Bolton (UK)<sup>*</sup>.</p>
+                                    <p>This stage is delivered through our integrated model, combining the Top-Up modules delivered by WINC with additional local courses and internships at Brussels College in Belgium, leading to the final award conferred by the University of Greater Manchester (UK)<sup>*</sup>.</p>
                                     <p>Duration: 1 academic year.</p>
-                                    <p><small><sup>*</sup>These modules by WINC are delivered via distance learning, with the degree awarded by the University of Bolton (UK). Progression is subject to meeting the entry and academic requirements set by WINC and the University of Bolton.</small></p>
-                                    <p><small><sup>*</sup>Contact us for more information. <br> Brussels College: top-up@brucol.be <br> WINC: tba <br> UoB: tba</small></p>
+                                    <p><small><sup>*</sup>These modules by WINC are delivered via distance learning, with the degree awarded by the University of Greater Manchester (UK). Progression is subject to meeting the entry and academic requirements set by WINC and the University of Greater Manchester.</small></p>
+                                    <p><small><sup>*</sup>Contact us for more information. <br> Brussels College: top-up@brucol.be <br> WINC: tba <br> UoGM: tba</small></p>
                                 </div>
                                 </div>
                             </div>
@@ -842,9 +842,9 @@ include 'header.php';
                 </li>
             </ul>
 
-            <p><strong>Note:</strong> Graduates of Brussels College Year 2 progress into the <strong>BSc (Hons) Business Management (Top-Up)</strong>, delivered by <strong>WINC</strong> with the degree awarded by the <strong>University of Bolton (UK)</strong>, provided that they meet the stated academic and English-language entry requirements and subject to final admissions approval.<sup>*</sup></p>
+            <p><strong>Note:</strong> Graduates of Brussels College Year 2 progress into the <strong>BSc (Hons) Business Management (Top-Up)</strong>, delivered by <strong>WINC</strong> with the degree awarded by the <strong>University of Greater Manchester (UK)</strong>, provided that they meet the stated academic and English-language entry requirements and subject to final admissions approval.<sup>*</sup></p>
 
-            <p><small><sup>*</sup>Brussels College is an approved pathway provider of WINC. Programmes leading to degree awards are delivered by WINC and the degree is awarded by the University of Bolton (UK).</small></p>
+            <p><small><sup>*</sup>Brussels College is an approved pathway provider of WINC. Programmes leading to degree awards are delivered by WINC and the degree is awarded by the University of Greater Manchester (UK).</small></p>
 
             <p><small><sup>**</sup>Brussels College is also an approved centre for the delivery of UK Higher National Diplomas (HNDs) through awarding bodies such as ATHE, NCUK and others, ensuring international recognition of its qualifications.</small></p>
         </div>

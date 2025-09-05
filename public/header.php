@@ -31,9 +31,9 @@
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 me-lg-0 me-auto">
                         <a class="navbar-brand" href="https://brucol.be">
-                            <img src="images/logo-white.png" data-at2x="images/brucol-logo-white@2x.png" alt="" class="default-logo">
-                            <img src="images/logo-black.png" data-at2x="images/brucol-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/logo-black.png" data-at2x="images/brucol-logo-black@2x.png" alt="" class="mobile-logo"> 
+                            <img src="images/brucol-logo-white@2x.png" data-at2x="images/brucol-logo-white@2x.png" alt="" class="default-logo">
+                            <img src="images/brucol-logo-black@2x.png" data-at2x="images/brucol-logo-black@2x.png" alt="" class="alt-logo">
+                            <img src="images/brucol-logo-black@2x.png" data-at2x="images/brucol-logo-black@2x.png" alt="" class="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto menu-order position-static">
@@ -51,7 +51,7 @@
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a href="courses?filter=foundation">Foundation Programmes<i class="bi bi-book"></i></a></li>
-                                        <li><a href="courses?filter=undergraduate">Graduate Degree Programmes<i class="bi bi-translate"></i></a></li>
+                                        <li><a href="courses?filter=undergraduate">Undergraduate Degree Programmes<i class="bi bi-translate"></i></a></li>
                                         <li><a href="courses?filter=graduate">Postgraduate Degree Programmes<i class="bi bi-journal-bookmark"></i></a></li>
                                     </ul>
                                 </li>

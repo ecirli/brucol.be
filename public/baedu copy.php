@@ -14,7 +14,7 @@ include 'header.php';
         <div class="row align-items-center extra-small-screen">
             <div class="col-xl-6 col-lg-7 col-md-8 col-sm-9 position-relative page-title-extra-small"
                  data-anime='{ "el":"childs","translateY":[-15,0],"perspective":[1200,1200],"scale":[1.1,1],"rotateX":[50,0],"opacity":[0,1],"duration":800,"delay":200,"staggervalue":300,"easing":"easeOutQuad"}'>
-                <h1 class="mb-20px alt-font text-yellow">BSc (Hons) Business Management</h1>
+                <h1 class="mb-20px alt-font text-yellow">BA (Hons) Education Studies</h1>
                 <h2 class="fw-500 m-0 ls-minus-2px text-white alt-font">Integrated Undergraduate Degree</h2>
             </div>
         </div>
@@ -30,7 +30,7 @@ include 'header.php';
                     <div class="feature-box-icon me-15px">
                         </div>
                     <div class="feature-box-content">
-                        <span><span class="fw-600 text-dark-gray">Mode:</span> Full-time</span>
+                        <span><span class="fw-600 text-dark-gray">Mode:</span> Full-time, Blended</span>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ include 'header.php';
             </div>
             
             <div class="col-sm-auto">
-                <span><span class="fw-600 text-dark-gray">Award:</span> BSc (Hons)</span>
+                <span><span class="fw-600 text-dark-gray">Award:</span> BA (Hons)</span>
             </div>
             
             <div class="col-auto lg-p-0 d-none d-md-inline-block">
@@ -58,7 +58,7 @@ include 'header.php';
             <div class="col-sm-auto md-mt-0">
                 <div class="review-star-icon d-inline-block">
                     </div>
-                <div class="fs-15 lh-26 d-inline-block">Integrated Programme</div>
+                <div class="fs-15 lh-26 d-inline-block">(Integrated Programme)</div>
             </div>
 
         </div>
@@ -72,8 +72,7 @@ include 'header.php';
             <div class="col-lg-8 md-mb-50px">
                 <div class="col-12">
                     <br>
-                    <p>Every organisation, from humble corner shops to multinational corporations and local governments to global charities, needs effective, knowledgeable and skilled managers. Our BSc (Hons) Business Management integrated course offers you the skills and knowledge needed for a career in this field. This dynamic and flexible programme is designed to consolidate and extend your understanding of business functions in the business and commercial world. We'll support you to enhance your skills and knowledge, ready to achieve the status of a BSc (Hons) Business Management graduate. [cite: 14, 56, 19]</p>
-                    <p>Building on foundational studies, our expert team will guide you as you gain knowledge of strategic management and develop critical inquiry and research skills that support your work and enhance its quality. You can study advanced aspects of business and management, enhance your professional skills, and boost your employability. Real-life case studies, guest speakers and industry visits are designed to help you to understand the business environment and the needs of employers in local, national and international contexts. [cite: 20, 23, 58]</p>
+                    <p>Education nurtures curiosity, stokes ambition and shapes careers. This BA (Hons) Education Studies integrated degree course will provide you with the skills and knowledge you need to work within a wide range of sectors and professions, with a focus on education as a discipline. You'll develop a deeper understanding of how people learn, explore education in relation to society, and build on your research skills. Upon graduation, you'll be ready to step up into a career championing education as a lifelong experience.</p>
                 </div>
 
                 <div class="col-12 p-0 tab-style-04 mt-45px">
@@ -91,15 +90,14 @@ include 'header.php';
                                 <div class="col-12 last-paragraph-no-margin">
                                     <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px">Key Features</span>
                                     <ul class="p-0 m-0 list-style-02 text-dark-gray">
-                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>You'll have the opportunity to benefit from the excellent support offered by our teaching staff through small group and tutorial teaching. [cite: 32]</li>
-                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>You can benefit from the knowledge and advice of guest speakers who hold senior positions in industry. [cite: 33]</li>
-                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>You'll develop key employability skills such as critical thinking, problem-solving, and data analysis. [cite: 58]</li>
-                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>Course materials are available online, allowing you to prepare work at home and make the most of the highly interactive in-class tuition. [cite: 34]</li>
+                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>Explore cultural, emotional and social learning perspectives of education.</li>
+                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>Be taught by expert researchers and practitioners.</li>
+                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>You'll study full-time, part-time, or by distance learning, enabling you to work alongside your course.</li>
+                                        <li class="pb-5px d-flex"><i class="feather icon-feather-arrow-right-circle fs-20 me-10px"></i>Graduate with a full Bachelor's degree that’s valued across the education sector.</li>
                                     </ul>
                                     
                                     <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px mt-30px">Career Opportunities</span>
-                                    <p>Our BSc (Hons) Business Management course provides opportunities to pursue a wide range of general management and specialist roles. You can tailor your skills and knowledge by choosing modules that cover areas such as business accounting and finance, human resource management, and marketing. [cite: 57, 58]</p>
-                                    <p>As a graduate of this course, you will be well-equipped to enter various business and management roles in the public, private, and voluntary sectors. Some typical opportunities include retail management, human resources, marketing, customer service management, and project management. [cite: 62, 63, 81]</p>
+                                    <p>This education studies degree will give you a solid grounding in the theory and ideas behind education and the way people teach and learn. It's ideal if you want a versatile Bachelor's degree that will open doors across the education sector and beyond. Typical careers our graduates have taken on include: educational practice, professional training, nurseries, youth work or (with further study) teaching.</p>
                                       </div>
                             </div>
                         </div>
@@ -108,11 +106,11 @@ include 'header.php';
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-12">
                                     <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px">Modules</span>
-                                    <p>The modules listed below may be a mixture of compulsory and optional. You may not have the opportunity to study all the modules shown as part of the course. [cite: 111, 112]</p>
+                                    <p>The modules listed below may be a mixture of compulsory and optional. You may not have the opportunity to study all the modules shown as part of the course.</p>
                                     <div class="accordion accordion-style-04" id="accordion-content" data-active-icon="fa-angle-down" data-inactive-icon="fa-angle-right">
 
                                         <?php
-                                        $modules = ['Introduction to Business', 'Principles of Marketing', 'Financial Accounting and the Regulatory Framework', 'Human Resource Management', 'Business Law', 'Strategic Management', 'Corporate Governance', 'E-Commerce and Contemporary Marketing Practice', 'Supply Chain Management', 'Business Project', 'Dissertation'];
+                                        $modules = ['Education and Society', 'Research Methods', 'Cultural, Emotional and Social Learning', 'Mentoring in an Educational Context', 'Dissertation'];
                                         foreach($modules as $i => $module): ?>
                                         <div class="accordion-item <?= $i===0?'active-accordion':'' ?>">
                                             <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
@@ -132,7 +130,7 @@ include 'header.php';
                                         <?php endforeach; ?>
                                     </div>
                                     <span class="fs-18 text-dark-gray fw-600 ls-minus-05px d-block mb-5px mt-30px">Teaching & Assessment</span>
-                                    <p>We use a mix of lectures, seminars, and tutorials to deliver the course content. Lectures introduce core concepts, seminars explore subjects in greater detail, and tutorials allow you to ask questions. We also use case studies and practical scenarios to help you apply academic theory to real-life business situations. Assessment is conducted through time-constrained exams, essays, reports, presentations, and portfolios. [cite: 103, 104, 105, 107, 108]</p>
+                                    <p>We use a blended learning approach to teaching, which means you’ll take part in both face-to-face and online activities. You'll also study independently, supported by our virtual learning environment, Moodle. Assessments are conducted through coursework, assignments, and presentations. On this course, you will not have to sit any exams.</p>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +145,7 @@ include 'header.php';
                                             <span class="d-block fs-18 mb-5px">
                                                 <span class="fw-600 text-dark-gray">Instructors</span>
                                             </span>
-                                            <p>Our team of highly knowledgeable and enthusiastic business management lecturers offers teaching sessions and academic support, ensuring you can access help and advice when you need it. Our lecturers have comprehensive industry experience, enabling them to offer practical insights to students grappling with real-world problems. [cite: 26]</p>
+                                            <p>Our lecturers are expert researchers and practitioners, enabling them to offer practical insights to students grappling with real-world problems. They take time to build strong personal relationships with all students, ensuring questions are answered quickly and easily.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +247,7 @@ include 'header.php';
                             <ul class="p-0 mb-20px list-style-02">
                                 <li class="border-bottom border-color-extra-medium-gray pb-15px">
                                     <span class="text-dark-gray"><span class="me-5px"><i class="bi bi-clipboard-check fs-20"></i></span><span class="fw-600">Award</span></span>
-                                    <span class="ms-auto">BSc (Hons)</span>
+                                    <span class="ms-auto">BA (Hons)</span>
                                 </li>
                                 <li class="border-bottom border-color-extra-medium-gray pt-15px pb-15px">
                                     <span class="text-dark-gray"><span class="me-5px"><i class="bi bi-people fs-20"></i></span><span class="fw-600">Location</span></span>
@@ -265,7 +263,7 @@ include 'header.php';
                                 </li>
                                 <li class="pt-15px">
                                     <span class="text-dark-gray"><span class="me-5px"><i class="bi bi-wallet fs-20"></i></span><span class="fw-600">Fee</span></span>
-                                     <span class="ms-auto">€11,000</span>
+                                    <span class="ms-auto">€11,000</span>
                                 </li>
                                 <li class="pt-15px">
                                     <span class="text-dark-gray"><span class="me-5px"><i class="bi bi-calendar-check fs-20"></i></span><span class="fw-600">Intakes</span></span>

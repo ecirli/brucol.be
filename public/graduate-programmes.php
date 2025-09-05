@@ -137,9 +137,9 @@
                                     <div class="bg-white position-relative">
                                         <!-- <div class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"><i class="fas fa-hourglass-half"></i></div> -->
                                         <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                            <span class="d-block mb-10px"><a href="mscse" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">MSc Cloud and Network Security</a><span class="fs-16">Register to start in January 2026.</span></span>
+                                            <span class="d-block mb-10px"><a href="mscns" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">MSc Cloud and Network Security</a><span class="fs-16">Register to start in January 2026.</span></span>
                                             <div class="d-flex align-items-center mb-5px">
-                                                <a href="mscse" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">This integrated programme is  is for those with a background in networking, system administration, or cloud computing. We provide a deeper understanding of computer systems, virtualisation, and networking, equipping you with the skills to adapt as the industry evolves.</a>
+                                                <a href="mscns" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">This integrated programme is  is for those with a background in networking, system administration, or cloud computing. We provide a deeper understanding of computer systems, virtualisation, and networking, equipping you with the skills to adapt as the industry evolves.</a>
                                             </div>
                                             <div class="d-flex align-items-center">
                                                 <!-- <div class="d-inline-block me-auto">
@@ -156,7 +156,7 @@
                                         </div> 
                                         <div class="d-flex justify-content-center align-items-center ps-35px pe-35px xl-ps-25px xl-pe-25px pt-15px pb-20px">
                                             <div class="me-auto">
-                                               <a href="mscse" class="text-dark-gray fs-16 fw-500 d-inline-block">
+                                               <a href="mscns" class="text-dark-gray fs-16 fw-500 d-inline-block">
                                                 <i class="feather icon-feather-clipboard text-dark-gray d-inline-block me-5px"></i>
                                                 <span>Learn More</span>
                                                </a>

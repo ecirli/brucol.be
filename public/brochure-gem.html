@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brussels College Brochure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px 0;
+        }
+        
+        .a4-page {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto 20px auto;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            padding: 20mm;
+            display: flex;
+            flex-direction: column;
+            page-break-after: always;
+            overflow: hidden;
+        }
+        
+        .a4-page:last-of-type {
+            page-break-after: avoid;
+            margin-bottom: 0;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15mm;
+            padding-bottom: 5mm;
+            border-bottom: 2px solid #e5e5e5;
+        }
+        
+        .logo {
+            height: 40px;
+        }
+        
+        .page-info {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .hero-title {
+            text-align: center;
+            margin-bottom: 8mm;
+        }
+        
+        .hero-title h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1e3a8a;
+            margin: 0 0 5px 0;
+            line-height: 1.2;
+        }
+        
+        .hero-title p {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin: 0;
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+        .section-title {
+            color: #1e3a8a;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-title::before {
+            content: "";
+            width: 4px;
+            height: 1.5rem;
+            background: #3b82f6;
+        }
+        
+        .callout {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        }
+        
+        .content-card {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-item {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .list-item::before {
+            content: "▪";
+            color: #3b82f6;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-right: 0.5rem;
+            margin-top: 2px;
+        }
+        
+        .programme-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .programme-table th {
+            background: #1e3a8a;
+            color: #fff;
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .programme-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .programme-table tr:hover {
+            background-color: #f1f5f9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+        }
+        
+        .campus-image {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+        
+        .stat-label {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+        
+        .footer {
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .a4-page {
+                box-shadow: none;
+                margin: 0;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1: Cover & Overview -->
+<div class="a4-page">
+    <div class="header">
+        <img src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo" class="logo">
+        <div class="page-info">Page 1 of 4</div>
+    </div>
+    
+    <div class="hero-title">
+        <h1>Brussels College</h1>
+        <p>Committed to Academic Excellence</p>
+    </div>
+    
+    <div class="callout">
+        Study in Brussels, Get a UK Degree
+    </div>
+
+    <p style="font-size: 1.1rem; color: #374151; margin-bottom: 1.5rem; line-height: 1.6;">
+        Brussels College offers higher education programmes in collaboration with British partner institutions, enabling you to earn a prestigious UK degree while studying in the heart of Europe. All programmes are taught in English, attracting international students to experience Brussels' vibrant culture and academic excellence.
+    </p>
+
+    <div class="section-title">Our Campus</div>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <div>
+            <img src="https://brucol.be/images/bc-building1.webp" alt="Brussels College Campus" class="campus-image">
+        </div>
+        <div class="content-card" style="margin-bottom: 0;">
+            <h3 style="font-size: 1.1rem; font-weight: 600; color: #1f2937; margin-bottom: 1rem;">Modern Learning Environment</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.9rem;">
+                <li class="list-item">Cutting-edge computer labs and business simulation rooms</li>
+                <li class="list-item">10-minute walk from city center and close to Zaventem Airport</li>
+                <li class="list-item">Located within Brussels' business and innovation hub</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-item">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">International Students</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">15:1</div>
+            <div class="stat-label">Student-Teacher Ratio</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">95%</div>
+            <div class="stat-label">Graduate Employment</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Brussels College | Rue de la Science 14, 1040 Brussels | www.brucol.be
+    </div>
+</div>
+
+<!-- Page 2: Foundation & Software Engineering -->
+<div class="a4-page">
+    <div class="header">
+        <img src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo" class="logo">
+        <div class="page-info">Page 2 of 4</div>
+    </div>
+
+    <div class="section-title">Foundation & English Programmes</div>
+    <div class="content-card">
+        <p style="color: #374151; margin-bottom: 1rem; line-height: 1.6;">
+            We offer dedicated pathways to help you prepare for successful academic journey, whether you need to strengthen foundational knowledge or enhance English language skills.
+        </p>
+        
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>Foundation Year</strong><br>
+                <span style="font-size: 0.9rem; color: #64748b;">For students without direct entry qualifications</span>
+            </div>
+            <div class="feature-item">
+                <strong>Intensive English</strong><br>
+                <span style="font-size: 0.9rem; color: #64748b;">On-campus English enhancement programme</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">BEng (Hons) Software Engineering</div>
+    <div class="content-card">
+        <p style="color: #374151; margin-bottom: 1rem; line-height: 1.6;">
+            Crafted for those passionate about building innovative software solutions. Our intensely practical curriculum ensures hands-on experience with current industry tools and frameworks.
+        </p>
+        
+        <div style="background: #fff; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+            <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Key Features</h4>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li class="list-item">Intensely practical course with creative problem-solving scenarios</li>
+                <li class="list-item">Learn from staff with academic rigor and industrial experience</li>
+                <li class="list-item">Hands-on experience with current tools and frameworks</li>
+                <li class="list-item">Technical and managerial aspects of software delivery</li>
+            </ul>
+        </div>
+        
+        <table class="programme-table">
+            <thead>
+                <tr>
+                    <th>Award</th>
+                    <th>Duration</th>
+                    <th>Annual Fee</th>
+                    <th>Intakes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BEng (Hons) Software Engineering</td>
+                    <td>3 Years</td>
+                    <td>€11,000</td>
+                    <td>Jan | Sep</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="text-align: center; margin-top: 1rem;">
+            <a href="https://brucol.be/reg/enrol/form" class="cta-button">Apply Now</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        Brussels College | Rue de la Science 14, 1040 Brussels | www.brucol.be
+    </div>
+</div>
+
+<!-- Page 3: Business Management -->
+<div class="a4-page">
+    <div class="header">
+        <img src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo" class="logo">
+        <div class="page-info">Page 3 of 4</div>
+    </div>
+
+    <div class="section-title">BSc (Hons) Business Management</div>
+    <div class="content-card">
+        <p style="color: #374151; margin-bottom: 1rem; line-height: 1.6;">
+            Designed for aspiring leaders, this programme equips you with comprehensive understanding of business operations, from strategy and finance to human resources and marketing through small group teaching.
+        </p>
+        
+        <div style="background: #fff; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+            <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Key Features</h4>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li class="list-item">Small group and tutorial teaching for personalized support</li>
+                <li class="list-item">Industry insights from senior-level guest speakers</li>
+                <li class="list-item">Essential employability skills development</li>
+                <li class="list-item">Online materials to maximize in-class tuition time</li>
+            </ul>
+        </div>
+        
+        <table class="programme-table">
+            <thead>
+                <tr>
+                    <th>Award</th>
+                    <th>Duration</th>
+                    <th>Mode</th>
+                    <th>Annual Fee</th>
+                    <th>Intakes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BSc (Hons) Business Management</td>
+                    <td>3 Years</td>
+                    <td>Integrated</td>
+                    <td>€11,000</td>
+                    <td>Jan | Sep</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="text-align: center; margin-top: 1rem;">
+            <a href="https://brucol.be/reg/enrol/form" class="cta-button">Apply Now</a>
+        </div>
+    </div>
+    
+    <div class="section-title">Entry Requirements</div>
+    <div class="content-card">
+        <p style="color: #374151; margin-bottom: 1rem; line-height: 1.6;">
+            Entry is open to applicants aged 16+ who have completed secondary education. We assess each application individually for the best fit.
+        </p>
+        
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>English Requirements</strong><br>
+                <span style="font-size: 0.9rem; color: #64748b;">IELTS 5.5 or equivalent; Intensive English available if needed</span>
+            </div>
+            <div class="feature-item">
+                <strong>Academic Requirements</strong><br>
+                <span style="font-size: 0.9rem; color: #64748b;">A-Levels, APs, IB, etc., assessed individually; Foundation Year available</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Brussels College | Rue de la Science 14, 1040 Brussels | www.brucol.be
+    </div>
+</div>
+
+<!-- Page 4: Student Life & Support -->
+<div class="a4-page">
+    <div class="header">
+        <img src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo" class="logo">
+        <div class="page-info">Page 4 of 4</div>
+    </div>
+
+    <div class="section-title">Student Life & Support</div>
+    
+    <div class="content-card">
+        <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Student Visa & Stay</h4>
+        <p style="color: #374151; margin-bottom: 0.75rem; font-size: 0.95rem; line-height: 1.5;">
+            International students require a <strong>Type D visa</strong> (3-month processing). Our student desk provides comprehensive support throughout the process, and you can extend your visa locally in Belgium without returning home.
+        </p>
+        <p style="font-size: 0.85rem; color: #64748b;">
+            Reference: <a href="https://dofi.ibz.be" style="color: #3b82f6;">dofi.ibz.be</a>
+        </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+        <div class="content-card" style="margin-bottom: 0;">
+            <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Accommodation</h4>
+            <p style="color: #374151; margin-bottom: 0.75rem; font-size: 0.9rem; line-height: 1.5;">
+                Our Orientation Desk helps secure accommodation before arrival. Student houses available with separate options for male/female students.
+            </p>
+            <div style="background: #f0f9ff; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #3b82f6;">
+                <strong style="color: #1e40af;">€804/month</strong><br>
+                <span style="font-size: 0.85rem; color: #64748b;">Estimated accommodation & food cost</span>
+            </div>
+        </div>
+        
+        <div class="content-card" style="margin-bottom: 0;">
+            <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Health & Work</h4>
+            <div style="margin-bottom: 0.75rem;">
+                <div style="background: #f0f9ff; padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+                    <strong style="color: #1e40af;">€25/month</strong> - Health insurance
+                </div>
+                <div style="background: #f0fdf4; padding: 0.5rem; border-radius: 6px;">
+                    <strong style="color: #166534;">€13-€18/hour</strong> - Student jobs (6,000h/year max)
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content-card">
+        <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 0.75rem;">Career Support</h4>
+        <p style="color: #374151; font-size: 0.95rem; line-height: 1.5;">
+            Our career office provides <strong>one-on-one support</strong> to help each student find employment in Belgium. From CV writing and interview preparation to connecting with local employers, we're committed to launching your successful career.
+        </p>
+    </div>
+
+    <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; margin-top: 1.5rem;">
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Ready to Start Your Journey?</h3>
+        <p style="margin: 0 0 1rem 0; opacity: 0.9;">Join Brussels College and unlock your potential in the heart of Europe</p>
+        <a href="https://brucol.be/reg/enrol/form" class="cta-button" style="background: white; color: #1e3a8a;">Apply Now</a>
+    </div>
+
+    <div class="footer">
+        Brussels College | Rue de la Science 14, 1040 Brussels | +32 2 290 11 04 | info@brucol.be
+    </div>
+</div>
+
+</body>
+</html>
