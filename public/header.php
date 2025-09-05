@@ -92,6 +92,14 @@
                                             </div>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="#"><i class="bi bi-file-earmark-text"></i>
+                                            <div>
+                                                <span>Prospectus</span>
+                                                <p><a href="bc-in-brief">EN</a> | <a href="bc-in-brief-tr">TR</a></p>
+                                            </div>
+                                        </a>
+                                    </li>
                                 </ul>
                                 </li>
                                 

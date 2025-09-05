@@ -200,8 +200,8 @@
         }
         
         .callout {
-            background: linear-gradient(135deg, #d5d52b 40%, #c9c926 60%);
-            color: #313e3b;
+            background: linear-gradient(135deg, #f0f033 40%, #e6e629 60%);
+            color: #2a2a2a;
             padding: 12px 16px;
             border-radius: 12px;
             text-align: center;
@@ -209,13 +209,13 @@
             font-weight: 700;
             letter-spacing: 0.3px;
             margin: 8px 0;
-            box-shadow: 0 4px 15px rgba(213, 213, 43, 0.3);
+            box-shadow: 0 4px 15px rgba(240, 240, 51, 0.3);
         }
         
         .highlight-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #d5d52b 0%, #c9c926 100%);
-            color: #313e3b;
+            background: linear-gradient(135deg, #f0f033 0%, #e6e629 100%);
+            color: #2a2a2a;
             padding: 6px 12px;
             border-radius: 8px;
             font-size: 13px;
@@ -427,87 +427,291 @@
             max-width: 100%;
             margin: 0;
         }
+    /* ---------- MOBILE RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    /* Page adjustments for mobile */
+    .page {
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px 15px;
+        box-shadow: none;
+        page-break-after: auto;
+    }
+    
+    /* Typography scaling */
+    h1 { font-size: 24px; line-height: 1.2; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 15px; }
+    p { font-size: 13px; line-height: 1.4; }
+    
+    /* Header adjustments */
+    .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+    
+    .logo {
+        height: 35px;
+    }
+    
+    .page-title {
+        font-size: 14px;
+    }
+    
+    /* Hero section - stack vertically */
+    .hero-section {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .hero-image {
+        height: 200px;
+        order: -1; /* Move image to top */
+    }
+    
+    /* Grid systems - stack on mobile */
+    .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    /* Cards adjustments */
+    .card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .programme-card {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    /* Programme options cards */
+    .programme-options .card {
+        padding: 12px;
+    }
+    
+    .programme-options .grid-2 {
+        gap: 15px;
+    }
+    
+    /* Feature lists */
+    .feature-list li {
+        font-size: 12px;
+        padding-left: 15px;
+        margin: 3px 0;
+    }
+    
+    /* Stats adjustments */
+    .stats-summary {
+        padding: 8px;
+    }
+    
+    .stat-row {
+        font-size: 10px;
+        padding: 4px 0;
+    }
+    
+    .stat-label, .stat-value {
+        font-size: 10px;
+    }
+    
+    /* Compact entry */
+    .compact-entry {
+        padding: 12px;
+    }
+    
+    .compact-entry .grid-2 {
+        gap: 8px;
+    }
+    
+    .compact-entry p {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    /* Callout and highlights */
+    .callout {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    .highlight-badge {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .cost-highlight {
+        padding: 6px 8px;
+    }
+    
+    .cost-highlight .amount {
+        font-size: 13px;
+    }
+    
+    .cost-highlight .label {
+        font-size: 10px;
+    }
+    
+    /* Info notes */
+    .info-note {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .apply-info {
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    /* Background elements - reduce on mobile */
+    .geometric-bg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .geometric-bg.hex-3 {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .page::after {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Footer adjustments */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        font-size: 11px;
+    }
+    
+    /* Eyebrow adjustments */
+    .eyebrow {
+        font-size: 10px;
+        padding: 2px 6px;
+    }
+    
+    /* Why choose section */
+    .why-choose, .location-info, .programme-options {
+        padding: 12px;
+        margin: 10px 0;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .page {
+        padding: 15px 10px;
+    }
+    
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 14px; }
+    p { font-size: 12px; }
+    
+    .hero-image {
+        height: 180px;
+    }
+    
+    .callout {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+    
+    .card {
+        padding: 8px;
+    }
+    
+    .feature-list li {
+        font-size: 11px;
+    }
+}
     </style>
 </head>
 <body>
-
-<!-- ============= PAGE 1: WELCOME & OVERVIEW ============= -->
+<!-- ============= SAYFA 1: HOŞ GELDİNİZ & GENEL BAKIŞ ============= -->
 <section class="page">
-    <!-- Geometric background elements -->
+    <!-- Geometrik arka plan öğeleri -->
     <div class="geometric-bg hex-1"></div>
     <div class="geometric-bg hex-2"></div>
     <div class="geometric-bg hex-3"></div>
 
     <div class="header">
-        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo">
-        <div class="page-title">Welcome to Brussels College</div>
+        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logosu">
+        <div class="page-title">Brussels College'a Hoş Geldiniz</div>
     </div>
 
     <div class="page-content">
         <div class="hero-section">
             <div>
-                <div class="highlight-badge"> Your Gateway to European Success</div>
+                <div class="highlight-badge"> Avrupa'da Başarıya Açılan Kapınız</div>
                 <h1>Brussels College</h1>
-                <p class="text-muted" style="font-size: 16px; font-style: italic; margin-bottom: 12px;">Committed to Academic Excellence</p>
+                <p class="text-muted" style="font-size: 16px; font-style: italic; margin-bottom: 12px;">Geleceğinizi Birlikte Kuralım!</p>
                 
-                <p>Brussels College offers higher education programmes in collaboration with British partner institutions, enabling you to earn a prestigious UK degree while studying in the heart of Europe. All programmes are taught in English, attracting international students to experience Brussels' vibrant culture and academic excellence.</p>
+                <p>Brussels College, İngiliz ortak kurumlarıyla işbirliği içinde yüksek öğrenim programları sunarak, Avrupa'nın kalbinde eğitim alırken prestijli bir UK diploması kazanmanızı sağlar. Tüm programlar İngilizce olarak verilmekte olup, uluslararası öğrencileri Brüksel'in canlı kültürünü ve akademik mükemmelliğini deneyimlemeye davet etmektedir.</p>
                 
                 <div class="callout">
-                 Study and Live in Brussels, Get a UK Degree!  
+                Brüksel'de Eğitim ve Yaşam, İngiltere'den Diploma Ayrıcalığı!
                 </div>
             </div>
-            <img class="hero-image" src="https://brucol.be/images/bc-building1.webp" alt="Brussels College Campus">
+            <img class="hero-image" src="https://brucol.be/images/bc-building1.webp" alt="Brussels College Kampüsü">
         </div>
 
         <div class="grid-3">
             <div class="card">
-                <span class="eyebrow">Location Advantage</span>
-                <h3>Brussels Hub</h3>
-                <p>Located in the EU capital, our campus offers unparalleled access to business networks, internship opportunities, and cultural experiences in Europe's most international city.</p>
+                <span class="eyebrow">Konum Avantajı</span>
+                <h3>Avrupa'nın Kalbi</h3>
+                <p>AB'nin başkentinde, Brüksel'in en stratejik yerlerinden birinde yer alan kampüsümüz, iş ağlarına, staj olanaklarına ve kültürel deneyimlere eşsiz erişim sunar.</p>
             </div>
             <div class="card">
-                <span class="eyebrow">Modern Facilities</span>
-                <h3>Learning Environment</h3>
-                <p>State-of-the-art computer labs, business simulation rooms, and collaborative spaces designed to support innovative, practical learning experiences.</p>
+                <span class="eyebrow">Modern Tesisler</span>
+                <h3>Öğrenme Ortamı</h3>
+                <p>Yenilikçi, pratik öğrenme deneyimlerini desteklemek üzere tasarlanmış son teknoloji bilgisayar laboratuvarları, iş simülasyon odaları ve ortak çalışma alanları.</p>
             </div>
             <div class="card">
-                <span class="eyebrow">UK Partnership</span>
-                <h3>Quality Assurance</h3>
-                <p>Programmes delivered in partnership with established UK universities, ensuring internationally recognized qualifications and academic standards.</p>
+                <span class="eyebrow">UK Ortaklığı</span>
+                <h3>Kalite Güvencesi</h3>
+                <p>Programlar, köklü UK eğitim kurumlarıyla ortaklaşa sunularak uluslararası tanınırlığa sahip diploma, beceri ve yeterlilik kazanma imkanları sunar.</p>
             </div>
         </div>
 
         <div class="why-choose" style="margin: 12px 0;">
-            <span class="eyebrow">Why Choose Brussels College</span>
-            <h3 style="margin-bottom: 8px;">Your Success, Our Priority</h3>
+            <span class="eyebrow">Neden Brussels College</span>
+            <h3 style="margin-bottom: 8px;">Başarınız Önceliğimizdir</h3>
             <div class="grid-2">
                 <div>
                     <ul class="feature-list">
-                        <li>Small class sizes ensuring personalized attention</li>
-                        <li>Experienced faculty with industry expertise</li>
-                        <li>Comprehensive student support services</li>
-                        <li>Career guidance and placement assistance</li>
+                        <li>Bireysel ilgi odaklı küçük sınıflar</li>
+                        <li>Sektör deneyimine sahip tecrübeli öğretim üyeleri</li>
+                        <li>Kapsamlı öğrenci destek hizmetleri</li>
+                        <li>Kariyer rehberliği ve işe yerleştirme yardımı</li>
                     </ul>
                 </div>
                 <div>
                     <ul class="feature-list">
-                        <li>Multicultural learning environment</li>
-                        <li>Modern facilities and technology</li>
-                        <li>Flexible study options and pathways</li>
-                        <li>Strong alumni network across Europe</li>
+                        <li>Çok kültürlü öğrenme ortamı</li>
+                        <li>Modern tesisler ve teknolojik imkanlar</li>
+                        <li>Esnek eğitim seçenekleri</li>
+                        <li>Avrupa genelinde güçlü mezun ağı</li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="location-info">
-            <h3 style="margin-bottom: 8px;">Prime Location Benefits</h3>
+            <h3 style="margin-bottom: 8px;">Merkezi Konumun Avantajları</h3>
             <div class="grid-2">
                 <div>
-                    <p><strong>EU Capital:</strong> Direct access to European institutions, multinational corporations, and international organizations for networking and internship opportunities.</p>
+                    <p><strong>AB Başkenti:</strong> Avrupa kurumlarına, çok uluslu şirketlere ve uluslararası kuruluşlara ağ kurma ve staj olanaklarına doğrudan erişim.</p>
                 </div>
                 <div>
-                    <p><strong>Transport Hub:</strong> Excellent connectivity with high-speed trains to Paris, London, Amsterdam. Brussels Airport just 15 minutes away.</p>
+                    <p><strong>Ulaşım Merkezi:</strong> Paris, Londra, Amsterdam'a yüksek hızlı trenlerle mükemmel bağlantı. Brüksel Havaalanı sadece 10 dakika uzaklıkta.</p>
                 </div>
             </div>
         </div>
@@ -515,131 +719,128 @@
 
 </section>
 
-<!-- ============= PAGE 2: VISA & STUDENT LIFE ============= -->
+<!-- ============= SAYFA 2: VİZE & ÖĞRENCİ YAŞAMI ============= -->
 <section class="page">
     <div class="geometric-bg hex-1"></div>
     <div class="geometric-bg hex-2"></div>
 
     <div class="header">
-        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo">
-        <div class="page-title">Visa & Student Life</div>
+        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logosu">
+        <div class="page-title">Vize ve Öğrenci Yaşamı</div>
     </div>
 
     <div class="page-content">
-        <h1>Living & Studying in Brussels</h1>
+        <h1>Brüksel'de Yaşam ve Eğitim</h1>
         
   <div class="grid-2" style="margin-bottom: 10px;">
             <div class="card">
-                <span class="eyebrow">Long Stay Visa</span>
-                <h3>Type D Visa Application</h3>
-                <p>International students require a Type D (long-stay) visa. Required documents include valid passport, health insurance, enrollment certificate, academic transcripts, and proof of funds.</p>
-                <!-- <div class="info-note">
-                    <small><strong>Processing Time:</strong> Typically 3 months. Always verify current requirements at dofi.ibz.be</small>
-                </div> -->
+                <span class="eyebrow">Uzun Süreli Vize</span>
+                <h3>D Tipi Vize Başvurusu</h3>
+                <p>Uluslararası öğrencilerin D tipi (uzun süreli) vize alması gerekmektedir. Gerekli belgeler arasında geçerli pasaport, sağlık sigortası, kayıt belgesi, akademik transkriptler ve mali yeterlilik kanıtı bulunmaktadır.</p>
             </div>
             <div class="card">
-                <span class="eyebrow">Visa Renewal</span>
-                <h3>Local Extension</h3>
-                <p>Students can renew their visa locally in Belgium with their next admission letter from Brussels College.</p>
+                <span class="eyebrow">Vize Yenileme</span>
+                <h3>Yerel Uzatma</h3>
+                <p>Öğrenciler, Brussels College'dan alacakları bir sonraki kabul mektubu ile vizelerini Belçika'da yerel olarak yenileyebilirler.</p>
                 <div class="info-note">
-                    <small><strong></strong> No travel required back to home country for renewal process.</small>
+                    <small><strong></strong> Yenileme işlemi için ülkenize geri dönmeniz gerekmez.</small>
                 </div>
             </div>
         </div>
 
         <div class="info-note" style="margin: 10px 0; font-size: 13px; padding: 10px 16px;">
-            📋 <strong>Complete Visa Support:</strong> Our Student Desk provides comprehensive document checklists, application guidance, and renewal assistance | 📞 student.desk@brucol.be
+            📋 <strong>Tam Vize Desteği:</strong> Öğrenci Destek Ofisimiz, kapsamlı belge kontrol listeleri, başvuru rehberliği ve yenileme yardımı sağlar | 📞 student.desk@brucol.be
         </div>
 
         <div class="grid-3" style="margin-bottom: 10px;">
                         <div class="card">
-                <span class="eyebrow">Cost Advantage</span>
-                <h3>Save Over 50% vs UK</h3>
-                <p>Live comfortably in Brussels for less than half the cost of major UK cities. Quality student accommodation, excellent food, and vibrant city life—all at an unbeatable price (€835/month complete budget).</p>
+                <span class="eyebrow">Maliyet Avantajı</span>
+                <h3>UK'ye Göre %50'den Fazla Tasarruf</h3>
+                <p>İngiltere'ye oranla yarıdan daha az maliyetle (€835/ay) Brüksel'de yaşayın. Kaliteli konaklama, renkli kültür ortamı ve canlı şehir hayatına, bir çok yere göre daha uygun fiyatlarla erişebilirsiniz.</p>
             </div>
                 <div class="card">
-                <span class="eyebrow">Healthcare Advantage</span>
-                <h3>Affordable Health Coverage</h3>
-                <p>Belgium offers one of Europe's best healthcare systems with comprehensive coverage for just €25/month - significantly less than most other European countries.</p>
-            </div>
+                <span class="eyebrow">Sağlık Avantajı</span>
+                <h3>Uygun Fiyatlı Sağlık Sigortası</h3>
+                <p>Belçika, ayda sadece 25 € karşılığında kapsamlı teminat sunan Avrupa'nın en iyi sağlık sistemlerinden birini sunar - bu rakam, diğer birçok Avrupa ülkesinden önemli ölçüde daha azdır.</p>
+              </div>
             <div class="card">
-                <span class="eyebrow">Student Benefits</span>
-                <h3>Discounts & Services</h3>
-                <p>Official student status provides access to discounted public transport, cultural activities, and various local services throughout Belgium.</p>
+                <span class="eyebrow">Öğrenci Avantajları</span>
+                <h3>İndirimler ve Hizmetler</h3>
+                <p>Resmi öğrenci statüsü, Belçika genelinde indirimli toplu taşıma, kültürel etkinlikler ve çeşitli yerel hizmetlere erişim sağlar.</p>
             </div>
         </div>
 
         <div class="grid-2">
             <div class="card">
-                <span class="eyebrow">Student Employment</span>
-                <h3>Work While You Study</h3>
+                <span class="eyebrow">Öğrenci Çalışma İzni</span>
+                <h3>Okurken Çalışın</h3>
                 <ul class="feature-list">
-                    <li>Work up to 20 hours per week during term time</li>
-                    <li>Maximum 650 hours per year under student regime</li>
-                    <li>Typical wages: €13-€18 per hour</li>
-                    <li>CV guidance and job search support provided</li>
+                    <li>Dönem içinde haftada 20 saate kadar çalışma</li>
+                    <li>Öğrenci rejimi altında yılda 650 saat</li>
+                    <li>Tipik ücretler: saatte 13-18 €</li>
+                    <li>CV rehberliği ve iş arama desteği sağlanır</li>
                 </ul>
             </div>
             <div class="card">
-                <span class="eyebrow">Career Services</span>
-                <h3>Professional Development</h3>
+                <span class="eyebrow">Kariyer Hizmetleri</span>
+                <h3>Profesyonel Gelişim</h3>
                 <ul class="feature-list">
-                    <li>One-on-one career coaching sessions</li>
-                    <li>Industry networking and employer connections</li>
-                    <li>Internship placement assistance</li>
-                    <li>Post-graduation career support in Belgium</li>
+                    <li>Bire-bir kariyer koçluğu imkanı</li>
+                    <li>Sektör ağları ve işveren bağlantıları</li>
+                    <li>Staj yerleştirme yardımı</li>
+                    <li>Belçika'da mezuniyet sonrası kariyer desteği</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div class="footer">
-        <span>Brussels College | Student Services & Support</span>
+        <span>Brussels College | Öğrenci Hizmetleri ve Desteği</span>
         <a href="https://brucol.be">www.brucol.be</a>
     </div>
 </section>
 
-<!-- ============= PAGE 3: UNDERGRADUATE PROGRAMMES ============= -->
+<!-- ============= SAYFA 3: LİSANS PROGRAMLARI ============= -->
 <section class="page">
     <div class="geometric-bg hex-1"></div>
     <div class="geometric-bg hex-3"></div>
 
     <div class="header">
-        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo">
-        <div class="page-title">Undergraduate Programmes</div>
+        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logosu">
+        <div class="page-title">Lisans Programları</div>
     </div>
 
     <div class="page-content">
-        <h1>Undergraduate Degree Programmes</h1>
+        <h1>Lisans Derece Programları</h1>
          <div class="programme-options">
-            <span class="eyebrow">Available Programmes</span>
+            <span class="eyebrow">Mevcut Programlar</span>
             <div class="grid-2">
                 <div class="card" style="padding: 10px;">
-                    <h3 style="margin: 0 0 6px 0;">BSc (Hons) Business Management</h3>
-                    <p style="font-size: 13px; margin-bottom: 8px;">Develop strategic, operational and leadership skills through real-world business scenarios and case studies.</p>
+                    <h3 style="margin: 0 0 6px 0;">BSc (Hons) İşletme</h3>
+                    <p style="font-size: 13px; margin-bottom: 8px;">Gerçek dünya iş senaryoları ve vaka çalışmaları yoluyla stratejik, operasyonel ve liderlik becerileri geliştirin.</p>
                     <ul class="feature-list" style="font-size: 11px;">
-                        <li>Small-group teaching with industry experts</li>
-                        <li>Guest speakers and Brussels-based projects</li>
-                        <li>Focus on employability and leadership skills</li>
-                        <li>Applied learning through real business cases</li>
+                        <li>Sektör uzmanlarıyla küçük gruplar halinde eğitim</li>
+                        <li>Konuk konuşmacılar, Brüksel ve çevre şehirlerde staj imkanı</li>
+                        <li>İstihdam edilebilirlik ve liderlik becerilerine odaklanma</li>
+                        <li>Gerçek iş vakalarıyla uygulamalı öğrenme</li>
                     </ul>
-                    <small style="font-weight: 600; color: #313e3b;">Careers: Manager, Consultant, Business Development, Operations</small>
+                    <small style="font-weight: 600; color: #313e3b;">Kariyer: Yönetici, Danışman, İş Geliştirme, Operasyonlar</small>
                     <div class="cost-highlight" style="margin: 8px 0;">
-                    <div class="label">Award: BSc (Hons) Business Management<sup>*</sup></div>
+                    <div class="label">Diploma: BSc (Hons) İşletme<sup>*</sup></div>
                     </div>
                 </div>
                 <div class="card" style="padding: 10px;">
-                    <h3 style="margin: 0 0 6px 0;">BEng (Hons) Software Engineering</h3>
-                    <p style="font-size: 13px; margin-bottom: 8px;">Master software development through hands-on projects using current industry tools and frameworks.</p>
+                    <h3 style="margin: 0 0 6px 0;">BEng (Hons) Yazılım Mühendisliği</h3>
+                    <p style="font-size: 13px; margin-bottom: 8px;">Güncel endüstri araçları ve çerçevelerini kullanarak uygulamalı projelerle yazılım geliştirmede ustalaşın.</p>
                     <ul class="feature-list" style="font-size: 11px;">
-                        <li>Practical problem-solving and creativty</li>
-                        <li>Current development tools and platforms</li>
-                        <li>Technical and managerial software delivery</li>
-                        <li>Academic rigour with industrial experience</li>
+                        <li>Pratik problem çözme ve yenilikçilik</li>
+                        <li>Güncel geliştirme araçları ve platformları</li>
+                        <li>Teknik ve yönetimsel yazılım teslimatı</li>
+                        <li>Endüstriyel deneyimle akademik titizlik</li>
                     </ul>
-                    <small style="font-weight: 600; color: #313e3b;">Careers: Developer, Systems Analyst, DevOps Engineer, QA Engineer</small>
+                    <small style="font-weight: 600; color: #313e3b;">Kariyer: Geliştirici, Sistem Analisti, DevOps Mühendisi, Kalite Güvence Mühendisi</small>
                     <div class="cost-highlight" style="margin: 8px 0;">
-                    <div class="label">Award: BEng (Hons) Software Engineering<sup>*</sup></div>
+                    <div class="label">Diploma: BEng (Hons) Yazılım Mühendisliği<sup>*</sup></div>
                     </div>
                 </div>
             </div>
@@ -652,95 +853,95 @@
                 <div class="stats-summary">
                     <div class="stats-grid">
                         <div class="stat-row">
-                            <span class="stat-label">Degree by</span>
+                            <span class="stat-label">UK Diploma</span>
                             <span class="stat-value">University of Greater Manchester (UK)<sup>*</sup></span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Duration</span>
-                            <span class="stat-value">3 Years</span>
+                            <span class="stat-label">Süre</span>
+                            <span class="stat-value">3 Yıl</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Mode</span>
-                            <span class="stat-value">Full-time | Integrated</span>
+                            <span class="stat-label">Mod</span>
+                            <span class="stat-value">Tam Zamanlı | Entegre</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Annual Fee</span>
+                            <span class="stat-label">Yıllık Ücret</span>
                             <span class="stat-value">€11,000</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Intakes</span>
-                            <span class="stat-value">January | September</span>
+                            <span class="stat-label">Başlangıç Dönemleri</span>
+                            <span class="stat-value">Ocak | Eylül</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="apply-info" style="text-align: center;">
-                    📝 Apply Now & Secure Your Place → www.brucol.be/apply
+                    📝 Şimdi Başvurun → <a href="https://brucol.be/apply">www.brucol.be/apply</a>
                 </div>
             </div>
         </div>
 
         <div class="compact-entry">
-            <span class="eyebrow">Entry Requirements</span>
-            <h3>How to Apply</h3>
+            <span class="eyebrow">Giriş Koşulları</span>
+            <h3>Nasıl Başvurulur</h3>
             <div class="grid-2" style="gap: 10px;">
                 <div>
-                    <p><strong>Academic Qualifications:</strong> A-Levels, International Baccalaureate, Advanced Placement, or equivalent qualifications. Foundation Year available for students needing additional preparation.</p>
+                    <p><strong>Akademik Nitelikler:</strong> A-Levels, Uluslararası Bakalorya, Advanced Placement veya eşdeğer nitelikler. Ek hazırlık ihtiyacı olan öğrenciler için Hazırlık Yılı mevcuttur.</p>
                 </div>
                 <div>
-                    <p><strong>English Proficiency:</strong> IELTS 5.5 or equivalent. Intensive English programme available on-campus for students requiring language support before starting their degree.</p>
+                    <p><strong>İngilizce Yeterliliği:</strong> IELTS 5.5 veya eşdeğeri. Derecelerine başlamadan önce dil desteğine ihtiyaç duyan öğrenciler için kampüste yoğun İngilizce programı mevcuttur.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="footer">
-        <span>Brussels College | Undergraduate Programmes</span>
+        <span>Brussels College | Lisans Programları</span>
         <a href="https://brucol.be">www.brucol.be</a>
     </div>
 </section>
 
-<!-- ============= PAGE 4: POSTGRADUATE PROGRAMMES ============= -->
+<!-- ============= SAYFA 4: YÜKSEK LİSANS PROGRAMLARI ============= -->
 <section class="page">
     <div class="geometric-bg hex-2"></div>
     <div class="geometric-bg hex-3"></div>
 
     <div class="header">
-        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logo">
-        <div class="page-title">Postgraduate Programmes</div>
+        <img class="logo" src="https://brucol.be/images/logo-brucol.png" alt="Brussels College Logosu">
+        <div class="page-title">Yüksek Lisans Programları</div>
     </div>
 
     <div class="page-content">
-        <h1>Postgraduate Degree Programmes</h1>
+        <h1>Yüksek Lisans Derece Programları</h1>
            <div class="programme-options">
-            <span class="eyebrow">Available Programmes</span>
+            <span class="eyebrow">Mevcut Programlar</span>
             <div class="grid-2">
                 <div class="card" style="padding: 10px;">
-                    <h3 style="margin: 0 0 6px 0;">MBA - Master of Business Administration</h3>
-                    <p style="font-size: 13px; margin-bottom: 8px;">Develop strategic, financial and leadership capability through applied, real-world learning.</p>
+                    <h3 style="margin: 0 0 6px 0;">MBA - İşletme Yüksek Lisansı</h3>
+                    <p style="font-size: 13px; margin-bottom: 8px;">Uygulamalı, gerçek dünya öğrenimi yoluyla stratejik, finansal ve liderlik yeteneği geliştirin.</p>
                     <ul class="feature-list" style="font-size: 11px;">
-                        <li>Strategic leadership and management focus</li>
-                        <li>Guest speakers and Brussels-based projects</li>
-                        <li>Small-group teaching with close support</li>
-                        <li>Enhanced employability and networking</li>
+                        <li>Stratejik liderlik ve yönetim odaklı</li>
+                        <li>Konuk konuşmacılar ve Brüksel merkezli projeler</li>
+                        <li>Yakın destekle küçük grup eğitimi</li>
+                        <li>Gelişmiş istihdam edilebilirlik ve ağ kurma</li>
                     </ul>
-                    <small style="font-weight: 600; color: #313e3b;">Careers: General Manager, Strategy Manager, Consultant, Business Development</small>
+                    <small style="font-weight: 600; color: #313e3b;">Kariyer: Genel Müdür, Strateji Müdürü, Danışman, İş Geliştirme</small>
                     <div class="cost-highlight" style="margin: 8px 0;">
-                    <div class="label">Award: MBA<sup>*</sup></div>
+                    <div class="label">Diploma: MBA<sup>*</sup></div>
                     </div>
                 </div>
                 <div class="card" style="padding: 10px;">
-                    <h3 style="margin: 0 0 6px 0;">MSc Cloud & Network Security</h3>
-                    <p style="font-size: 13px; margin-bottom: 8px;">Master cybersecurity with hands-on experience using industry-standard tools and dedicated laboratories.</p>
+                    <h3 style="margin: 0 0 6px 0;">MSc Bulut ve Ağ Güvenliği</h3>
+                    <p style="font-size: 13px; margin-bottom: 8px;">Endüstri standardı araçlar ve özel laboratuvarlar kullanarak siber güvenlikte uygulamalı deneyimle ustalaşın.</p>
                     <ul class="feature-list" style="font-size: 11px;">
-                        <li>Industry-experienced teaching staff</li>
-                        <li>Vendor partnerships (Cisco, Red Hat access)</li>
-                        <li>Dedicated labs with enterprise hardware</li>
-                        <li>Scale from small to major cloud infrastructure</li>
+                        <li>Sektör deneyimli öğretim kadrosu</li>
+                        <li>Satıcı ortaklıkları (Cisco, Red Hat erişimi)</li>
+                        <li>Kurumsal donanıma sahip özel laboratuvarlar</li>
+                        <li>Küçükten büyük bulut altyapısına ölçeklendirme</li>
                     </ul>
-                    <small style="font-weight: 600; color: #313e3b;">Careers: Security Engineer, SOC Analyst, Network Architect, IT Security Manager</small>
+                    <small style="font-weight: 600; color: #313e3b;">Kariyer: Güvenlik Mühendisi, SOC Analisti, Ağ Mimarı, BT Güvenlik Müdürü</small>
                     <div class="cost-highlight" style="margin: 8px 0;">
-                    <div class="label">Award: MSc Cloud & Network Security<sup>*</sup></div>
+                    <div class="label">Diploma: MSc Bulut ve Ağ Güvenliği<sup>*</sup></div>
                     </div>
                 </div>
             </div>
@@ -752,53 +953,53 @@
                 <div class="stats-summary">
                     <div class="stats-grid">
                         <div class="stat-row">
-                            <span class="stat-label">Degree by</span>
+                            <span class="stat-label">UK Diploma</span>
                             <span class="stat-value">University of Greater Manchester (UK)<sup>*</sup></span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Duration</span>
-                            <span class="stat-value">2 Years</span>
+                            <span class="stat-label">Süre</span>
+                            <span class="stat-value">2 Yıl</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Mode</span>
-                            <span class="stat-value">Full-time | Integrated</span>
+                            <span class="stat-label">Mod</span>
+                            <span class="stat-value">Tam Zamanlı | Entegre</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Annual Fee</span>
+                            <span class="stat-label">Yıllık Ücret</span>
                             <span class="stat-value">€12,000</span>
                         </div>
                         <div class="stat-row">
-                            <span class="stat-label">Intakes</span>
-                            <span class="stat-value">January | September</span>
+                            <span class="stat-label">Başlangıç Dönemleri</span>
+                            <span class="stat-value">Ocak | Eylül</span>
                         </div>
                     </div>
                 </div>
        <div class="compact-entry">
-            <span class="eyebrow">Entry Requirements</span>
-            <h3>How to Apply</h3>
+            <span class="eyebrow">Giriş Koşulları</span>
+            <h3>Nasıl Başvurulur</h3>
             <div class="grid-2" style="gap: 10px;">
                 <div>
-                   <p><strong>Academic Qualifications:</strong> Bachelor's degree from a related discipline. Relevant professional experience is an advantage. Required documents: degree/transcripts, CV, ID/passport, brief personal statement.</p>
-                    <p><strong>Interview:</strong> May be requested as part of the application process.</p>
+                   <p><strong>Akademik Nitelikler:</strong> İlgili bir disiplinden lisans derecesi (mesleki deneyim kayıt için bir avantajdır). Gerekli belgeler: diploma/transkriptler, CV, kimlik/pasaport, kısa kişisel beyan.</p>
+                    <p><strong>Mülakat:</strong> Başvuru sürecinin bir parçası olarak istenebilir.</p>
                 </div>
                 <div>
-                    <p><strong>English Proficiency:</strong> IELTS 6.0-6.5 or equivalent. Native speakers or those with prior English education may be exempt with confirmation.</p>
-                    <p><strong>Language Support:</strong> Intensive English Module available for those below threshold requirements.</p>
+                    <p><strong>İngilizce Yeterliliği:</strong> IELTS 6.0-6.5 veya eşdeğeri. Anadili İngilizce olanlar veya önceki eğitimini İngilizce olarak tamamlayanlar resmi onayla muaf tutulabilir.</p>
+                    <p><strong>Dil Desteği:</strong> Eşiğin altındakiler için Yoğun İngilizce Modülü mevcuttur.</p>
                 </div>
             </div>
         </div>
                 <div class="info-note" style="text-align: center;">
-                    📝 Apply Now & Secure Your Place → www.brucol.be/apply
+                    📝 Şimdi Başvurun → <a href="https://brucol.be/apply">www.brucol.be/apply</a>
                 </div>
             </div>
         </div>
 
         <div class="apply-info">
-            <small><sup>*</sup>Refer to Brussels College's website for details on how the programme is structured, delivered and awarded.</small>
+            <small><sup>*</sup>Programın nasıl yapılandırıldığı, sunulduğu ve verildiği hakkında ayrıntılar için Brussels College'ın web sitesine bakın.</small>
         </div>
 
     <div class="footer">
-        <span>Brussels College | Postgraduate Programmes</span>
+        <span>Brussels College | Yüksek Lisans Programları</span>
         <a href="https://brucol.be/apply">www.brucol.be/apply</a>
     </div>
 </section>

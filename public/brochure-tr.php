@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brussels College Broşürü</title>
+    <title>Brussels College Brochure</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -200,8 +200,8 @@
         }
         
         .callout {
-            background: linear-gradient(135deg, #d5d52b 40%, #c9c926 60%);
-            color: #313e3b;
+            background: linear-gradient(135deg, #f0f033 40%, #e6e629 60%);
+            color: #2a2a2a;
             padding: 12px 16px;
             border-radius: 12px;
             text-align: center;
@@ -209,13 +209,13 @@
             font-weight: 700;
             letter-spacing: 0.3px;
             margin: 8px 0;
-            box-shadow: 0 4px 15px rgba(213, 213, 43, 0.3);
+            box-shadow: 0 4px 15px rgba(240, 240, 51, 0.3);
         }
         
         .highlight-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #d5d52b 0%, #c9c926 100%);
-            color: #313e3b;
+            background: linear-gradient(135deg, #f0f033 0%, #e6e629 100%);
+            color: #2a2a2a;
             padding: 6px 12px;
             border-radius: 8px;
             font-size: 13px;
@@ -427,10 +427,214 @@
             max-width: 100%;
             margin: 0;
         }
+    /* ---------- MOBILE RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    /* Page adjustments for mobile */
+    .page {
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px 15px;
+        box-shadow: none;
+        page-break-after: auto;
+    }
+    
+    /* Typography scaling */
+    h1 { font-size: 24px; line-height: 1.2; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 15px; }
+    p { font-size: 13px; line-height: 1.4; }
+    
+    /* Header adjustments */
+    .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+    
+    .logo {
+        height: 35px;
+    }
+    
+    .page-title {
+        font-size: 14px;
+    }
+    
+    /* Hero section - stack vertically */
+    .hero-section {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .hero-image {
+        height: 200px;
+        order: -1; /* Move image to top */
+    }
+    
+    /* Grid systems - stack on mobile */
+    .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    /* Cards adjustments */
+    .card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .programme-card {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    /* Programme options cards */
+    .programme-options .card {
+        padding: 12px;
+    }
+    
+    .programme-options .grid-2 {
+        gap: 15px;
+    }
+    
+    /* Feature lists */
+    .feature-list li {
+        font-size: 12px;
+        padding-left: 15px;
+        margin: 3px 0;
+    }
+    
+    /* Stats adjustments */
+    .stats-summary {
+        padding: 8px;
+    }
+    
+    .stat-row {
+        font-size: 10px;
+        padding: 4px 0;
+    }
+    
+    .stat-label, .stat-value {
+        font-size: 10px;
+    }
+    
+    /* Compact entry */
+    .compact-entry {
+        padding: 12px;
+    }
+    
+    .compact-entry .grid-2 {
+        gap: 8px;
+    }
+    
+    .compact-entry p {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    /* Callout and highlights */
+    .callout {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    .highlight-badge {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .cost-highlight {
+        padding: 6px 8px;
+    }
+    
+    .cost-highlight .amount {
+        font-size: 13px;
+    }
+    
+    .cost-highlight .label {
+        font-size: 10px;
+    }
+    
+    /* Info notes */
+    .info-note {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .apply-info {
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    /* Background elements - reduce on mobile */
+    .geometric-bg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .geometric-bg.hex-3 {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .page::after {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Footer adjustments */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        font-size: 11px;
+    }
+    
+    /* Eyebrow adjustments */
+    .eyebrow {
+        font-size: 10px;
+        padding: 2px 6px;
+    }
+    
+    /* Why choose section */
+    .why-choose, .location-info, .programme-options {
+        padding: 12px;
+        margin: 10px 0;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .page {
+        padding: 15px 10px;
+    }
+    
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 14px; }
+    p { font-size: 12px; }
+    
+    .hero-image {
+        height: 180px;
+    }
+    
+    .callout {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+    
+    .card {
+        padding: 8px;
+    }
+    
+    .feature-list li {
+        font-size: 11px;
+    }
+}
     </style>
 </head>
 <body>
-
 <!-- ============= SAYFA 1: HOŞ GELDİNİZ & GENEL BAKIŞ ============= -->
 <section class="page">
     <!-- Geometrik arka plan öğeleri -->
@@ -672,7 +876,7 @@
                 </div>
 
                 <div class="apply-info" style="text-align: center;">
-                    📝 Şimdi Başvurun → www.brucol.be/apply
+                    📝 Şimdi Başvurun → <a href="https://brucol.be/apply">www.brucol.be/apply</a>
                 </div>
             </div>
         </div>
@@ -785,7 +989,7 @@
             </div>
         </div>
                 <div class="info-note" style="text-align: center;">
-                    📝 Şimdi Başvurun → www.brucol.be/apply
+                    📝 Şimdi Başvurun → <a href="https://brucol.be/apply">www.brucol.be/apply</a>
                 </div>
             </div>
         </div>
