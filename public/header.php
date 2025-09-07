@@ -53,16 +53,36 @@
                                  <li class="nav-item dropdown dropdown-with-icon">
                                     <a href="courses" class="nav-link">Courses</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="courses?filter=foundation">Foundation Programmes<i class="bi bi-book"></i></a></li>
-                                        <li><a href="courses?filter=undergraduate">Undergraduate Degree Programmes<i class="bi bi-translate"></i></a></li>
-                                        <li><a href="courses?filter=graduate">Postgraduate Degree Programmes<i class="bi bi-journal-bookmark"></i></a></li>
-                                    </ul>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">                                    
+                                    <li>
+                                        <a href="courses?filter=foundation"><i class="bi bi-building"></i>
+                                            <div class="submenu-icon-content">
+                                                <span>Foundation</span>
+                                                <p></p>
+                                            </div>
+                                        </a>
+                                    </li>                           
+                                    <li>
+                                    <a href="courses?filter=undergraduate"><i class="bi bi-mortarboard"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Undergraduate</span>
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </li> 
+                                <li>
+                                    <a href="courses?filter=graduate"><i class="bi bi-award"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Graduate</span>
+                                            <p></p>
+                                        </div>
+                                    </a>
                                 </li>
+                            </ul>
+                        </li>
                                 <li class="nav-item dropdown dropdown-with-icon">
-                                    <a href="" class="nav-link">Student</a>
+                                    <a href="#" class="nav-link">Student</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href="admissions"><i class="bi bi-person-check"></i>
@@ -96,19 +116,19 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#"><i class="bi bi-file-earmark-text"></i>
                                             <div>
                                                 <span>Prospectus</span>
                                                 <p><a href="bc-in-brief">EN</a> | <a href="bc-in-brief-tr">TR</a></p>
                                             </div>
                                         </a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                                 </li>
                                 
                             <li class="nav-item dropdown dropdown-with-icon">
-                                <a href="" class="nav-link">About</a>
+                                <a href="#" class="nav-link">About</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li>

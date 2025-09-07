@@ -249,7 +249,6 @@ footer .footer-logo img {
 footer ul li {
     margin-bottom: 2px;
 }
-
 /* media query responsive */
 @media (max-width: 1399px) {
     .accordion-style-06 .accordion-item {
@@ -322,33 +321,59 @@ footer ul li {
 }
 
 @media (max-width: 991px) {
+    /* Mobile navbar collapse - WHITE background */
     .navbar-collapse {
         position: fixed;
         top: 0;
-        left: -75%; /* Start from off-screen */
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
+        left: -75%;
+        padding: 20px 15px;
         width: 75%;
-        height: 100%;
-        z-index: 999;
+        height: 100vh !important;
+        z-index: 9999 !important;
         transition: left 0.3s ease;
-        background-color: #fff; /* Add background color */
-        overflow-y: auto; /* Allow scrolling */
+        background-color: #ffffff !important;
+        overflow-y: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Override the data-mobile-nav-bg-color attribute */
+    body[data-mobile-nav-bg-color="#313e3b"] .navbar-collapse {
+        background-color: #ffffff !important;
     }
 
     .navbar-collapse.show {
         left: 0;
+        background-color: #ffffff !important;
         box-shadow: 0 0 15px rgba(0,0,0,0.2);
     }
 
-    /* Remove these problematic transitions */
     .navbar-collapse.collapsing {
         transition: left 0.3s ease;
+        background-color: #ffffff !important;
     }
 
     .navbar-toggler.collapsed ~ .navbar-collapse {
         left: -75%;
+    }
+
+    /* Mobile navigation links - DARK text */
+    .navbar-nav .nav-link {
+        color: #333333 !important;
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #f0f0f0;
+        background-color: transparent !important;
+    }
+
+    body[data-mobile-nav-bg-color="#313e3b"] .navbar-nav .nav-link {
+        color: #333333 !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #000000 !important;
+        background-color: #f8f9fa !important;
+        border-radius: 4px;
+        padding-left: 10px;
     }
 
     /* Add backdrop when menu is open */
@@ -356,23 +381,108 @@ footer ul li {
         content: '';
         position: fixed;
         top: 0;
-        left: 0;
-        width: 100vw;
+        left: 75%;
+        width: 25%;
         height: 100vh;
         background: rgba(0,0,0,0.5);
         z-index: -1;
     }
 
-    /* Fix dropdown styling */
+    /* Mobile dropdown menus - WHITE background, DARK text */
     .dropdown-menu {
         display: none;
-        background: transparent;
-        border: none;
-        margin: 0;
-        padding: 0 !important;
+        background: #ffffff !important;
+        border: none !important;
+        margin: 20px 0 0 20px !important;
+        padding: 10px 0 !important;
+        box-shadow: none !important;
+        max-height: none !important;
+        overflow: visible !important;
+        position: static !important;
     }
 
     .dropdown-menu.show {
         display: block !important;
+    }
+
+    /* Mobile dropdown list items */
+    .navbar-nav .dropdown-menu li {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        position: relative !important;
+    }
+
+    /* Mobile dropdown links - CONSOLIDATED */
+    .navbar-nav .dropdown-menu li a {
+        color: #333333 !important;
+        padding: 10px 15px !important;
+        margin: 2px 10px !important;
+        border-radius: 4px !important;
+        background-color: transparent !important;
+        display: flex !important;
+        align-items: center !important;
+        text-decoration: none !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .navbar-nav .dropdown-menu li a:hover {
+        background-color: #f8f9fa !important;
+        color: #000000 !important;
+    }
+
+    /* Mobile dropdown icons - CONSOLIDATED */
+    .navbar-nav .dropdown-menu li a i {
+        color: #666666 !important;
+        margin-right: 12px;
+        pointer-events: none !important;
+    }
+
+    /* Ensure submenu content is clickable */
+    .navbar-nav .dropdown-menu li a .submenu-icon-content {
+        pointer-events: none !important;
+        flex: 1 !important;
+    }
+
+    .navbar-nav .dropdown-menu li a span,
+    .navbar-nav .dropdown-menu li a p {
+        pointer-events: none !important;
+    }
+
+    /* Mobile submenu content */
+    .navbar-nav .dropdown-menu .submenu-icon-content span {
+        color: #333333 !important;
+        font-weight: 500;
+    }
+
+    .navbar-nav .dropdown-menu .submenu-icon-content p {
+        color: #666666 !important;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    /* Mobile dropdown toggles */
+    .navbar-nav .dropdown-toggle {
+        color: #333333 !important;
+    }
+
+    body[data-mobile-nav-bg-color="#313e3b"] .navbar-nav .dropdown-toggle {
+        color: #333333 !important;
+    }
+
+    /* Override existing mobile dropdown styling */
+    .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
+        padding: 10px 0 !important;
+        background-color: #ffffff !important;
+    }
+
+    /* Override any page-specific hiding */
+    body .navbar-nav .dropdown-menu li,
+    body .navbar-nav .dropdown-menu li a {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: auto !important;
     }
 }
