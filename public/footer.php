@@ -22,7 +22,7 @@
                             </span>
                         </a>
                         <span class="d-block d-sm-inline-block text-dark-gray fs-19 fw-600 left-icon d-inline-block align-middle xs-mt-10px ls-minus-05px me-20px">
-                            <a href="tel:+30471096641"><i class="feather icon-feather-phone-call"></i> +30 471 09 6641</a>
+                            <a href="tel:+ 32471096641"><i class="feather icon-feather-phone-call"></i> + 32 471 09 6641</a>
                         </span>
                         <span class="d-block d-sm-inline-block text-dark-gray fs-19 fw-600 left-icon d-inline-block align-middle xs-mt-10px">
                             <a href="https://wa.me/32476306373"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
@@ -68,7 +68,7 @@
                         <span class="fw-500 fs-18 d-block text-white mb-10px">Need help?</span>
                         <span class="lh-26 d-block">Call us</span>
                         <span class="text-white d-block mb-10px">
-                            <a href="tel:+30471096641">+30 471 09 6641</a>
+                            <a href="tel:+ 32471096641">+ 32 471 09 6641</a>
                             <span class="bg-base-color fw-700 text-dark-gray lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-11 ms-5px d-inline-block align-middle">Dial</span>
                         </span>
                         <span class="lh-26 d-block">Email support:</span>

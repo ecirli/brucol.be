@@ -42,7 +42,7 @@ error_log("POST data: " . print_r($_POST, true));
                                 <h6 class="alt-font text-dark-gray fw-600 ls-minus-1px mb-5px">Brussels College</h6>
                                 <p class="w-100 mb-10px">Excelsiorlaan 5, 2<sup>nd</sup> Floor<br>1930, Zaventem, Belgium</p>
                                 <div class="w-100 d-block">
-                                    <span class="d-block"><span class="text-dark-gray fw-600">T:</span><a href="tel:+30 471 09 6641"> +30 471 09 6641</a></span>
+                                    <span class="d-block"><span class="text-dark-gray fw-600">T:</span><a href="tel:+ 32 471 09 6641"> + 32 471 09 6641</a></span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">E:</span> <a href="mailto:info@brucol.be" class="text-dark-gray text-decoration-line-bottom fw-600">info@brucol.be</a></span>
                                     <a href="https://maps.app.goo.gl/nJj517eLhc1iN1EG7" target="_blank" class="btn btn-large btn-dark-gray btn-box-shadow btn-rounded btn-switch-text mt-35px">
                                         <span>

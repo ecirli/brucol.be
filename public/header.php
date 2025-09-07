@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
     <link rel="stylesheet" href="brucol/css/brucol.css" />
+    <!-- Font Awesome Library -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
     <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="classic" data-mobile-nav-bg-color="#313e3b">
@@ -180,7 +184,7 @@
                     </div>
                     <div class="col-auto col-lg-2 text-end d-none d-sm-flex">
                         <div class="header-icon">
-                            <div><div class="alt-font fw-500 lg-fs-15"><a href="tel:1800222000" class="widget-text text-white-hover"><i class="feather icon-feather-phone-call me-10px lg-me-5px"></i>+30 471 09 6641</a></div></div>
+                            <div><div class="alt-font fw-500 lg-fs-15"><a href="tel:1800222000" class="widget-text text-white-hover"><i class="feather icon-feather-phone-call me-10px lg-me-5px"></i>+ 32 471 09 6641</a></div></div>
                         </div>  
                     </div>
                 </div>
